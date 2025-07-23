@@ -1,0 +1,19 @@
+[project]
+name = "smellscapy"
+version = "0.0.1"
+authors = [
+  { name="Giulia Torriani", email="giulia.torriani@eurac.edu" },
+  { name="Olga Somova", email="olga.somova@eurac.edu" }]
+description = "A python library for analysing and representing indoor smellscape perceptual data."
+readme = "README.md"
+requires-python = ">=3.12"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = "MIT"
+license-files = ["LICEN[CS]E*"]
+
+[project.urls]
+Homepage = "..................."  
+Issues = "............"

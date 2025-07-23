@@ -1,0 +1,84 @@
+﻿RecordID,ResearcherID,LocationID,ParticipantID,Please enter your current Workstation ID.,"How long have you been in your office without leaving? (e.g., since taking a break or going to the bathroom) ",How many people are currently present in your office room?,Edible Food,Rotten Food,Cleaning Products,Stationery,Green Elements,Body Odours,pleasant,present,light,engaging,unpleasant,absent,overpowering,detached,Natural,Artificial
+0,1,Pisa,Unipi_07,D3.1.21.01,31-60 minutes,1 (just me),1 Not at all,1 Not at all,1 Not at all,1 Not at all,1 Not at all,1 Not at all,4,3,3,2,2,3,2,2,4,2
+1,1,Bolzano,Eurac_04,D3.1.13b.03,3-30 minutes,4,1 Not at all,1 Not at all,1 Not at all,1 Not at all,1 Not at all,1 Not at all,4,3,4,3,2,3,2,2,3,2
+2,1,Pisa,Unipi_13,D3.1.21.01,31-60 minutes,1 (just me),1 Not at all,1 Not at all,1 Not at all,2,1 Not at all,1 Not at all,3,3,3,2,2,2,2,3,2,3
+3,1,Pisa,Unipi_13,D3.1.21.01,31-60 minutes,2,1 Not at all,1 Not at all,1 Not at all,2,1 Not at all,1 Not at all,3,3,3,3,3,3,3,3,2,4
+4,1,Pisa,Unipi_13,D3.1.21.01,31-60 minutes,2,1 Not at all,1 Not at all,1 Not at all,2,1 Not at all,1 Not at all,3,3,3,2,2,3,2,2,2,3
+5,1,Pisa,Unipi_13,D3.1.21.01,61-120 minutes,3,1 Not at all,1 Not at all,1 Not at all,2,1 Not at all,1 Not at all,3,3,3,3,3,4,2,3,2,4
+6,1,Pisa,Unipi_04,D3.1.21.01,More than 2 hours,2,1 Not at all,1 Not at all,1 Not at all,2,1 Not at all,1 Not at all,2,4,4,3,3,2,4,3,2,3
+7,1,Pisa,Unipi_03,D3.1.21.01,3-30 minutes,2,0 Not available,0 Not available,0 Not available,1 Not at all,0 Not available,2,2,4,2,3,4,2,4,4,4,2
+8,1,Pisa,Unipi_04,D3.1.21.01,61-120 minutes,2,1 Not at all,1 Not at all,2,2,1 Not at all,1 Not at all,3,3,2,3,3,2,2,3,2,3
+9,1,Pisa,Unipi_03,D3.1.21.01,31-60 minutes,2,0 Not available,0 Not available,0 Not available,1 Not at all,0 Not available,2,2,4,4,4,4,2,2,3,4,2
+10,1,Pisa,Unipi_04,D3.1.21.01,61-120 minutes,2,1 Not at all,1 Not at all,1 Not at all,2,1 Not at all,1 Not at all,3,4,4,2,2,3,1,4,2,3
+11,1,Pisa,Unipi_03,D3.1.21.01,3-30 minutes,2,0 Not available,0 Not available,0 Not available,1 Not at all,0 Not available,2,2,4,4,3,4,3,3,3,4,2
+12,1,Pisa,Unipi_04,D3.1.21.01,61-120 minutes,2,1 Not at all,1 Not at all,1 Not at all,2,1 Not at all,1 Not at all,3,4,3,3,3,2,3,3,2,4
+13,1,Pisa,Unipi_04,D3.1.21.01,61-120 minutes,2,0 Not available,0 Not available,0 Not available,2,1 Not at all,1 Not at all,3,3,4,3,2,3,3,3,2,4
+14,1,Pisa,Unipi_03,D3.1.21.01,61-120 minutes,2,0 Not available,0 Not available,0 Not available,1 Not at all,0 Not available,1 Not at all,4,3,4,3,2,4,2,3,4,2
+15,1,Pisa,Unipi_07,D3.1.21.01,31-60 minutes,2,1 Not at all,1 Not at all,1 Not at all,1 Not at all,1 Not at all,1 Not at all,4,2,4,3,2,4,2,4,3,2
+16,1,Pisa,Unipi_06,D3.1.21.01,31-60 minutes,4,1 Not at all,1 Not at all,1 Not at all,1 Not at all,1 Not at all,1 Not at all,3,3,3,3,3,3,3,3,3,3
+17,1,Pisa,Unipi_07,D3.1.21.01,31-60 minutes,3,1 Not at all,1 Not at all,1 Not at all,1 Not at all,1 Not at all,1 Not at all,3,3,3,3,3,3,3,3,3,3
+18,1,Pisa,Unipi_06,D3.1.21.01,3-30 minutes,4,1 Not at all,1 Not at all,1 Not at all,1 Not at all,1 Not at all,1 Not at all,3,3,3,3,3,3,3,3,3,3
+19,1,Bolzano,Eurac_02,D3.1.20.03,61-120 minutes,2,1 Not at all,1 Not at all,1 Not at all,1 Not at all,1 Not at all,1 Not at all,4,2,4,4,1,4,2,3,3,1
+20,1,Pisa,Unipi_07,D3.1.21.01,31-60 minutes,More than 5,1 Not at all,1 Not at all,1 Not at all,1 Not at all,1 Not at all,1 Not at all,3,3,3,3,3,3,3,3,3,3
+21,1,Pisa,Unipi_06,D3.1.21.01,31-60 minutes,5,1 Not at all,1 Not at all,1 Not at all,1 Not at all,1 Not at all,2,3,3,3,3,3,3,3,3,3,3
+22,1,Pisa,Unipi_07,D3.1.21.01,31-60 minutes,4,2,1 Not at all,1 Not at all,1 Not at all,1 Not at all,1 Not at all,4,3,4,3,2,3,2,4,2,3
+23,1,Pisa,Unipi_06,D3.1.21.01,31-60 minutes,4,1 Not at all,1 Not at all,1 Not at all,1 Not at all,1 Not at all,1 Not at all,3,3,3,3,3,3,3,3,3,4
+24,1,Bolzano,Eurac_04,D3.1.13b.03,61-120 minutes,2,1 Not at all,1 Not at all,1 Not at all,1 Not at all,1 Not at all,1 Not at all,4,2,4,3,2,3,2,2,3,2
+25,1,Bolzano,Eurac_02,D3.1.20.03,61-120 minutes,3,1 Not at all,1 Not at all,1 Not at all,1 Not at all,1 Not at all,1 Not at all,4,3,4,3,2,4,2,2,4,2
+26,1,Bolzano,Eurac_04,D3.1.13b.03,3-30 minutes,2,1 Not at all,1 Not at all,1 Not at all,1 Not at all,1 Not at all,1 Not at all,4,2,4,3,2,2,2,2,3,2
+27,1,Pisa,Unipi_05,D3.1.21.01,More than 2 hours,1 (just me),1 Not at all,1 Not at all,1 Not at all,1 Not at all,1 Not at all,1 Not at all,3,3,3,2,3,4,2,3,3,3
+28,1,Pisa,Unipi_05,D3.1.21.01,More than 2 hours,1 (just me),1 Not at all,1 Not at all,1 Not at all,1 Not at all,1 Not at all,1 Not at all,3,3,3,3,2,4,2,3,3,3
+29,1,Bolzano,Eurac_02,D3.1.20.03,61-120 minutes,3,1 Not at all,1 Not at all,1 Not at all,1 Not at all,1 Not at all,1 Not at all,4,3,4,4,2,4,2,3,4,2
+30,1,Bolzano,Eurac_04,D3.1.13b.03,31-60 minutes,1 (just me),1 Not at all,1 Not at all,1 Not at all,1 Not at all,1 Not at all,1 Not at all,4,2,4,3,2,3,2,3,3,3
+31,1,Pisa,Unipi_05,D3.1.21.01,61-120 minutes,1 (just me),1 Not at all,1 Not at all,1 Not at all,1 Not at all,1 Not at all,1 Not at all,3,3,3,3,3,3,2,3,3,4
+32,1,Pisa,Unipi_05,D3.1.21.01,31-60 minutes,1 (just me),1 Not at all,1 Not at all,1 Not at all,1 Not at all,1 Not at all,1 Not at all,2,3,3,2,3,4,2,3,2,4
+34,1,Bolzano,Eurac_02,D3.1.20.03,61-120 minutes,3,1 Not at all,1 Not at all,1 Not at all,1 Not at all,1 Not at all,1 Not at all,5,3,4,4,2,4,2,2,4,1
+35,1,Bolzano,Eurac_04,D3.1.13b.03,3-30 minutes,1 (just me),1 Not at all,1 Not at all,1 Not at all,1 Not at all,1 Not at all,1 Not at all,4,3,4,3,2,3,2,2,3,3
+36,1,Bolzano,Eurac_02,D3.1.20.03,61-120 minutes,1 (just me),1 Not at all,1 Not at all,1 Not at all,1 Not at all,1 Not at all,1 Not at all,4,3,4,3,2,4,2,3,4,2
+37,1,Bolzano,Eurac_02,D3.1.20.03,61-120 minutes,1 (just me),1 Not at all,1 Not at all,1 Not at all,1 Not at all,1 Not at all,1 Not at all,4,3,4,3,2,4,3,3,3,2
+38,1,Bolzano,Eurac_02,D3.1.20.03,31-60 minutes,2,1 Not at all,1 Not at all,1 Not at all,1 Not at all,1 Not at all,1 Not at all,3,3,3,3,3,3,3,3,3,3
+39,1,Bolzano,Eurac_04,D3.1.18.02,61-120 minutes,1 (just me),1 Not at all,1 Not at all,1 Not at all,1 Not at all,1 Not at all,1 Not at all,4,3,4,3,2,3,2,2,4,3
+40,1,Bolzano,Eurac_02,D3.1.20.03,61-120 minutes,2,2,1 Not at all,1 Not at all,1 Not at all,2,1 Not at all,2,3,4,3,3,3,3,3,4,2
+41,1,Bolzano,Eurac_04,D3.1.18.02,31-60 minutes,1 (just me),0 Not available,0 Not available,0 Not available,0 Not available,0 Not available,0 Not available,4,3,4,3,3,4,3,3,4,3
+42,1,Bolzano,Eurac_04,D3.1.18.02,More than 2 hours,1 (just me),1 Not at all,1 Not at all,1 Not at all,1 Not at all,1 Not at all,1 Not at all,4,3,4,3,2,3,2,2,3,3
+43,1,Bolzano,Eurac_04,D3.1.18.02,3-30 minutes,1 (just me),1 Not at all,1 Not at all,1 Not at all,1 Not at all,1 Not at all,2,3,4,3,3,4,3,3,3,3,4
+44,1,Pisa,Unipi_09,D3.1.21.01,61-120 minutes,2,0 Not available,0 Not available,0 Not available,0 Not available,0 Not available,0 Not available,3,3,4,3,3,4,3,3,4,2
+45,1,Pisa,Unipi_08,D3.1.21.01,More than 2 hours,2,0 Not available,0 Not available,0 Not available,0 Not available,0 Not available,0 Not available,2,2,3,3,3,3,4,3,2,4
+46,1,Pisa,Unipi_09,D3.1.21.01,31-60 minutes,3,0 Not available,0 Not available,0 Not available,0 Not available,0 Not available,0 Not available,3,3,4,3,3,4,3,3,4,2
+47,1,Pisa,Unipi_09,D3.1.21.01,3-30 minutes,3,0 Not available,0 Not available,0 Not available,0 Not available,0 Not available,0 Not available,3,3,4,3,2,4,3,3,4,2
+48,1,Pisa,Unipi_08,D3.1.21.01,61-120 minutes,3,0 Not available,0 Not available,0 Not available,0 Not available,0 Not available,0 Not available,2,3,3,3,4,3,4,4,3,4
+49,1,Pisa,Eurac_01,D3.1.21.01,3-30 minutes,3,0 Not available,0 Not available,0 Not available,0 Not available,0 Not available,0 Not available,3,3,4,3,3,4,3,3,4,2
+50,1,Pisa,Unipi_08,D3.1.21.01,61-120 minutes,3,0 Not available,0 Not available,0 Not available,0 Not available,0 Not available,0 Not available,2,3,3,3,4,3,4,3,3,5
+51,1,Bolzano,Eurac_01,D3.1.21.04,61-120 minutes,3,0 Not available,0 Not available,0 Not available,1 Not at all,0 Not available,1 Not at all,3,2,3,1,2,5,1,5,3,3
+52,1,Bolzano,Eurac_01,D3.1.21.04,61-120 minutes,3,0 Not available,0 Not available,0 Not available,1 Not at all,0 Not available,1 Not at all,3,2,3,2,2,4,1,5,3,3
+53,1,Pisa,Eurac_01,D3.1.21.01,3-30 minutes,3,0 Not available,0 Not available,0 Not available,0 Not available,0 Not available,0 Not available,3,3,3,3,3,4,3,3,4,3
+54,1,Pisa,Unipi_08,D3.1.21.01,31-60 minutes,4,0 Not available,0 Not available,0 Not available,0 Not available,0 Not available,0 Not available,2,3,2,2,3,3,4,3,3,4
+55,1,Bolzano,Eurac_01,D3.1.21.04,61-120 minutes,4,0 Not available,0 Not available,0 Not available,1 Not at all,0 Not available,1 Not at all,4,2,2,2,2,4,2,5,3,3
+57,1,Bolzano,Eurac_01,D3.1.21.04,31-60 minutes,3,0 Not available,0 Not available,0 Not available,1 Not at all,0 Not available,1 Not at all,3,2,2,2,2,4,1,5,3,4
+60,1,Pisa,Unipi_03,D3.1.21.01,31-60 minutes,2,0 Not available,0 Not available,0 Not available,1 Not at all,0 Not available,3,2,4,2,4,4,2,4,3,4,2
+61,1,Pisa,Unipi_04,D3.1.21.01,More than 2 hours,2,2,0 Not available,0 Not available,2,0 Not available,0 Not available,2,3,3,3,4,3,4,2,2,4
+62,1,Pisa,Unipi_04,D3.1.21.01,More than 2 hours,2,0 Not available,0 Not available,0 Not available,1 Not at all,1 Not at all,0 Not available,3,3,2,2,1,3,2,3,2,4
+63,1,Pisa,Unipi_03,D3.1.21.01,31-60 minutes,2,0 Not available,0 Not available,0 Not available,1 Not at all,0 Not available,2,2,4,3,4,4,3,4,2,4,2
+64,1,Pisa,Unipi_04,D3.1.21.01,More than 2 hours,2,0 Not available,0 Not available,0 Not available,1 Not at all,0 Not available,0 Not available,4,2,3,3,2,3,2,2,3,2
+65,1,Pisa,Unipi_03,D3.1.21.01,31-60 minutes,2,0 Not available,0 Not available,0 Not available,1 Not at all,0 Not available,2,2,4,3,4,3,2,4,3,4,2
+66,1,Pisa,Unipi_04,D3.1.21.01,61-120 minutes,2,0 Not available,0 Not available,0 Not available,1 Not at all,1 Not at all,0 Not available,3,3,2,2,1,3,1,2,3,2
+67,1,Pisa,Unipi_03,D3.1.21.01,31-60 minutes,2,0 Not available,0 Not available,0 Not available,1 Not at all,0 Not available,1 Not at all,3,3,4,3,3,4,2,3,4,2
+68,1,Pisa,Unipi_03,,3-30 minutes,2,0 Not available,0 Not available,0 Not available,1 Not at all,0 Not available,2,2,4,4,3,2,3,2,3,4,2
+71,1,Pisa,Unipi_04,,More than 2 hours,2,0 Not available,0 Not available,0 Not available,0 Not available,0 Not available,0 Not available,5,2,2,2,1,5,1,2,3,1
+72,1,Pisa,Unipi_03,,31-60 minutes,2,0 Not available,0 Not available,0 Not available,1 Not at all,0 Not available,1 Not at all,3,2,4,3,2,3,2,2,4,3
+73,1,Pisa,Unipi_04,,More than 2 hours,2,0 Not available,0 Not available,0 Not available,0 Not available,0 Not available,0 Not available,2,2,2,2,2,2,2,3,4,4
+74,1,Pisa,Unipi_03,,3-30 minutes,2,0 Not available,0 Not available,0 Not available,1 Not at all,0 Not available,1 Not at all,4,3,4,3,2,2,2,3,4,2
+75,1,Pisa,Unipi_03,,61-120 minutes,2,0 Not available,0 Not available,0 Not available,1 Not at all,0 Not available,1 Not at all,4,4,4,2,2,2,1,3,4,2
+76,1,Pisa,Unipi_04,,More than 2 hours,2,0 Not available,0 Not available,0 Not available,0 Not available,0 Not available,0 Not available,3,3,3,3,3,3,3,3,3,3
+77,1,Pisa,Unipi_03,,61-120 minutes,2,0 Not available,0 Not available,0 Not available,1 Not at all,0 Not available,0 Not available,4,3,4,3,4,4,2,4,3,3
+78,1,Pisa,Unipi_04,,61-120 minutes,2,0 Not available,0 Not available,0 Not available,0 Not available,0 Not available,0 Not available,2,2,3,2,2,2,2,2,2,2
+81,1,Pisa,Eurac_04,,31-60 minutes,2,1 Not at all,1 Not at all,1 Not at all,1 Not at all,1 Not at all,1 Not at all,2,2,3,2,2,2,2,3,3,3
+82,1,Pisa,Eurac_03,,31-60 minutes,2,0 Not available,0 Not available,0 Not available,1 Not at all,0 Not available,0 Not available,4,2,5,3,1,4,1,4,4,2
+83,1,Pisa,Unipi_02,,31-60 minutes,3,1 Not at all,1 Not at all,1 Not at all,1 Not at all,1 Not at all,1 Not at all,3,2,3,2,2,3,2,3,3,3
+84,1,Pisa,Unipi_01,,More than 2 hours,3,2,1 Not at all,4,1 Not at all,1 Not at all,1 Not at all,4,3,3,4,2,2,3,3,2,4
+85,1,Pisa,Unipi_02,,31-60 minutes,3,1 Not at all,1 Not at all,1 Not at all,1 Not at all,1 Not at all,1 Not at all,3,2,3,2,1,3,2,4,3,3
+86,1,Pisa,Unipi_01,,61-120 minutes,3,1 Not at all,1 Not at all,1 Not at all,2,1 Not at all,1 Not at all,2,2,3,1,3,4,2,2,1,4
+87,1,Pisa,Unipi_02,,31-60 minutes,3,1 Not at all,1 Not at all,1 Not at all,1 Not at all,1 Not at all,1 Not at all,3,2,3,2,1,3,2,3,3,3
+88,1,Pisa,Unipi_01,,31-60 minutes,3,2,1 Not at all,1 Not at all,1 Not at all,1 Not at all,1 Not at all,4,4,4,2,3,3,2,2,2,5
+89,1,Pisa,Unipi_02,,31-60 minutes,3,1 Not at all,1 Not at all,1 Not at all,1 Not at all,1 Not at all,1 Not at all,3,4,3,2,2,3,3,2,3,3
+90,1,Pisa,Unipi_01,,61-120 minutes,3,1 Not at all,1 Not at all,1 Not at all,3,1 Not at all,1 Not at all,3,3,4,3,2,5,3,3,2,4
