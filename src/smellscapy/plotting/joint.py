@@ -56,5 +56,5 @@ def plot_joint(df, xlim=(-1, 1), ylim=(-1, 1)):
     plt.grid(True, which='both', linestyle='--', linewidth=0.5)
     plt.tight_layout()
 
-    plt.savefig("50percentile_plot.png", dpi=300, bbox_inches='tight')
+    plt.savefig("joint_plot.png", dpi=300, bbox_inches='tight')
     plt.show()   

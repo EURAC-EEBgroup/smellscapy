@@ -45,7 +45,7 @@ def validate(
     
 
     df_attr = df[ATTRIBUTES_COLUMN_NAMES]
-    df_err = df.applymap(lambda x: x in ATTRIBUTES_VALUES if pd.notna(x) else True)
+    df_err = df_attr.applymap(lambda x: x in ATTRIBUTES_VALUES if pd.notna(x) else True)
     if any(df_err.eq(False).any()):
         raise Exception("Attribute values are not valid. Please use numbers in range [1, 2, 3, 4, 5]")
 

@@ -2,14 +2,14 @@ from smellscapy.constants import COS45, WEIGHT
 
 def calculate_pleasantness(df):
     df['pleasantness_score'] = (
-        (df['Pleasant'] - df['Unpleasant']) + 
-        COS45 * (df['Light'] - (df['Overpowering'])) +
-        COS45 * (df['Engaging'] - (df['Detached']))
+        (df['pleasant'] - df['unpleasant']) + 
+        COS45 * (df['light'] - (df['overpowering'])) +
+        COS45 * (df['engaging'] - (df['detached']))
     ) * WEIGHT
 
 def calculate_presence(df):
     df['presence_score'] = (
-    (df['Present'] - (df['Absent'])) +
-    COS45 * ((df['Overpowering']) - df['Light']) +
-    COS45 * (df['Engaging'] - (df['Detached']))
+    (df['present'] - (df['absent'])) +
+    COS45 * ((df['overpowering']) - df['light']) +
+    COS45 * (df['engaging'] - (df['detached']))
 ) * WEIGHT

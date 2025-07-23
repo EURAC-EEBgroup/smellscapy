@@ -1,5 +1,5 @@
 import numpy as np
-import matplotlib as plt
+import matplotlib.pyplot as plt
 from smellscapy.calculations import calculate_pleasantness, calculate_presence
 
 def plot_scatter(df, xlim=(-1, 1), ylim=(-1, 1)):

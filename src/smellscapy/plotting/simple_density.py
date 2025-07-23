@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 from scipy.stats import gaussian_kde
 from smellscapy.calculations import calculate_pleasantness, calculate_presence
 
-def plot_50percentile(df, xlim=(-1, 1), ylim=(-1, 1)):
+def plot_50percentile(df, xlim=(-1, 1), ylim=(-1, 1), xlabel="Pleasantness", ylabel = "Presence"):
 
     plt.figure(figsize=(8, 8))
     x = df['pleasantness_score'].values
@@ -34,8 +34,8 @@ def plot_50percentile(df, xlim=(-1, 1), ylim=(-1, 1)):
 
     plt.xlim(xlim)
     plt.ylim(ylim)
-    plt.xlabel('Pleasantness')
-    plt.ylabel('Presence')
+    plt.xlabel(xlabel)
+    plt.ylabel(ylabel)
     plt.axhline(0, color='grey', linestyle='--', linewidth=1)
     plt.axvline(0, color='grey', linestyle='--', linewidth=1)
 
