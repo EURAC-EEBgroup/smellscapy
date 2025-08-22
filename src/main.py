@@ -8,20 +8,21 @@ from smellscapy.plotting.simple_density import plot_50percentile
 from smellscapy.plotting.joint import plot_joint
 
 
-data = load_example_data()
-data, excl_df = validate(data)
+df = load_example_data()
+df, excl_df = validate(df)
 
-for i in range(6):
-    filename = f"DataExample copy {i}.csv"
-    data_resource = resources.files("smellscapy.data").joinpath(filename)
-    with resources.as_file(data_resource) as f:
-        df = pd.read_csv(f)
-    try:
-     df, excl_df = validate(df)
-    except Exception as e:
-       print(str(e))
+# for i in range(6):
+#     filename = f"DataExample copy {i}.csv"
+#     data_resource = resources.files("smellscapy.data").joinpath(filename)
+#     with resources.as_file(data_resource) as f:
+#         df = pd.read_csv(f)
+#     try:
+#      df, excl_df = validate(df)
+#     except Exception as e:
+#        print(str(e))
+#        print(filename)
 
-pass
+# pass
 
 calculate_pleasantness(df)
 
@@ -35,3 +36,5 @@ plot_joint(df, xlim=(-1, 1), ylim=(-1, 1))
 plot_50percentile(df, xlim=(-1, 1), ylim=(-1, 1))
     
 print(df)
+
+pass
