@@ -4,7 +4,7 @@ from scipy.stats import gaussian_kde
 from smellscapy.calculations import calculate_pleasantness, calculate_presence
 
 
-def plot_density(df, **kwargs):
+def plot_simple_density(df, **kwargs):
     
     # Default parameters
     params = {
@@ -31,7 +31,7 @@ def plot_density(df, **kwargs):
         },
         "fontsize": 10,
         "savefig": True,
-        "filename": "density_plot.png",
+        "filename": "simple_density_plot.png",
         "dpi": 300,
         "group_col": None   # column used to divide the dataset
     }
