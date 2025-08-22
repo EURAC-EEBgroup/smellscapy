@@ -29,11 +29,15 @@ calculate_pleasantness(df)
 calculate_presence(df)
 
 
-plot_scatter(df, xlim=(-1, 1), ylim=(-1, 1))
+plot_scatter(df)
 
-plot_joint(df, xlim=(-1, 1), ylim=(-1, 1))
+#plot_scatter(df, group_col = "LocationID")
 
-plot_50percentile(df, xlim=(-1, 1), ylim=(-1, 1))
+plot_density(df)
+
+#plot_density(df, group_col = "LocationID")
+
+plot_joint(df)
     
 print(df)
 

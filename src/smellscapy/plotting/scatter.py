@@ -14,7 +14,7 @@ def plot_scatter(df, **kwargs):
         "point_size": 50,
         "xlabel": "Pleasantness",
         "ylabel": "Presence",
-        "line_color": "grey",
+        "line_color": "grey",     #  if no division is performed
         "line_style": "--",
         "line_width": 1,
         "diag_color": "black",
@@ -29,7 +29,8 @@ def plot_scatter(df, **kwargs):
         "fontsize": 10,
         "savefig": True,
         "filename": "scatter_plot.png",
-        "dpi": 300
+        "dpi": 300,
+        "group_col": None   # column used to divide the dataset. Default is no division
     }
 
 # Update only the parameters provided by the user
@@ -45,7 +46,15 @@ def plot_scatter(df, **kwargs):
 
     # Plot
     plt.figure(figsize=params["figsize"])
-    plt.scatter(x, y, color=params["point_color"], s=params["point_size"])
+
+    if params["group_col"] is not None and params["group_col"] in df.columns:
+        groups = df.groupby(params["group_col"])
+        for name, group in groups:
+            plt.scatter(group['pleasantness_score'], group['presence_score'],
+                        s=params["point_size"], label=str(name), alpha=0.8)
+        plt.legend(title=params["group_col"])
+    else:
+        plt.scatter(x, y, color=params["point_color"], s=params["point_size"])
 
     plt.xlim(params["xlim"])
     plt.ylim(params["ylim"])
