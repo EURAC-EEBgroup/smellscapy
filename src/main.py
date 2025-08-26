@@ -6,6 +6,7 @@ from smellscapy.calculations import calculate_pleasantness, calculate_presence
 from smellscapy.plotting.scatter import plot_scatter
 from smellscapy.plotting.simple_density import plot_simple_density
 from smellscapy.plotting.joint import plot_joint
+from smellscapy.plotting.density import plot_density
 
 
 df = load_example_data()
@@ -31,16 +32,19 @@ calculate_presence(df)
 
 plot_scatter(df)
 
-#plot_scatter(df, group_col = "LocationID")
+plot_scatter(df, group_col = "LocationID")
 
 plot_simple_density(df)
 
-#plot_simple_density(df, group_col = "LocationID")
+plot_simple_density(df, group_col = "LocationID")
 
 plot_joint(df)
 
-#plot_joint(df, group_col = "How long have you been in your office without leaving? (e.g., since taking a break or going to the bathroom) ")
-    
+plot_joint(df, group_col = "LocationID")
+
+plot_density(df)
+
+
     
 print(df)
 
