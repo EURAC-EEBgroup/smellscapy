@@ -54,6 +54,7 @@ plot_scatter(df)
 plot_simple_density(df)
 plot_joint(df)
 plot_density(df)
+```
 
 Tutorials for using Smellscapy can be found in the [documentation](https://smellscapy.readthedocs.io/en/latest/).
 
