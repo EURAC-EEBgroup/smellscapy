@@ -25,7 +25,7 @@ def plot_joint(df, **kwargs):
         "figsize": (8, 8),
 
         # Punti e contour
-        "point_alpha": 0.8,
+        "point_alpha": 0.5,
         "point_color": "grey",
         "point_size": 30,
         "contour_alpha": 0.6,
