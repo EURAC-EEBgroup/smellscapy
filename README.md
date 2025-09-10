@@ -46,8 +46,8 @@ df = load_example_data()
 df, excl_df = validate(df)
 
 # Compute perceptual indices
-calculate_pleasantness(df)
-calculate_presence(df)
+df = calculate_pleasantness(df)
+df = calculate_presence(df)
 
 # Visualization
 plot_scatter(df)

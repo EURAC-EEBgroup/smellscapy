@@ -12,22 +12,10 @@ from smellscapy.plotting.density import plot_density
 df = load_example_data()
 df, excl_df = validate(df)
 
-# for i in range(6):
-#     filename = f"DataExample copy {i}.csv"
-#     data_resource = resources.files("smellscapy.data").joinpath(filename)
-#     with resources.as_file(data_resource) as f:
-#         df = pd.read_csv(f)
-#     try:
-#      df, excl_df = validate(df)
-#     except Exception as e:
-#        print(str(e))
-#        print(filename)
 
-# pass
+df = calculate_pleasantness(df)
 
-calculate_pleasantness(df)
-
-calculate_presence(df)
+df = calculate_presence(df)
 
 
 plot_scatter(df)

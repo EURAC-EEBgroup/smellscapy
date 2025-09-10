@@ -34,6 +34,7 @@ def validate(
     """
     logger.info("Validating data...")
 
+    df = df.copy()
     # verificare che chh,tte le colonne 
     missing_columns = []
     for col in itertools.chain(ID_COLUMN_NAMES, ATTRIBUTES_COLUMN_NAMES):

@@ -27,8 +27,26 @@ build-backend = "uv_build"
 [tool.setuptools.package-data]
 smellscapy = ["data/*.csv"]
 
+[tool.setuptools.packages.find]
+exclude = ["docs*", "test*"]
+include = ["smellscapy*"]
+where = ["src"]
+
+
 [dependency-groups]
 dev = [
     "pytest>=8.4.1",
     "tox>=4.28.4",
+]
+test = [
+    "pytest>=8.4.1",
+    "pytest-cov>=6.3.0",
+]
+
+[tool.coverage.run]
+branch = true
+relative_files = true
+omit = [
+    '.tox/*',
+    'tests/*',
 ]
