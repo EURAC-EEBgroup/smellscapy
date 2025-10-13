@@ -38,6 +38,10 @@ dev = [
     "pytest>=8.4.1",
     "tox>=4.28.4",
 ]
+docs = [
+    "mkdocs>=1.6.1",
+    "mkdocs-material>=9.6.20",
+]
 test = [
     "pytest>=8.4.1",
     "pytest-cov>=6.3.0",

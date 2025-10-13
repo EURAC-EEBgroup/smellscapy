@@ -28,3 +28,6 @@ pytestdebug.log
 
 # plots folder
 plots/
+
+# mkdocs build
+site/
