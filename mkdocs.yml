@@ -14,9 +14,6 @@ nav:
     - "Data Validation": user_guide/data_validation_processing.md 
     - "Calculating Circumplex Coordinates": user_guide/calculating_pleasantness_presence_coordinates.md
     - "Visualisations": user_guide/visualizations.md 
-    - Tutorials: tutorials/index.md
-    - "Basic Workflow": tutorials/basic_workflow.md
-    - "Comparing Smellscapes": tutorials/comparing_smellscape.md
   - Tutorials:
     - tutorials/index.md
     - Basic Workflow: tutorials/basic_workflow.md
