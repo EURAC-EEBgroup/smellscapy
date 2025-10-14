@@ -7,7 +7,19 @@ from matplotlib.ticker import MultipleLocator
 from smellscapy.calculations import calculate_pleasantness, calculate_presence
 
 def plot_density(df, **kwargs):
-    # Parametri di default
+    """
+    Plot a 2D density plot of pleasantness vs presence with optional scatter points,
+    marginal distributions, KDE contours, and quadrant labels.
+
+    Parameters
+    ----------
+    df : pandas.DataFrame
+        DataFrame containing 'pleasantness_score' and 'presence_score'.
+    **kwargs :
+        Customisation parameters (colors, sizes, labels, limits, etc.).
+    """
+
+    # Default parameters
     params = {
         "figsize": (8, 8),
         "xlim": (-1, 1),
@@ -20,20 +32,19 @@ def plot_density(df, **kwargs):
         "bandwidth": None,  
         "n_levels": 10,
 
-
         # Scatter
         "plot_points": True,
         "point_size": 25,
         "point_alpha": 0.8,
         "point_color": "grey",
 
-        # Marginali
+        # Marginal distributions
         "marginal_color": "navy",
         "marginal_alpha": 0.85,
         "marginal_linewidth": 1.2,
         "grid_size": 200,
 
-        # Assi
+        # Axis and dagonals
         "axis_line_color": "grey",
         "axis_line_style": "-",
         "axis_line_width": 0.5,
@@ -41,7 +52,7 @@ def plot_density(df, **kwargs):
         "diag_style": "--",
         "diag_width": 0.5,
 
-        # Etichette quadranti
+        # Quadrant labels
         "labels": {
             "overpowering": {"pos": (-0.5,  0.5), "text": "Overpowering"},
             "detached":     {"pos": (-0.5, -0.5), "text": "Detached"},
@@ -49,17 +60,16 @@ def plot_density(df, **kwargs):
             "light":        {"pos": ( 0.5, -0.5), "text": "Light"},
         },
         "labels_style": {"fontsize": 10, "fontstyle": "italic", "alpha": 0.7},
-
         "fontsize": 10,
 
-        # >>> Griglia/ticks <<<
+        # Grid lines and ticks
         "xmajor_step": 0.25, "xminor_step": 0.05,
         "ymajor_step": 0.25, "yminor_step": 0.05,
         "grid_major": {"linestyle": "--", "linewidth": 0.9, "alpha": 0.7},
         "grid_minor": {"linestyle": ":",  "linewidth": 0.5, "alpha": 0.35},
-        "minor_tick_length": 0,  # 0 = nasconde le tacche minori
+        "minor_tick_length": 0,
         
-        # Raggruppamento
+        # Grouping
         "group_col": None,
 
         # Output
@@ -68,31 +78,28 @@ def plot_density(df, **kwargs):
         "dpi": 300,
     }
 
-    # Update con kwargs (merge per i dict)
+    # Merge default with user-provided kwargs
     for key, value in kwargs.items():
         if key in params and isinstance(params[key], dict) and isinstance(value, dict):
             params[key].update(value)
         else:
             params[key] = value
 
-    # Dati
-    x = df["pleasantness_score"].values
-    y = df["presence_score"].values
+    # Extracts the data
+    x = df["pleasantness_score"].values   #x is an array of all the pleasantness score
+    y = df["presence_score"].values   #y is an array of all the presence score
+
+    # Stacks data for 2D operations (e.g., KDE)
     xy = np.vstack([x, y])
 
-
-
-    # Figura: main + marginali
+    # Figure layout
     fig = plt.figure(figsize=params["figsize"])
-
     gs = GridSpec(4, 4, figure=fig, wspace=0.05, hspace=0.05)
-    ax_main = fig.add_subplot(gs[1:4, 0:3])     # scatter + contour
-    ax_top    = fig.add_subplot(gs[0, 0:3], sharex=ax_main)  # marginale X
-    ax_right    = fig.add_subplot(gs[1:4, 3], sharey=ax_main)  # marginale Y
+    ax_main = fig.add_subplot(gs[1:4, 0:3])     # main scatter + KDE plot occupies bottom-left portion
+    ax_top    = fig.add_subplot(gs[0, 0:3], sharex=ax_main)  # Top plot shows the margnal distributon of pleasantness (sharex and sharey ensure alignment of axes.)
+    ax_right    = fig.add_subplot(gs[1:4, 3], sharey=ax_main)  # Right plot Right plot shows the marginal distribution of presence (sharex and sharey ensure alignment of axes.)
 
-
-
-    # Scatter
+    # Plot scatter (single colour or grouped)
     if params["group_col"] and params["group_col"] in df.columns:
         import itertools
         color_cycle = itertools.cycle(plt.cm.tab20.colors)
@@ -106,7 +113,7 @@ def plot_density(df, **kwargs):
         ax_main.scatter(x, y, s=params["point_size"],
                         color=params["point_color"], alpha=params["point_alpha"])
 
-    # KDE 2D centrale
+    # Helper: plot 2d KDE
     if params["group_col"] and params["group_col"] in df.columns:
         import itertools
         color_cycle = itertools.cycle(plt.cm.tab20.colors)
@@ -119,27 +126,25 @@ def plot_density(df, **kwargs):
         sns.kdeplot(x=x, y=y, levels=params["n_levels"], fill=True,
                     cmap="Blues", alpha=0.8, ax=ax_main, thresh=0.05)
 
-    # Assi centrali
+    # Axes and diagonals
     ax_main.axhline(0, color=params["axis_line_color"],
                     linestyle=params["axis_line_style"],
                     linewidth=params["axis_line_width"])
     ax_main.axvline(0, color=params["axis_line_color"],
                     linestyle=params["axis_line_style"],
                     linewidth=params["axis_line_width"])
-
-    # Diagonali
     x_vals = np.linspace(params["xlim"][0], params["xlim"][1], 200)
     ax_main.plot(x_vals,  x_vals, linestyle=params["diag_style"],
                  color=params["diag_color"], linewidth=params["diag_width"])
     ax_main.plot(x_vals, -x_vals, linestyle=params["diag_style"],
                  color=params["diag_color"], linewidth=params["diag_width"])
 
-    # Etichette dei quadranti
+    # Labels the quadrants
     for lbl in params["labels"].values():
         ax_main.text(lbl["pos"][0], lbl["pos"][1], lbl["text"],
                 ha="center", va="center", **params["labels_style"])
 
-    # >>> Griglia distinta major/minor <<<
+    # Grid and ticks
     ax_main.xaxis.set_major_locator(MultipleLocator(params["xmajor_step"]))
     ax_main.xaxis.set_minor_locator(MultipleLocator(params["xminor_step"]))
     ax_main.yaxis.set_major_locator(MultipleLocator(params["ymajor_step"]))
@@ -148,15 +153,13 @@ def plot_density(df, **kwargs):
     ax_main.grid(True, which="major", **params["grid_major"])
     ax_main.grid(True, which="minor", **params["grid_minor"])
     ax_main.tick_params(which="minor", length=params["minor_tick_length"])
-
-    # Limiti ed etichette
     ax_main.set_xlim(params["xlim"])
     ax_main.set_ylim(params["ylim"])
     ax_main.set_xlabel(params["xlabel"])
     ax_main.set_ylabel(params["ylabel"])
 
 
-        # --- Marginali 
+        # Marginal KDE plots
     if params["group_col"] is not None and params["group_col"] in df.columns:
         import itertools
         color_cycle = itertools.cycle(plt.cm.tab20.colors)
@@ -188,7 +191,7 @@ def plot_density(df, **kwargs):
     ax_top.axis("off")
     ax_right.axis("off")
 
-    # Layout e salvataggio
+    # Saving
     fig.tight_layout()
     if params["savefig"]:
         fig.savefig(params["filename"], dpi=params["dpi"], bbox_inches="tight")

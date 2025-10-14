@@ -28,9 +28,11 @@ plot_simple_density(df, group_col = "LocationID")
 
 plot_joint(df)
 
-plot_joint(df, group_col = "LocationID")
+plot_joint(df, group_col = "Nature")
 
 plot_density(df)
+
+plot_density(df, group_col = "In this moment, how satisfied or dissatisfied are you with the indoor air quality?")
 
 
     

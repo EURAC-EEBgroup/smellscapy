@@ -66,14 +66,14 @@ class TestPlotFunctions:
 
         
 
-    # def test_plot_simple_density(self, processed_df):
-    #     with patch.object(plt, "show") as mock_show:
-    #         plot_simple_density(processed_df, savefig=False)
-    #     mock_show.assert_called_once()
+    def test_plot_simple_density(self, processed_df):
+        with patch.object(plt, "show") as mock_show:
+            plot_simple_density(processed_df, savefig=False)
+        mock_show.assert_called_once()
 
-    #     with patch.object(plt, "show") as mock_show:
-    #         plot_simple_density(processed_df, group_col = "LocationID", savefig=False)
-    #     mock_show.assert_called_once()
+        with patch.object(plt, "show") as mock_show:
+            plot_simple_density(processed_df, group_col = "LocationID", savefig=False)
+        mock_show.assert_called_once()
 
         
 
