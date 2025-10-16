@@ -1,7 +1,7 @@
 <!-- markdownlint-disable MD041 -->
 ![Smellscapy Logo](Logo.png)
 
-# Welcome to SmellscaPy
+# **Welcome to SmellscaPy**
 
 [![PyPI version]](.......)
 [![Tests](...)](...)
@@ -11,7 +11,7 @@
 **SmellscaPy** is a Python library for analysing and representing **indoor smellscape perceptual data**.  
 It provides tools for **data validation, calculation of perceptual indices, and visualization** to support reproducible research in sensory and environmental studies.
 
-## Key Features
+## **Key Features**
 
 - **Data validation & preprocessing** of smellscape survey datasets  
 - **Computation of perceptual indicators** (i.e., pleasantness, presence)  
@@ -20,7 +20,7 @@ It provides tools for **data validation, calculation of perceptual indices, and 
 - **Ready-to-use example datasets** for tutorials and testing   
 
 
-## Installation
+## **Installation**
 
 SmellscaPy can be installed with pip:
 
@@ -29,28 +29,28 @@ pip install smellscapy
 ```
 Requires **Python 3.12.9+**.
 
-## Documentation
+## **Documentation**
 This [documentation](overview/index.md) is designed to help you understand and use SmellscaPy effectively.
 
-### Tutorials
+### **Tutorials**
 Practical examples showing how to use our project in real-world scenarios. For more information, please see the [Tutorials](tutorials/index.md) section.
 
-## Web Application
+## **Web Application**
 
 A web app is available to use the library directly through an interface at the following [link]......
 
-## License
+## **License**
 
 This project is licensed under the BSD 3-Clause License. Please see [LICENSE](LICENCE) for licence guidelines.
 
-## Contributing
+## **Contributing**
 
 If you would like to contribute or if you have any bugs you have found while using `SmellscaPy', please feel free to get in touch or submit an issue or pull request!
 
 Please see [CONTRIBUTING.md][CONTRIBUTING.md] for contribution guidelines.
 
 
-## Citation 
+## **Citation** 
 
 Please cite us if you use the _SmellscaPy_ library:
 
