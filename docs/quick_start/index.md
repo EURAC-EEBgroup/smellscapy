@@ -75,17 +75,17 @@ Each function adds a new column to the DataFrame containing the calculated metri
 
 **Available Plotting Functions:**
 
-- `plot_scatter()` – creates a two-dimensional scatter plot that visualises the relationship between Pleasantness and Presence.
+- `plot_scatter()` – creates a two-dimensional scatter plot that visualises the relationship between Pleasantness and Presence for each observation.
 ![Circumplex Model](scatter_plot.png)
-- `plot_simple_density()` – displays.... 
-- `plot_joint()` – combines scatter and density plots to reveal correlations and data structure  
-- `plot_density()` – visualises the full density distribution...
+- `plot_simple_density()` – displays a simplified 2D Kernel Density Estimation (KDE) density plot using only the 50th percentile contour of the distribution. Optionally, the plot can also include the scatter distribution and 1D KDE marginal distributions.
+![Circumplex Model2](simple_density.png)
+- `plot_density()` – visualises the full 2D density distribution of the dataset using KDE.Optionally, the plot can also include the scatter distribution and 1D KDE marginal distributions.
+![Circumplex Model3](density.png)
 
 ```python
 # Generate Basic Visualisation
 plot_scatter(df)
 plot_simple_density(df)
-plot_joint(df)
 plot_density(df)
 ```
 **Tip**: Since all SmellscaPy plotting functions are built on matplotlib and seaborn, you can easily customise them by passing additional arguments or modifying the returned plot objects — for example, adjusting figure size, colour palettes, or adding annotations for publication-quality visuals.

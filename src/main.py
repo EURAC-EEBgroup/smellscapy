@@ -5,7 +5,6 @@ from importlib import resources
 from smellscapy.calculations import calculate_pleasantness, calculate_presence
 from smellscapy.plotting.scatter import plot_scatter
 from smellscapy.plotting.simple_density import plot_simple_density
-from smellscapy.plotting.joint import plot_joint
 from smellscapy.plotting.density import plot_density
 
 
@@ -18,24 +17,28 @@ df = calculate_pleasantness(df)
 df = calculate_presence(df)
 
 
-plot_scatter(df)
 
-plot_scatter(df, group_col = "LocationID")
+print(df.columns)
+#plot_scatter(df)
 
-plot_simple_density(df)
+#plot_scatter(df, group_col = "Smell source")
 
-plot_simple_density(df, group_col = "LocationID")
+#plot_simple_density(df, show_marginals = False)
 
-plot_joint(df)
+#plot_simple_density(df, show_marginals = False, show_points = False)
 
-plot_joint(df, group_col = "Nature")
+#plot_simple_density(df)
 
-plot_density(df)
+#plot_simple_density(df, group_col = "Smell source",  palette="tab20")
 
-plot_density(df, group_col = "In this moment, how satisfied or dissatisfied are you with the indoor air quality?")
+#plot_simple_density(df, group_col = "Smell source",  show_points= False, palette="tab20")
+
+plot_density(df, filled=True)
+
+plot_density(df, group_col = "Smell source")
 
 
-    
-print(df)
+
+#print(df)
 
 pass
