@@ -4,9 +4,9 @@
 # **Welcome to SmellscaPy**
 
 [![PyPI version]](.......)
-[![Tests](...)](...)
-[![Documentation Status]](...)
-![License](...)
+[![Documentation Status](...)](...)
+[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
+
 
 **SmellscaPy** is a Python library for analysing and representing **indoor smellscape perceptual data**.  
 It provides tools for **data validation, calculation of perceptual indices, and visualization** to support reproducible research in sensory and environmental studies.

@@ -8,19 +8,15 @@ nav:
   - Home: index.md
   - Overview: overview/index.md
   - Quick Start: quick_start/index.md     
-  - User Guide:
-    - user_guide/index.md
-    - "Loading Smellscape Data": user_guide/loading_smellscape_data.md
-    - "Data Validation": user_guide/data_validation_processing.md 
-    - "Calculating Circumplex Coordinates": user_guide/calculating_pleasantness_presence_coordinates.md
-    - "Visualisations": user_guide/visualizations.md 
   - Tutorials:
     - tutorials/index.md
-    - Basic Workflow: tutorials/basic_workflow.md
-    - Comparing Smellscapes: tutorials/comparing_smellscape.md
+    - "Loading Smellscape Data": tutorials/loading_smellscape_data.md
+    - "Data Validation": tutorials/data_validation_processing.md 
+    - "Calculating Circumplex Coordinates": tutorials/calculating_pleasantness_presence_coordinates.md
+    - "Visualisations": tutorials/visualizations.md
+    - "Full Project Example": tutorials/fullprojectexample.md
   - API reference: api/index.md
   - Changelog: changelog/index.md
-  - Citation and Acknowledgments: citation/index.md
 
 
 theme:

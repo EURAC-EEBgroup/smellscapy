@@ -1,4 +1,4 @@
-# Loading example data
+## **Loading example data**
 An **example dataset** is included with SmellscaPy to help you explore its features right away. Use the `load_example_data()` function to load the example dataset:
 
 ```python
@@ -29,7 +29,7 @@ print(f"Columns ({len(df.columns)}): {list(df.columns)}")
 ```
 
 
-# Loading your data
+## **Loading your data**
 If you have your own smellscape survey data, you can load it using pandas and then process it with SmellscaPy.
 
 ```python
