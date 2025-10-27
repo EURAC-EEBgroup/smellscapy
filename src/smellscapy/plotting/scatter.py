@@ -100,7 +100,7 @@ def plot_scatter(df, **kwargs):
                         s=params["point_size"], label=str(name), alpha=0.8)
         plt.legend(title=params["group_col"])
     else:
-        plt.scatter(x, y, color=params["point_color"], s=params["point_size"])
+        plt.scatter(x, y, color=params["point_color"], s=params["point_size"], alpha=0.8)
 
     # Saving
     if params["savefig"]:

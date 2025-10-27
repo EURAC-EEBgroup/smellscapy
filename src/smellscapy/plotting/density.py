@@ -22,7 +22,7 @@ def plot_density(df, **kwargs):
         "filled": True,           # True -> contourf, False -> contour
         "extend": "max",          # 'neither' | 'min' | 'max' | 'both'
         "contour_linewidth": 0.05,
-        "fill_alpha": 1,
+        "fill_alpha": 0.8,
 
         # Esclusione estremi inferiori
         "skip_low_levels": 1,     # quante bande escludere dal basso (0 = nessuna)
@@ -51,7 +51,7 @@ def plot_density(df, **kwargs):
         # Scatter
         "show_points": False,
         "point_size": 50,
-        "point_alpha": 0.25,
+        "point_alpha": 0.15,
         "point_color": "grey",
 
         # Raggruppamento/colori
@@ -222,6 +222,9 @@ def plot_density(df, **kwargs):
 
     # ----------------- Disegno -----------------
     if (not group_col) or (group_col not in df.columns):
+        if params["show_points"]:
+            ax.scatter(x, y, s=params["point_size"], alpha=params["point_alpha"],
+                       color=params["point_color"])
         Z = kde2d_on_grid(x, y)
         draw_contours(
             ax, XX, YY, Z,
@@ -232,9 +235,6 @@ def plot_density(df, **kwargs):
             lw=params["contour_linewidth"],
             alpha=params["fill_alpha"],
         )
-        if params["show_points"]:
-            ax.scatter(x, y, s=params["point_size"], alpha=params["point_alpha"],
-                       color=params["point_color"])
 
         if show_marginals:
             fx = kde1d(x, xi, bw=params["marginal_bw"])
@@ -269,6 +269,9 @@ def plot_density(df, **kwargs):
             xc, yc = x[mask], y[mask]
 
             Zg = kde2d_on_grid(xc, yc)
+            if params["show_points"]:
+                ax.scatter(xc, yc, s=params["point_size"], alpha=params["point_alpha"],
+                           color=color_map[cat])
             draw_contours(
                 ax, XX, YY, Zg,
                 color=color_map[cat],
@@ -278,10 +281,6 @@ def plot_density(df, **kwargs):
                 lw=params["contour_linewidth"],
                 alpha=params["fill_alpha"],
             )
-
-            if params["show_points"]:
-                ax.scatter(xc, yc, s=params["point_size"], alpha=params["point_alpha"],
-                           color=color_map[cat])
 
             if show_marginals:
                 fx = kde1d(xc, xi, bw=params["marginal_bw"])
