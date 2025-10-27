@@ -5,8 +5,14 @@ import itertools
 from loguru import logger
 
 
-ATTRIBUTES_VALUE_RANGE =(1, 5)
+
 ATTRIBUTES_VALUES = [1, 2, 3, 4, 5]
+"""
+Allowed inclusive range for attribute values.
+Values can range from 1 (minimum) to 5 (maximum).
+"""
+
+
 ATTRIBUTES_COLUMN_NAMES = [
     "pleasant", 
     "present",
@@ -17,12 +23,21 @@ ATTRIBUTES_COLUMN_NAMES = [
     "overpowering",
     "detached"
 ]
+"""
+List of allowed column names for survey data.
+The survey DataFrame must include these columns.
+"""
+
 
 ID_COLUMN_NAMES = [
     "RecordID", 
     "ResearcherID",
     "LocationID"
 ]
+"""
+Listo of columns used to uniquely identify each survey answer.
+Each row in the survey data should have a unique combination of these identifiers.
+"""
 
 
 
@@ -30,6 +45,42 @@ def validate(
     df: pd.DataFrame,
 ) -> Tuple[pd.DataFrame, Optional[pd.DataFrame]]:
     """ 
+    Validate a survey DataFrame for required columns and acceptable value ranges.
+
+    This function ensures that the provided DataFrame contains all necessary
+    survey and ID columns, and that all numeric responses fall within the
+    defined set `ATTRIBUTES_VALUES`.
+
+    Parameters
+    ----------
+    df : pandas.DataFrame
+        A DataFrame containing survey data. Must include columns listed in
+        `ATTRIBUTES_COLUMN_NAMES` and `ID_COLUMN_NAMES`.
+
+    Returns
+    -------
+    df : pandas.DataFrame
+        A DataFrame containing only valid rows with complete data.
+    excl_df : pandas.DataFrame
+        A DataFrame containing rows removed due to missing values.
+
+    Raises
+    ------
+    Exception "Missing mandatory column/s"
+        If any required columns are missing
+        
+    Exception "Attribute values are not valid" 
+        If any numeric responses fall outside the allowed range.
+
+
+    Examples
+    --------
+
+    >>> import pandas as pd
+    >>> from smellscapy.databases.DataExample import load_example_data
+    >>> from smellscapy.surveys import validate
+    >>> df = load_example_data()
+    >>> df, excl_df = validate(df) # passes without error
 
     """
     logger.info("Validating data...")

@@ -5,7 +5,6 @@ import pandas as pd
 import numpy as np
 
 from smellscapy.surveys import (
-    ATTRIBUTES_VALUE_RANGE, 
     ATTRIBUTES_VALUES, 
     ATTRIBUTES_COLUMN_NAMES, 
     ID_COLUMN_NAMES,
@@ -35,9 +34,6 @@ def sample_df():
 
 
 class TestSurveyAttributes:
-
-    def test_attributes_value_range(self):
-        assert ATTRIBUTES_VALUE_RANGE == (1, 5)
 
     def test_attributes_values(self):
         assert len(ATTRIBUTES_VALUES) == 5

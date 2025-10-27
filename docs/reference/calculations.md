@@ -1,0 +1,3 @@
+# calculations.py
+
+::: smellscapy.calculations
