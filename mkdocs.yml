@@ -23,6 +23,7 @@ nav:
       - Scatter: reference/plotting/scatter.md
       - Density: reference/plotting/density.md
       - Simple density: reference/plotting/simple_density.md
+      - Utils: reference/plotting/utils.md
   - Changelog: changelog/index.md
 
 
