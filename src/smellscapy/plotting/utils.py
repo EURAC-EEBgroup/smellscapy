@@ -80,7 +80,6 @@ def get_default_plot_params():
         "marginal_bw": None,           # banda KDE 1D
 
         "savefig": True,
-        # "filename": "scatter_plot.png",
         "dpi": 300,
     }
 

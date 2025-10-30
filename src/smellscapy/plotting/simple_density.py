@@ -22,6 +22,7 @@ def plot_simple_density(df, **kwargs):
 
     # ----------------- Parametri -----------------
     params = ut.get_default_plot_params()
+    params['filename'] = "simple_density_plot.png"
     params = ut.update_params(params, **kwargs)
 
     # ----------------- Figura/Axes -----------------

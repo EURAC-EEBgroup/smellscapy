@@ -10,6 +10,7 @@ import smellscapy.plotting.utils as ut
 
 def plot_density(df, **kwargs):
     params = ut.get_default_plot_params()
+    params['filename'] = "density_plot.png"
     params['fill_alpha'] = 0.9
     params['show_points'] = False
     params = ut.update_params(params, **kwargs)

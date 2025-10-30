@@ -7,6 +7,7 @@ def plot_scatter(df, **kwargs):
 
     # Default values dictianary
     params = get_default_plot_params()
+    params['filename'] = "scatter_plot.png"
     params = update_params(params, **kwargs)
 
     # ----------------- Figura/Axes -----------------
