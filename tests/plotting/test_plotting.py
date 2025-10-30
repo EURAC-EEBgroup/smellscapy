@@ -55,9 +55,14 @@ class TestPlotFunctions:
         mock_show.assert_called_once()
 
         with patch.object(plt, "show"):
-            fig, ax = plot_density(processed_df, group_col = "LocationID", savefig=False)
+            fig, ax = plot_density(processed_df, savefig=False)
         img = image_from_figure(fig)
         image_snapshot(img, 'tests/__snapshots__/density.png')
+
+        with patch.object(plt, "show"):
+            fig, ax = plot_density(processed_df, group_by_col = "Smell source", savefig=False)
+        img = image_from_figure(fig)
+        image_snapshot(img, 'tests/__snapshots__/density_smellsource.png')
 
 
 
@@ -67,13 +72,13 @@ class TestPlotFunctions:
         mock_show.assert_called_once()
 
         with patch.object(plt, "show") as mock_show:
-            plot_scatter(processed_df, group_col = "LocationID", savefig=False)
+            plot_scatter(processed_df, group_by_col = "LocationID", savefig=False)
         mock_show.assert_called_once()
 
-        # with patch.object(plt, "show"):
-        #     fig, ax = plot_scatter(processed_df, group_col = "LocationID", savefig=False)
-        # img = image_from_figure(fig)
-        # image_snapshot(img, 'tests/__snapshots__/scatter.png')
+        with patch.object(plt, "show"):
+            fig, ax = plot_scatter(processed_df, group_by_col = "LocationID", savefig=False)
+        img = image_from_figure(fig)
+        image_snapshot(img, 'tests/__snapshots__/scatter.png')
 
         
 
@@ -83,12 +88,17 @@ class TestPlotFunctions:
         mock_show.assert_called_once()
 
         with patch.object(plt, "show") as mock_show:
-            plot_simple_density(processed_df, group_col = "LocationID", savefig=False)
+            plot_simple_density(processed_df, group_by_col = "LocationID", savefig=False)
         mock_show.assert_called_once()
 
         with patch.object(plt, "show"):
-            fig, ax = plot_simple_density(processed_df, group_col = "LocationID", savefig=False)
+            fig, ax = plot_simple_density(processed_df, savefig=False)
         img = image_from_figure(fig)
         image_snapshot(img, 'tests/__snapshots__/simple_density.png')
+        
+        with patch.object(plt, "show"):
+            fig, ax = plot_simple_density(processed_df, group_by_col = "Smell source", savefig=False)
+        img = image_from_figure(fig)
+        image_snapshot(img, 'tests/__snapshots__/simple_density_smellsource.png')
         
 
