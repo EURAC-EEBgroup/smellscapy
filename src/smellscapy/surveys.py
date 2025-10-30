@@ -29,17 +29,6 @@ The survey DataFrame must include these columns.
 """
 
 
-ID_COLUMN_NAMES = [
-    "RecordID", 
-    "ResearcherID",
-    "LocationID"
-]
-"""
-Listo of columns used to uniquely identify each survey answer.
-Each row in the survey data should have a unique combination of these identifiers.
-"""
-
-
 
 def validate(
     df: pd.DataFrame,
@@ -55,7 +44,7 @@ def validate(
     ----------
     df : pandas.DataFrame
         A DataFrame containing survey data. Must include columns listed in
-        `ATTRIBUTES_COLUMN_NAMES` and `ID_COLUMN_NAMES`.
+        `ATTRIBUTES_COLUMN_NAMES`.
 
     Returns
     -------
@@ -88,7 +77,7 @@ def validate(
     df = df.copy()
     # verificare che chh,tte le colonne 
     missing_columns = []
-    for col in itertools.chain(ID_COLUMN_NAMES, ATTRIBUTES_COLUMN_NAMES):
+    for col in ATTRIBUTES_COLUMN_NAMES:
         if not col in df.columns:
             missing_columns.append(col)
 

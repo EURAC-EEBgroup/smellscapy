@@ -7,7 +7,6 @@ import numpy as np
 from smellscapy.surveys import (
     ATTRIBUTES_VALUES, 
     ATTRIBUTES_COLUMN_NAMES, 
-    ID_COLUMN_NAMES,
     validate
 )
 
@@ -52,13 +51,6 @@ class TestSurveyAttributes:
             "detached"
         ]
 
-    def test_id_column_names(self):
-        assert len(ID_COLUMN_NAMES) == 3
-        assert ID_COLUMN_NAMES == [
-            "RecordID", 
-            "ResearcherID",
-            "LocationID"
-        ]
 
 
 class TestDataFrameValidation:
@@ -70,21 +62,15 @@ class TestDataFrameValidation:
 
 
     def test_missing_mandatory_columns(self, sample_df):
-        df = sample_df.drop(columns=["RecordID"])
-        with pytest.raises(
-            Exception, match="Missing mandatory column/s: RecordID"
-        ):
-            _, _ = validate(df)
-
         df = sample_df.drop(columns=ATTRIBUTES_COLUMN_NAMES)
         with pytest.raises(
             Exception, match="Missing mandatory column/s: pleasant, present, light, engaging, unpleasant, absent, overpowering, detached"
         ):
             _, _ = validate(df)
 
-        df = sample_df.drop(columns=['present', 'engaging', 'LocationID'])
+        df = sample_df.drop(columns=['present', 'engaging'])
         with pytest.raises(
-            Exception, match="Missing mandatory column/s: LocationID, present, engaging"
+            Exception, match="Missing mandatory column/s: present, engaging"
         ):
             _, _ = validate(df)
 
