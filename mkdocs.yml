@@ -68,7 +68,7 @@ plugins:
       default_handler: python
       handlers:
         python:
-          paths: [.]
+          paths: [., "src"]
           options:
             docstring_section_style: spacy
             docstring_style: "numpy"

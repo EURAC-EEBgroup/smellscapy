@@ -8,6 +8,153 @@ import matplotlib.pyplot as plt
 
 
 def get_default_plot_params():
+    """
+    Return the default configuration dictionary for plots.
+
+    The returned dictionary contains default values for axis limits, labels,
+    figure size, 2D KDE contour settings, scatter plot appearance, grouping
+    and colour handling, quadrant labels, marginal distributions, and
+    saving options.
+
+    Parameters
+    ----------
+Axes and figure
+    ~~~~~~~~~~~~~~~
+    xlim : tuple(float, float)
+        Default x-axis limits (pleasantness), initialised to (-1, 1).
+    ylim : tuple(float, float)
+        Default y-axis limits (presence), initialised to (-1, 1).
+    figsize : tuple(float, float)
+        Figure size in inches, default (8, 8).
+    xlabel : str
+        Label for the x-axis, default "Pleasantness".
+    ylabel : str
+        Label for the y-axis, default "Presence".
+
+    2D KDE contours
+    ~~~~~~~~~~~~~~~
+    levels : int or array-like
+        Number of contour bands or explicit boundary levels. By default,
+        10 levels are used.
+    filled : bool
+        If True, use filled contours (e.g. `contourf`); otherwise, only
+        contour lines.
+    extend : {"neither", "min", "max", "both"}
+        Argument passed to Matplotlib for handling out-of-range values in
+        filled contours.
+    contour_linewidth : float
+        Line width used for contour lines (legacy / backup parameter).
+    contour_color : str
+        Default colour for contour lines.
+    contour_width : float
+        Line width for HDR or contour outlines.
+    fill_color : str
+        Default fill colour for filled areas.
+    fill_alpha : float
+        Opacity for filled regions (0–1).
+
+    Low-level exclusion
+    ~~~~~~~~~~~~~~~~~~~
+    skip_low_levels : int
+        Number of lowest-density bands to drop (0 means keep all).
+    min_frac : float or None
+        If set to a value in [0, 1], discard all contour levels below
+        `min_frac * Z.max()`.
+
+    Central axes and diagonals
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~
+    axis_line_color : str
+        Colour of the central horizontal and vertical axes (x=0, y=0).
+    axis_line_style : str
+        Line style for central axes.
+    axis_line_width : float
+        Line width for central axes.
+    diag_color : str
+        Colour of the ±45° diagonals.
+    diag_style : str
+        Line style for diagonals.
+    diag_width : float
+        Line width for diagonals.
+
+    Grid and ticks
+    ~~~~~~~~~~~~~~
+    xmajor_step, xminor_step : float
+        Spacing for major and minor ticks on the x-axis.
+    ymajor_step, yminor_step : float
+        Spacing for major and minor ticks on the y-axis.
+    grid_major : dict
+        Style dictionary for major grid lines (linestyle, linewidth, alpha).
+    grid_minor : dict
+        Style dictionary for minor grid lines.
+    minor_tick_length : float
+        Length of minor tick marks; default 0 (invisible).
+
+    KDE grid and HDR
+    ~~~~~~~~~~~~~~~~
+    eval_n : int
+        Number of evaluation points per axis for the 2D KDE grid.
+    hdr_p : float
+        Probability mass of the high-density region (HDR), default 0.5.
+
+    Scatter points
+    ~~~~~~~~~~~~~~
+    show_points : bool
+        Whether to overlay individual data points.
+    point_size : float
+        Marker size for scatter points.
+    point_alpha : float
+        Transparency for scatter points.
+    point_color : str or tuple
+        Default colour for scatter points.
+
+    Grouping and colours
+    ~~~~~~~~~~~~~~~~~~~~
+    group_by_col : str or None
+        Name of the column used for categorical grouping.
+    palette : dict, list, tuple or str
+        Palette specification used by `build_categorical_palette`.
+    legend_loc : str
+        Legend location string (passed to Matplotlib).
+    category_order : list or None
+        Optional ordering of categories for plotting and legends.
+
+    Quadrant labels
+    ~~~~~~~~~~~~~~~
+    show_quadrant_labels : bool
+        Whether to show textual labels in the four quadrants.
+    labels : dict
+        Mapping of label identifiers to positions and text
+        (e.g. "Overpowering", "Detached", etc.).
+    labels_style : dict
+        Text style for quadrant labels (fontsize, fontstyle, alpha, ...).
+
+    Marginal 1D densities
+    ~~~~~~~~~~~~~~~~~~~~~
+    show_marginals : bool
+        Whether to create axes and draw 1D KDE marginals.
+    marginal_height_ratio : float
+        Relative size of top and right marginal axes w.r.t. main axes.
+    marginal_linewidth : float
+        Line width of marginal KDE curves.
+    marginal_fill_alpha : float
+        Opacity of 1D KDE filled regions.
+    marginal_bw : float or None
+        Bandwidth for 1D KDE; if None, GaussianKDE defaults are used.
+
+    Saving
+    ~~~~~~
+    savefig : bool
+        Flag indicating whether saving is expected downstream.
+    dpi : int
+        Default resolution in dots per inch for saved figures.
+
+    Returns
+    -------
+    params : dict
+        Dictionary containing all default plotting parameters.
+
+    """
+
     params = {
         "xlim": (-1, 1),
         "ylim": (-1, 1),
@@ -94,6 +241,12 @@ def update_params(params, **kwargs):
     ----------
     params : dict, required
         A dictionary with default parameters
+    **kwargs
+        Key-value pairs used to update `params`. For each (key, value):
+        - If `key` is not present in `params`, it is added.
+        - If `key` is present and both `params[key]` and `value` are `dict`,
+          then `params[key].update(value)` is performed.
+        - Otherwise, `params[key]` is replaced by `value`.
 
     Returns
     -------
@@ -113,6 +266,44 @@ def update_params(params, **kwargs):
 
 
 def create_density_figure(params):
+    """
+    Create a Matplotlib figure and axes layout for 2D density plots, with
+    optional marginal axes.
+
+    If `params["show_marginals"]` is True, the function creates a 2x2
+    GridSpec layout with:
+      - top-left: x-axis marginal KDE (`ax_top`)
+      - bottom-left: main density plot (`ax`)
+      - bottom-right: y-axis marginal KDE (`ax_right`)
+
+    The size of the marginal axes relative to the main axes is controlled by
+    `params["marginal_height_ratio"]`. If `show_marginals` is False, only a
+    single main axes is created.
+
+    Parameters
+    ----------
+    params : dict
+        Plot configuration dictionary, typically from `get_default_plot_params()`.
+        The following keys are used:
+        - "show_marginals" : bool
+        - "figsize" : tuple(float, float)
+        - "xlim", "ylim" : axis limits
+        - "marginal_height_ratio" : float
+
+    Returns
+    -------
+    fig : matplotlib.figure.Figure
+        The created Figure.
+    ax : matplotlib.axes.Axes
+        The main axes for the 2D density plot.
+    ax_top : matplotlib.axes.Axes or None
+        Axes for the x-direction marginal KDE, or None if `show_marginals`
+        is False.
+    ax_right : matplotlib.axes.Axes or None
+        Axes for the y-direction marginal KDE, or None if `show_marginals`
+        is False.
+    """
+
     if params["show_marginals"]:
         fig = plt.figure(figsize=params["figsize"])
         gs = fig.add_gridspec(
@@ -139,7 +330,35 @@ def create_density_figure(params):
 
 def set_fig_layout(ax, params):
     """
-    
+    Configure axes layout, grid, central axes, diagonals and quadrant labels.
+
+    This function applies a consistent visual style to the main 2D pleasantness–
+    presence axes, including axis limits and labels, tick locators, grid styles,
+    central axes at x=0 and y=0, diagonal reference lines, and optional
+    quadrant labels.
+
+    Parameters
+    ----------
+    ax : matplotlib.axes.Axes
+        Axes object to configure.
+    params : dict
+        Plot configuration dictionary. The following keys are used:
+
+        - "xlim", "ylim"
+        - "xlabel", "ylabel"
+        - "xmajor_step", "xminor_step", "ymajor_step", "yminor_step"
+        - "grid_major", "grid_minor"
+        - "minor_tick_length"
+        - "axis_line_color", "axis_line_style", "axis_line_width"
+        - "diag_color", "diag_style", "diag_width"
+        - "show_quadrant_labels"
+        - "labels" (dict with "pos" and "text")
+        - "labels_style"
+
+    Returns
+    -------
+    ax : matplotlib.axes.Axes
+        The same axes object, configured.
     """
     
     ax.set_xlim(params["xlim"])
@@ -182,6 +401,27 @@ def set_fig_layout(ax, params):
 
 
 def kde_on_grid(x_sub, y_sub, XX, YY):
+    """
+    Compute a 2D Gaussian kernel density estimate (KDE) on a predefined grid.
+
+    Parameters
+    ----------
+    x_sub : array-like
+        1D array of x values.
+    y_sub : array-like
+        1D array of y values. Must have the same length as `x_sub`.
+    XX : ndarray
+        2D array of x-coordinates defining the evaluation grid (e.g. from
+        `np.meshgrid`).
+    YY : ndarray
+        2D array of y-coordinates defining the evaluation grid.
+
+    Returns
+    -------
+    ZZ : ndarray or None
+        2D array of KDE values evaluated on (XX, YY) and reshaped to
+        `YY.shape`, or None if fewer than 3 valid samples are provided.
+    """
     if len(x_sub) < 3:
         return None
     kde = gaussian_kde(np.vstack([x_sub, y_sub]))
@@ -192,6 +432,35 @@ def kde_on_grid(x_sub, y_sub, XX, YY):
 
 
 def hdr_threshold_from_grid(zi, p, xlim, ylim):
+    """
+    Compute the density threshold for a high-density region (HDR) of mass `p`
+    from a 2D KDE grid.
+
+    The function assumes that `zi` has been evaluated on a regular rectangular
+    grid spanning `[xlim[0], xlim[1]] × [ylim[0], ylim[1]]`. It computes the
+    cell area, sorts the density values in descending order and finds the
+    threshold such that the cumulative integral reaches `p` times the total
+    mass.
+
+    Parameters
+    ----------
+    zi : ndarray, shape (ny, nx)
+        2D array of density values on a regular grid.
+    p : float
+        Target probability mass of the HDR (0 < p ≤ 1).
+    xlim : tuple(float, float)
+        x-axis limits of the grid.
+    ylim : tuple(float, float)
+        y-axis limits of the grid.
+
+    Returns
+    -------
+    threshold : float
+        Density value defining the HDR boundary, i.e. the smallest
+        value such that the region {z >= threshold} contains mass `p`.
+    zmax : float
+        Maximum density value in `zi`.
+    """
     ny_, nx_ = zi.shape
     dx = (xlim[1] - xlim[0]) / (nx_ - 1)
     dy = (ylim[1] - ylim[0]) / (ny_ - 1)
@@ -209,6 +478,27 @@ def hdr_threshold_from_grid(zi, p, xlim, ylim):
 
 
 def kde1d(values, grid, bw=None):
+    """
+    Compute a 1D Gaussian kernel density estimate (KDE) on a given grid.
+
+    Parameters
+    ----------
+    values : array-like
+        Input sample values. Non-finite values are filtered out before
+        computing the KDE.
+    grid : array-like
+        Points at which to evaluate the 1D KDE.
+    bw : float or str or callable, optional
+        Bandwidth specification passed to `scipy.stats.gaussian_kde`
+        via the `bw_method` argument. If None, the default method of
+        `gaussian_kde` is used.
+
+    Returns
+    -------
+    density : ndarray or None
+        KDE evaluated on `grid`, or None if fewer than 3 finite
+        samples are available.
+    """
     vals = np.asarray(values)
     vals = vals[np.isfinite(vals)]
     if vals.size < 3:
@@ -219,6 +509,32 @@ def kde1d(values, grid, bw=None):
 
 
 def build_categorical_palette(categories, palette_param):
+    """
+    Build a mapping from categories to colours for grouped plots.
+
+    The palette can be specified in several ways:
+
+    - dict: direct mapping `{category: color}`. Missing categories
+      default to `"grey"`.
+    - str: name of a Matplotlib colormap. Colours are sampled uniformly
+      along the colormap range.
+    - list/tuple: sequence of colour specifications. If there are fewer
+      colours than categories, the list is repeated cyclically.
+    - None or unsupported type: fall back to the "tab20" colormap.
+
+    Parameters
+    ----------
+    categories : iterable
+        Sequence of category labels.
+    palette_param : dict, list, tuple or str
+        Palette specification as described above.
+
+    Returns
+    -------
+    color_map : dict
+        Dictionary mapping each category in `categories` to a colour
+        usable in Matplotlib.
+    """
     if isinstance(palette_param, dict):
         return {c: palette_param.get(c, "grey") for c in categories}
     if isinstance(palette_param, str) and (palette_param in mpl.colormaps):
@@ -237,6 +553,41 @@ def build_categorical_palette(categories, palette_param):
 
 
 def add_contour_HDR_50(ax, XX, YY, ZZ, params, color=None):
+    """
+    Draw the 50% high-density region (HDR) contour on a 2D KDE grid.
+
+    This function computes the HDR threshold using `hdr_threshold_from_grid`
+    with probability mass `params["hdr_p"]` (typically 0.5), and plots:
+
+    - a filled region between the HDR threshold and the maximum density
+    - an outline contour at the HDR threshold
+
+    Colours for the filled and contour regions can be overridden via the
+    `color` argument; otherwise, `params["fill_color"]` and
+    `params["contour_color"]` are used.
+
+    Parameters
+    ----------
+    ax : matplotlib.axes.Axes
+        Axes on which to draw the HDR region.
+    XX, YY : ndarray
+        2D arrays defining the evaluation grid (as returned by `np.meshgrid`).
+    ZZ : ndarray or None
+        2D KDE values on the grid. If None, nothing is drawn.
+    params : dict
+        Plot configuration dictionary. The following keys are used:
+        - "hdr_p", "xlim", "ylim"
+        - "fill_color", "fill_alpha"
+        - "contour_color", "contour_width"
+    color : str or tuple, optional
+        Override colour for both filling and outline. If None, defaults
+        from `params` are used.
+
+    Returns
+    -------
+    ax : matplotlib.axes.Axes
+        The same axes, with HDR region drawn (if applicable).
+    """
     if ZZ is not None:
         fill_color = color if color else params["fill_color"]
         contour_color = color if color else params["contour_color"]
@@ -252,8 +603,58 @@ def add_contour_HDR_50(ax, XX, YY, ZZ, params, color=None):
 
 
 
-# --------- MODIFICA: livelli con esclusione estremi inferiori ----------
 def draw_contours(params, ax_, XX, YY, Z, color=None, cmap=None, levels=5, filled=False, lw=1, alpha=1):
+    """
+    Draw 2D KDE contour lines and/or filled bands, with optional exclusion
+    of low-density regions.
+
+    The function supports two modes for `levels`:
+    - integer: number of density bands; levels are computed automatically
+      between `Z.min()` and `Z.max()`, applying `skip_low_levels` or
+      `min_frac` from `params`.
+    - array-like: explicit sequence of boundary levels, possibly filtered
+      by `min_frac` or `skip_low_levels`.
+
+    When `filled=True`, contour bands are drawn with `contourf`, optionally
+    using a colormap that fades from transparent to `color`. Contour lines
+    can be drawn on top.
+
+    Parameters
+    ----------
+    params : dict
+        Plot configuration dictionary. The following keys are used:
+        - "skip_low_levels" : int
+        - "min_frac" : float or None
+        - "extend" : {"neither", "min", "max", "both"}
+    ax_ : matplotlib.axes.Axes
+        Axes on which to draw the contours.
+    XX, YY : ndarray
+        2D arrays defining the evaluation grid.
+    Z : ndarray or None
+        2D array of density values on the grid. If None, nothing is drawn.
+    color : str or tuple, optional
+        Base colour for lines and, when `cmap` is None, for filled regions.
+    cmap : matplotlib.colors.Colormap or None, optional
+        Colormap for filled contours. If None and `filled` is True and
+        `color` is provided, a custom colormap fading from transparent white
+        to `color` with opacity `alpha` is created.
+    levels : int or array-like, optional
+        Number of contour bands (if int) or array of boundary levels.
+        When `levels` is an int, the default in higher-level functions is
+        10 levels.
+    filled : bool, optional
+        If True, draw filled contours (`contourf`) plus contour lines.
+        If False, draw only contour lines.
+    lw : float, optional
+        Line width for contour lines.
+    alpha : float, optional
+        Opacity for filled contours (0–1).
+
+    Returns
+    -------
+    None
+        The function modifies `ax_` in place and does not return a value.
+    """
 
     def _compute_levels_from_int(Z, n_levels, skip_low, min_frac):
         zmin, zmax = float(np.nanmin(Z)), float(np.nanmax(Z))
@@ -324,6 +725,45 @@ def draw_contours(params, ax_, XX, YY, Z, color=None, cmap=None, levels=5, fille
 
 
 def add_marginals(x, xi, y, yi, ax_top, ax_right, params, color=None):
+    """
+    Compute and plot 1D KDE marginal distributions along the x and y axes.
+
+    The function uses `kde1d` to estimate the marginals of `x` and `y`
+    on the grids `xi` and `yi`, respectively, and draws them on the
+    provided marginal axes.
+
+    Parameters
+    ----------
+    x : array-like
+        Sample values for the x variable.
+    xi : array-like
+        Grid on which to evaluate the x marginal KDE.
+    y : array-like
+        Sample values for the y variable.
+    yi : array-like
+        Grid on which to evaluate the y marginal KDE.
+    ax_top : matplotlib.axes.Axes
+        Axes for the x-direction marginal (top).
+    ax_right : matplotlib.axes.Axes
+        Axes for the y-direction marginal (right).
+    params : dict
+        Plot configuration dictionary. The following keys are used:
+        - "marginal_bw"
+        - "marginal_fill_alpha"
+        - "marginal_linewidth"
+        - "fill_color"
+        - "contour_color"
+    color : str or tuple, optional
+        Override colour for both filled area and line. If None, values
+        from `params["fill_color"]` and `params["contour_color"]` are used.
+
+    Returns
+    -------
+    ax_top : matplotlib.axes.Axes
+        The x marginal axes, updated with the marginal plot.
+    ax_right : matplotlib.axes.Axes
+        The y marginal axes, updated with the marginal plot.
+    """
     fill_color = color if color else params["fill_color"]
     contour_color = color if color else params["contour_color"]
 
@@ -341,6 +781,36 @@ def add_marginals(x, xi, y, yi, ax_top, ax_right, params, color=None):
 
 
 def get_category_order(params):
+    """
+    Determine the plotting order for categorical groups.
+
+    This helper is intended to build an ordered list of categories based on
+    a preferred order in `params["category_order"]`, falling back to the
+    natural (sorted) order of the underlying categorical variable.
+
+    Notes
+    -----
+    The implementation assumes the existence of a categorical Series
+    `cats` in the enclosing scope, with categories `cats.cat.categories`.
+    It then:
+
+    1. If `params["category_order"]` is not None, filters it to keep only
+       categories present in `cats.cat.categories` and keeps that order.
+    2. Appends any remaining categories from `cats.cat.categories` that
+       are not already in the filtered list.
+    3. Reorders `cats` using `cats.cat.reorder_categories(order, ordered=True)`.
+
+    Parameters
+    ----------
+    params : dict
+        Plot configuration dictionary. The following key is used:
+        - "category_order" : list or None
+
+    Returns
+    -------
+    order : list
+        Final list of category labels in plotting order.
+    """
     if params.get("category_order") is not None:
         order = [c for c in params["category_order"] if c in cats.cat.categories]
         order += [c for c in cats.cat.categories if c not in order]
