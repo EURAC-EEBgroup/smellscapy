@@ -18,8 +18,6 @@ def get_default_plot_params():
 
     Parameters
     ----------
-Axes and figure
-    ~~~~~~~~~~~~~~~
     xlim : tuple(float, float)
         Default x-axis limits (pleasantness), initialised to (-1, 1).
     ylim : tuple(float, float)
@@ -30,9 +28,6 @@ Axes and figure
         Label for the x-axis, default "Pleasantness".
     ylabel : str
         Label for the y-axis, default "Presence".
-
-    2D KDE contours
-    ~~~~~~~~~~~~~~~
     levels : int or array-like
         Number of contour bands or explicit boundary levels. By default,
         10 levels are used.
@@ -52,17 +47,11 @@ Axes and figure
         Default fill colour for filled areas.
     fill_alpha : float
         Opacity for filled regions (0–1).
-
-    Low-level exclusion
-    ~~~~~~~~~~~~~~~~~~~
     skip_low_levels : int
         Number of lowest-density bands to drop (0 means keep all).
     min_frac : float or None
         If set to a value in [0, 1], discard all contour levels below
         `min_frac * Z.max()`.
-
-    Central axes and diagonals
-    ~~~~~~~~~~~~~~~~~~~~~~~~~~
     axis_line_color : str
         Colour of the central horizontal and vertical axes (x=0, y=0).
     axis_line_style : str
@@ -75,9 +64,6 @@ Axes and figure
         Line style for diagonals.
     diag_width : float
         Line width for diagonals.
-
-    Grid and ticks
-    ~~~~~~~~~~~~~~
     xmajor_step, xminor_step : float
         Spacing for major and minor ticks on the x-axis.
     ymajor_step, yminor_step : float
@@ -88,16 +74,10 @@ Axes and figure
         Style dictionary for minor grid lines.
     minor_tick_length : float
         Length of minor tick marks; default 0 (invisible).
-
-    KDE grid and HDR
-    ~~~~~~~~~~~~~~~~
     eval_n : int
         Number of evaluation points per axis for the 2D KDE grid.
     hdr_p : float
         Probability mass of the high-density region (HDR), default 0.5.
-
-    Scatter points
-    ~~~~~~~~~~~~~~
     show_points : bool
         Whether to overlay individual data points.
     point_size : float
@@ -106,9 +86,6 @@ Axes and figure
         Transparency for scatter points.
     point_color : str or tuple
         Default colour for scatter points.
-
-    Grouping and colours
-    ~~~~~~~~~~~~~~~~~~~~
     group_by_col : str or None
         Name of the column used for categorical grouping.
     palette : dict, list, tuple or str
@@ -117,9 +94,6 @@ Axes and figure
         Legend location string (passed to Matplotlib).
     category_order : list or None
         Optional ordering of categories for plotting and legends.
-
-    Quadrant labels
-    ~~~~~~~~~~~~~~~
     show_quadrant_labels : bool
         Whether to show textual labels in the four quadrants.
     labels : dict
@@ -127,9 +101,6 @@ Axes and figure
         (e.g. "Overpowering", "Detached", etc.).
     labels_style : dict
         Text style for quadrant labels (fontsize, fontstyle, alpha, ...).
-
-    Marginal 1D densities
-    ~~~~~~~~~~~~~~~~~~~~~
     show_marginals : bool
         Whether to create axes and draw 1D KDE marginals.
     marginal_height_ratio : float
@@ -140,9 +111,6 @@ Axes and figure
         Opacity of 1D KDE filled regions.
     marginal_bw : float or None
         Bandwidth for 1D KDE; if None, GaussianKDE defaults are used.
-
-    Saving
-    ~~~~~~
     savefig : bool
         Flag indicating whether saving is expected downstream.
     dpi : int

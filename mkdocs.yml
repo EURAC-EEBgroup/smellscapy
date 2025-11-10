@@ -79,4 +79,7 @@ plugins:
             summary: true
           inventories:
             - "https://docs.python.org/3/objects.inv"
+  - include-markdown:
+      opening_tag: "{!"
+      closing_tag: "!}"
 

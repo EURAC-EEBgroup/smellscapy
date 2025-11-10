@@ -1,5 +1,5 @@
 This page provides a quick star guide of the core features of the SmellscaPy package to help you get started quickly.
-For a more detailed discussion of advanced functionalities — including step-by-step workflows, practical examples, and best practices — please refer to the **[User Guide](../user_guide/index.md)** and **[Tutorials](../tutorials/index.md)** sections.
+For a more detailed discussion of advanced functionalities — including step-by-step workflows, practical examples, and best practices — please refer to the **[Tutorials](../tutorials/index.md)** section.
 
 ## **Installation**
 You can install **SmellscaPy** from PyPI using `pip`:
@@ -28,8 +28,8 @@ import smellscapy as smpy
 ```
 
 ##  **Loading Example Data**
-SmellscaPy includes example datasets to help you explore its features right away.
-Use the `load_example_data()` function to load a **sample smellscape dataset**:
+SmellscaPy includes an example dataset to help you explore its features right away.
+Use the `load_example_data()` function to load the **sample smellscape dataset**:
 
 ```python
 # Load example dataset

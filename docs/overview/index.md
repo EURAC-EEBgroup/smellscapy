@@ -17,13 +17,14 @@ SmellscaPy is a Python library for **analysing** and **representing** **indoor s
 
 - **Data validation & preprocessing** of smellscape survey datasets  
 - **Computation of perceptual indicators** (i.e., pleasantness, presence)  
-- **Visualizations**: scatter plots, density plots, joint plots  
+- **Visualizations**: scatter plots, density plots, simplified density plots 
 - **Integration with the Python scientific stack** (Pandas, NumPy, Matplotlib)  
 - **Ready-to-use example datasets** for tutorials and testing   
 
 
 ## **Use Cases**
 SmellscaPy can be used to analyse and interpret perceptual data related to olfactory experiences across a wide range of research and application domains:
+
 - **Post-occupancy evaluation (POE) and Indoor Environmental Quality (IEQ) research**: to analyse and visualise subjective data on the impact of odours in built environments, supporting advanced analyses in post-occupancy studies and indoor comfort research.
 - **Material development and smell-oriented design**: to analyse perceptual feedback collected during the testing of materials with olfactory properties or during the evaluation of smell-oriented architectural solutions, facilitating research and development of sensory-integrated products.
 - **Cognitive science and environmental psychology**: to investigate affective responses to odours.

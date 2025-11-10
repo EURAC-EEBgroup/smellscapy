@@ -7,8 +7,8 @@ df = load_example_data()
 ```
 The example dataset includes the following columns:
 
-- **ResearcherID**: Unique identifier of the researcher  
-- **RecordID**: Unique participant ID
+- **StudyID**: Unique identifier of the study
+- **ParticipantID**: Unique participant ID
 - **LocationID**: Name of the city where the study was conducted
 - **pleasant**, **present**, **light**, **engaging**, **unpleasant**, **absent**, **overpowering**, **detached**: perceptual quality attributes
 

@@ -22,40 +22,41 @@ def plot_simple_density(df, **kwargs):
         `'pleasantness_score'` and `'presence_score'`.
 
     **kwargs : dict, optional** 
-        Additional keyword arguments to override default plotting parameters, including:
-        show_points : bool, optional
+        Additional keyword arguments to override default plotting parameters, including: 
+
+        - `show_points` : bool, optional
             If True, scatter points are drawn on top of the density.
-        point_size : float, optional
+        - `point_size` : float, optional
             Marker size for the scattered points.
-        point_alpha : float, optional
+        - `point_alpha` : float, optional
             Transparency of the scattered points (0-1).
-        point_color : str or tuple, optional
+        - `point_color` : str or tuple, optional
             Colour of the scattered points when no grouping is used.
-        eval_n : int, optional
+        - `eval_n` : int, optional
             Number of evaluation points per axis for the KDE grid.
-        xlim : tuple(float, float), optional
+        - `xlim` : tuple(float, float), optional
             Limits of the x-axis for KDE evaluation and plotting.
-        ylim : tuple(float, float), optional
+        - `ylim` : tuple(float, float), optional
             Limits of the y-axis for KDE evaluation and plotting.
-         group_by_col : str or None, optional
+        - `group_by_col` : str or None, optional
             Name of the column in ``df`` to be used as categorical grouping
             variable. If None or not present in ``df``, a single, global
             density is computed.
-        category_order : list, optional
+        - `category_order` : list, optional
             Explicit order of categories to use when plotting grouped
             densities and building the legend. Categories not listed here
             are appended at the end.
-        palette : dict or list, optional
+        - `palette` : dict or list, optional
             Categorical palette passed to
             ``ut.build_categorical_palette`` to map each category to a
             specific colour.
-        show_marginals : bool, optional
+        - `show_marginals` : bool, optional
             If True, 1D KDE marginals are plotted along the top (x) and
             right (y) axes.
-        legend_loc : str, optional
+        - `legend_loc` : str, optional
             Location of the legend when grouping is active (passed to
             ``Axes.legend``).
-        filename : str, optional
+        - `filename` : str, optional
             Output filename stored in the internal ``params`` dictionary.
             Default is ``"simple_density_plot.png"``. (The current function
             does not save the figure, but this parameter can be used by

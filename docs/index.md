@@ -3,7 +3,7 @@
 
 # **Welcome to SmellscaPy**
 
-[![PyPI version]](.......)
+[![PyPI version]](....)
 [![Documentation Status](...)](...)
 [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
 
@@ -15,7 +15,7 @@ It provides tools for **data validation, calculation of perceptual indices, and 
 
 - **Data validation & preprocessing** of smellscape survey datasets  
 - **Computation of perceptual indicators** (i.e., pleasantness, presence)  
-- **Visualizations**: scatter plots, density plots, joint plots  
+- **Visualizations**: scatter plots, density plots, simplified density plots  
 - **Integration with the Python scientific stack** (Pandas, NumPy, Matplotlib)  
 - **Ready-to-use example datasets** for tutorials and testing   
 
@@ -35,26 +35,23 @@ This [documentation](overview/index.md) is designed to help you understand and u
 ### **Tutorials**
 Practical examples showing how to use our project in real-world scenarios. For more information, please see the [Tutorials](tutorials/index.md) section.
 
-## **Web Application**
+<!-- ## **Web Application**
 
-A web app is available to use the library directly through an interface at the following [link]......
+A web app is available to use the library directly through an interface at the following [link]...... -->
 
 ## **License**
 
-This project is licensed under the BSD 3-Clause License. Please see [LICENSE](LICENCE) for licence guidelines.
+This project is licensed under the BSD 3-Clause License. Please see [LICENSE](license.md) for licence guidelines.
 
 ## **Contributing**
 
 If you would like to contribute or if you have any bugs you have found while using `SmellscaPy', please feel free to get in touch or submit an issue or pull request!
 
-Please see [CONTRIBUTING.md][CONTRIBUTING.md] for contribution guidelines.
-
-
 ## **Citation** 
 
-Please cite us if you use the _SmellscaPy_ library:
+Please cite us if you use the _SmellscaPy_ library: 
 
-...
+G. Torriani, R. Albatici, F. Babich, M. Vescovi, M. Zampini, S. Torresin, Developing a principal components model of indoor smellscape perception in office buildings, Build Environ 279 (2025) 113044. https://doi.org/10.1016/j.buildenv.2025.113044.
 
 
 
