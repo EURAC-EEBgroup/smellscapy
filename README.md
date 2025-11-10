@@ -61,13 +61,12 @@ Tutorials for using Smellscapy can be found in the [documentation](https://smell
 
 If you are using Smellscapy in your research, please help our scientific visibility by citing our work! Please include a citation to our accompanying paper:
 
-...
+
+G. Torriani, R. Albatici, F. Babich, M. Vescovi, M. Zampini, S. Torresin, Developing a principal components model of indoor smellscape perception in office buildings, Build Environ 279 (2025) 113044. https://doi.org/10.1016/j.buildenv.2025.113044.
 
 ## Contributing
 
 If you would like to contribute or if you have any bugs you have found while using `Smellscapy', please feel free to get in touch or submit an issue or pull request!
-
-Please see [CONTRIBUTING.md](CONTRIBUTING.md) for contribution guidelines.
 
 ## Licence
 This project is licensed under the BSD 3-Clause License. Please see [LICENSE](LICENCE) for licence guidelines.
