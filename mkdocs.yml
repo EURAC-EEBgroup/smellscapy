@@ -15,7 +15,6 @@ nav:
     - "Calculating Circumplex Coordinates": tutorials/calculating_pleasantness_presence_coordinates.md
     - "Visualisations": tutorials/visualizations.md
     - "Analysis" : tutorials/analysis.md
-    - "Full Project Example": tutorials/fullprojectexample.md
   - API Reference:
     - Data Example: reference/DataExample.md
     - Survey: reference/survey.md
