@@ -11,16 +11,17 @@ Research suggested that indoor smellscape perception can be measured using eight
 
 ## **What is SmellscaPy?**
 
-SmellscaPy is a Python library for **analysing** and **representing** **indoor smellscape perceptual data**. It provides simple functions for tasks that would otherwise require many lines of complex code. 
+**SmellscaPy** is a Python library for analysing and representing **indoor smellscape perceptual data**.  
+It provides tools for **data validation, calculation of perceptual indices, visualization, descriptive statistics and modelling** to support reproducible research in smellscape studies.
 
 ## **Key Features**
 
 - **Data validation & preprocessing** of smellscape survey datasets  
 - **Computation of perceptual indicators** (i.e., pleasantness, presence)  
-- **Visualizations**: scatter plots, density plots, simplified density plots 
+- **Visualizations**: scatter plots, density plots, simplified density plots, dynamic plots 
 - **Integration with the Python scientific stack** (Pandas, NumPy, Matplotlib)  
-- **Ready-to-use example datasets** for tutorials and testing   
-
+- **Ready-to-use example datasets** for tutorials and testing
+- **Analysis**: descriptive statistics and modelling
 
 ## **Use Cases**
 SmellscaPy can be used to analyse and interpret perceptual data related to olfactory experiences across a wide range of research and application domains:

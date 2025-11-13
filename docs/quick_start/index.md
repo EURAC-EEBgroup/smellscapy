@@ -1,5 +1,5 @@
 This page provides a quick star guide of the core features of the SmellscaPy package to help you get started quickly.
-For a more detailed discussion of advanced functionalities — including step-by-step workflows, practical examples, and best practices — please refer to the **[Tutorials](../tutorials/index.md)** section.
+For a more detailed discussion of functionalities and practical examples please refer to the **[Tutorials](../tutorials/index.md)** section.
 
 ## **Installation**
 You can install **SmellscaPy** from PyPI using `pip`:
@@ -58,7 +58,7 @@ df, excl_df = validate(df)
 ## **Calculations**
 Once your data has been validated, you can compute the key **perceptual indices** directly with SmellscaPy by employing the following functions:
 
-- `calculate_pleasantness()` – computes the èerceived **pleasantness** score of each smellscape observation  
+- `calculate_pleasantness()` – computes the perceived **pleasantness** score of each smellscape observation  
 - `calculate_presence()` – estimates the perceived **presence** score of each smellscape observation
 
 
@@ -81,11 +81,28 @@ Each function adds a new column to the DataFrame containing the calculated metri
 ![Circumplex Model2](simple_density.png)
 - `plot_density()` – visualises the full 2D density distribution of the dataset using KDE.Optionally, the plot can also include the scatter distribution and 1D KDE marginal distributions.
 ![Circumplex Model3](density.png)
+- `plot_dynamic()` – makes the simple density plot dynamic, showing the temporal evolution of perception over time.
 
 ```python
 # Generate Basic Visualisation
 plot_scatter(df)
 plot_simple_density(df)
 plot_density(df)
+
+# Generate Dynamic Visualisation
+plot_dynamic(df)
 ```
 **Tip**: Since all SmellscaPy plotting functions are built on matplotlib and seaborn, you can easily customise them by passing additional arguments or modifying the returned plot objects — for example, adjusting figure size, colour palettes, or adding annotations for publication-quality visuals.
+
+## **Analysis** 
+SmellscaPy includes a function for descriptive statistical analysis of computed Perceived Pleasantness and Presence values.
+`descriptive_statistics()` allows users to quantitatively explore the main characteristics of their smellscape datasets:
+
+- **Central tendency**: mean and median
+- **Dispersion** : variance, standard deviation, minimum, maximum, interquartile range, and coefficient of variation
+- **Distribution shape**:  skewness and kurtosis
+
+```python
+# Descriptive statistics of pleasantness and presence votes
+descriptive_statistics(df)
+```

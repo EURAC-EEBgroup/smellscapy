@@ -3,6 +3,7 @@ SmellscaPy provides the following functions for data visualisation:
 - `plot_scatter()` – creates a two-dimensional scatter plot that visualises the relationship between Pleasantness and Presence for each observation.
 - `plot_simple_density()` – displays a simplified 2D Kernel Density Estimation (KDE) density plot using only the 50th percentile contour of the distribution. Optionally, the plot can also include the scatter distribution and 1D KDE marginal distributions.
 - `plot_density()` – visualises the full 2D density distribution of the dataset using KDE.Optionally, the plot can also include the scatter distribution and 1D KDE marginal distributions.
+- `plot_dynamic()` – makes the simple density plot dynamic, showing the temporal evolution of perception over time.
 
 Since all SmellscaPy plotting functions are built on matplotlib and seaborn, you can easily customise them by passing additional arguments or modifying the returned plot objects — for example, adjusting figure size, colour palettes, or adding annotations for publication-quality visuals.
 
@@ -94,3 +95,6 @@ plot_simple_density(
 )
 ```
 ![plot10](plot10.png)
+
+## **Plot dynamics**
+This function creates a visualisation with:

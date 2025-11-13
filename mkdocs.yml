@@ -25,8 +25,8 @@ nav:
       - Density: reference/plotting/density.md
       - Simple density: reference/plotting/simple_density.md
       - Utils: reference/plotting/utils.md
-    - Analysis:
-      - Descriptive analysis: reference/analysis/descriptive_analysis.md
+    - Analysis: 
+      - Descriptive analysis : reference/descriptive_analysis.md
   - Changelog: changelog/index.md
   - Aknowledgments: aknowledgments/index.md
   - Citation: citation/index.md
