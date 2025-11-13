@@ -6,16 +6,17 @@
 [![Documentation Status]](...)
 [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
 
-**Smellscapy** is a Python library for analysing and representing **indoor smellscape perceptual data**.  
-It provides tools for **data validation, calculation of perceptual indices, and visualization** to support reproducible research in sensory and environmental studies.
+**SmellscaPy** is a Python library for analysing and representing **indoor smellscape perceptual data**.  
+It provides tools for **data validation, calculation of perceptual indices, visualization, descriptive statistics and modelling** to support reproducible research in smellscape studies.
 
 ## Features
 
 - **Data validation & preprocessing** of smellscape survey datasets  
 - **Computation of perceptual indicators** (i.e., pleasantness, presence)  
-- **Visualizations**: scatter plots, density plots, joint plots  
+- **Visualizations**: scatter plots, density plots, simplified density plots, dynamic plots 
 - **Integration with the Python scientific stack** (Pandas, NumPy, Matplotlib)  
-- **Ready-to-use example datasets** for tutorials and testing  
+- **Ready-to-use example datasets** for tutorials and testing
+- **Analysis**: descriptive statistics and modelling
 
 ## Installation
 
@@ -51,8 +52,11 @@ df = calculate_presence(df)
 # Visualization
 plot_scatter(df)
 plot_simple_density(df)
-plot_joint(df)
 plot_density(df)
+plot_dynamic(df)
+
+#Analysis
+s = descriptive_statistics(df)
 ```
 
 Tutorials for using Smellscapy can be found in the [documentation](https://smellscapy.readthedocs.io/en/latest/).
@@ -70,3 +74,9 @@ If you would like to contribute or if you have any bugs you have found while usi
 
 ## Licence
 This project is licensed under the BSD 3-Clause License. Please see [LICENSE](LICENCE) for licence guidelines.
+
+## Aknowledgment
+The smellscape-representation methods implemented in the plotting functions of SmellscaPy are derived and adapted from the probabilistic soundscape framework described in the publication by Andrew Mitchell et al. [[1]](#ref1) and implemented in the Soundscapy open-source library (c) 2025, Andrew Mitchell All rights reserved.
+We gratefully acknowledge the authors of Soundscapy for their conceptual and methodological foundation, which significantly informed the development of the smellscape visualisation tools in this project.
+
+1. <a name="ref1"></a> Mitchell, A., Aletta, F., & Kang, J. (2022). How to analyse and represent quantitative soundscape data. _JASA Express Letters, 2_, 37201.

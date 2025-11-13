@@ -29,6 +29,7 @@ nav:
       - Descriptive analysis: reference/analysis/descriptive_analysis.md
   - Changelog: changelog/index.md
   - Aknowledgments: aknowledgments/index.md
+  - Citation: citation/index.md
 
 
 theme:
