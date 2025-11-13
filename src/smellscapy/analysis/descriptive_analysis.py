@@ -1,6 +1,6 @@
 import pandas as pd
 
-def descriptive_statistics (df : pd.DataFrame, group_by_col=None):
+def descriptive_statistics (df, group_by_col=None):
     """
     Generate descriptive statistics.
 
@@ -23,7 +23,7 @@ def descriptive_statistics (df : pd.DataFrame, group_by_col=None):
 
     Returns
     -------
-    DataFrame
+    s : DataFrame
         Summary statistics of the DataFrame provided.
 
 
@@ -35,7 +35,6 @@ def descriptive_statistics (df : pd.DataFrame, group_by_col=None):
     >>> df = load_example_data()
     >>> df,_ = validate(df)
     >>> s = descriptive_statistics(df)
-
             pleasantness_score  presence_score
     count              39.000000       39.000000
     mean                0.090199       -0.001022
@@ -54,7 +53,6 @@ def descriptive_statistics (df : pd.DataFrame, group_by_col=None):
     skewness            0.056743       -0.453332
     kurtosis            1.584875       -0.471179   
     
-    dtype: float64
 
     """
 
