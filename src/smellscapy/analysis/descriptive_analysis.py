@@ -27,7 +27,7 @@ def descriptive_statistics (df, group_by_col=None):
         Summary statistics of the DataFrame provided.
 
 
-    Example
+    Examples
     --------
 
     >>> from smellscapy.databases.DataExample import load_example_data
