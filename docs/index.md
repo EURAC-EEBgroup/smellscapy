@@ -20,6 +20,12 @@ It provides tools for **data validation, calculation of perceptual indices, visu
 - **Ready-to-use example datasets** for tutorials and testing
 - **Analysis**: descriptive statistics and modelling
 
+<iframe src="plot_dynamic_example.html"
+        width="100%"
+        height="600"
+        style="border:none;">
+</iframe>
+
 
 ## **Installation**
 
