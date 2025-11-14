@@ -83,6 +83,12 @@ Each function adds a new column to the DataFrame containing the calculated metri
 ![Circumplex Model3](density.png)
 - `plot_dynamic()` – makes the simple density plot dynamic, showing the temporal evolution of perception over time.
 
+<iframe src="plot_dynamic_example.html"
+        width="100%"
+        height="600"
+        style="border:none;">
+</iframe>
+
 ```python
 # Generate Basic Visualisation
 plot_scatter(df)
