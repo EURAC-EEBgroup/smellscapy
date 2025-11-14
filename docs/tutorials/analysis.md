@@ -57,3 +57,4 @@ s = descriptive_statistics (df, group_by_col="Smell source")
 | **variance** | 0.0200       | 0.0205    | Cleaning products |
 | **skewness** | 0.3948       | -0.2815   | Cleaning products |
 | **kurtosis** | -0.0680      | -0.6162   | Cleaning products |
+| ...          | ...          | ...       | ...               |
