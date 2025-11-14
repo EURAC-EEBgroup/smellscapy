@@ -4,6 +4,7 @@ import numpy as np
 from scipy.stats import gaussian_kde
 import matplotlib as mpl
 import matplotlib.pyplot as plt
+import pandas as pd
 
 
 
@@ -196,8 +197,35 @@ def get_default_plot_params():
 
         "savefig": True,
         "dpi": 300,
+
+        "time_col": None
+
     }
 
+    return params
+
+def get_default_dynamic_plot_params():
+    params = {
+        "group_by_col": None,
+        "frame_order": None,
+        "eval_n": 120,
+        "xlim": (-1.0, 1.0),
+        "ylim": (-1.0, 1.0),
+        "point_size": 6,
+        "point_alpha": 0.6,
+        "palette": None,
+        "write_html": None,
+        "show": True,
+        "auto_open": False,
+        "show_quadrant_labels": True,
+        "labels": {
+            "overpowering": {"pos": (-0.5,  0.5), "text": "Overpowering"},
+            "detached":     {"pos": (-0.5, -0.5), "text": "Detached"},
+            "engaging":     {"pos": ( 0.5,  0.5), "text": "Engaging"},
+            "light":        {"pos": ( 0.5, -0.5), "text": "Light"},
+        },
+        "labels_style": {"fontsize": 10, "fontstyle": "italic", "alpha": 0.7},
+    }
     return params
 
 
@@ -789,3 +817,70 @@ def get_category_order(params):
 
     return order
 
+
+def order_values_for_frames(s: pd.Series, order_override=None):
+    """
+    Restituisce l'ordine dei valori da usare per gli slider dei frame.
+    
+    Comportamento:
+    - Se l'utente fornisce un ordine esplicito tramite `order_override`,
+      quello viene usato (dopo filtraggio dei valori presenti).
+    - Se la serie è datetime → ordine cronologico crescente.
+    - Altrimenti → ordine di prima apparizione nella serie.
+    """
+    
+    # Se l'utente fornisce un ordine esplicito nei kwargs
+    if order_override is not None:
+        # Prendi i valori unici nella serie
+        unique_vals = list(pd.Series(s.dropna().unique()))
+
+        # Mantieni solo quelli presenti sia nella serie che nell'ordine utente
+        ordered = [v for v in order_override if v in unique_vals]
+
+        # Aggiungi eventuali valori presenti nella serie ma mancanti nell'override
+        missing = [v for v in unique_vals if v not in ordered]
+
+        return ordered + missing
+    
+    # Caso datetime → ordina crescente
+    if pd.api.types.is_datetime64_any_dtype(s):
+        return list(pd.Series(s.dropna().unique()).sort_values())
+    
+    # Caso generico → ordine di apparizione
+    seen = []
+    for v in s:
+        if pd.notna(v) and v not in seen:
+            seen.append(v)
+    return seen
+
+
+
+def _hdr_level(z: np.ndarray, p: float = 0.5) -> float:
+    """
+    Return density threshold 't' such that the integral over {z >= t} ≈ p
+    of the total mass (discrete approximation).
+    """
+    if z is None:
+        return np.nan
+
+    flat = np.asarray(z, dtype=float).ravel()
+    # tieni solo valori finiti
+    flat = flat[np.isfinite(flat)]
+
+    if flat.size == 0 or np.all(flat == 0):
+        return np.nan
+
+    order = np.argsort(flat)[::-1]
+    z_sorted = flat[order]
+
+    cum = np.cumsum(z_sorted)
+    total = cum[-1]
+    if total == 0 or not np.isfinite(total):
+        return np.nan
+
+    cum /= total
+    idx = np.searchsorted(cum, p)
+    idx = min(idx, z_sorted.size - 1)
+
+    level = z_sorted[idx]
+    return float(level)
