@@ -23,6 +23,7 @@ nav:
       - Scatter: reference/plotting/scatter.md
       - Density: reference/plotting/density.md
       - Simple density: reference/plotting/simple_density.md
+      - Dynamic : reference/plotting/dynamic.md
       - Utils: reference/plotting/utils.md
     - Analysis: 
       - Descriptive analysis : reference/analysis/descriptive_analysis.md
