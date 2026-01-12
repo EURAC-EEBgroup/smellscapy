@@ -2,6 +2,9 @@ site_name: SmellscaPy
 site_url: https://mydomain.org/mysite
 copyright: Copyright &copy; 2025 Giulia Torriani & Olga Somova, Eurac Research
 site_dir: site
+repo_url: "https://github.com/EURAC-EEBgroup/smellscapy"
+repo_name: "SmellscaPy"
+ 
 
 
 nav:

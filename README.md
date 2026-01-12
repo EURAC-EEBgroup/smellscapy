@@ -16,7 +16,7 @@ It provides tools for **data validation, calculation of perceptual indices, visu
 - **Visualizations**: scatter plots, density plots, simplified density plots, dynamic plots 
 - **Integration with the Python scientific stack** (Pandas, NumPy, Matplotlib)  
 - **Ready-to-use example datasets** for tutorials and testing
-- **Analysis**: descriptive statistics and modelling
+- **Analysis**: descriptive statistics
 
 ## Installation
 
@@ -56,7 +56,7 @@ plot_density(df)
 plot_dynamic(df)
 
 #Analysis
-s = descriptive_statistics(df)
+df_stat = descriptive_statistics(df)
 ```
 
 Tutorials for using Smellscapy can be found in the [documentation](https://smellscapy.readthedocs.io/en/latest/).
