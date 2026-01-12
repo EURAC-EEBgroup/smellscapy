@@ -34,13 +34,13 @@ It loads the data, validates it, computes perceptual indicators, and generates s
 
 ```python
 from smellscapy.surveys import validate
-from smellscapy.databases.DataExample import load_example_data
+from smellscapy.databases.DataExample import load_example_data_Eurac
 from smellscapy.calculations import calculate_pleasantness, calculate_presence
 from smellscapy.plotting.scatter import plot_scatter
 from smellscapy.plotting.simple_density import plot_simple_density
 
 # Load example dataset
-df = load_example_data()
+df = load_example_data_Eurac()
 
 # Validate data
 df, excl_df = validate(df)

@@ -1,12 +1,8 @@
-SmellscaPy provides two functions for **statistical data analysis** of the **pleasantness** and **presence** score of a provided DataFrame.
+SmellscaPy provides a function for **statistical data analysis** of the **pleasantness** and **presence** score of a provided DataFrame.
 
 ```python
 # Descriptive statistics
 df = descriptive_statistics(df)
-
-# Linear Mixed Model (LMM)
-df = lmm_pleasantness(df)
-df = lmm_presence(df)
 ```
 ## **Descriptive statistics**
 

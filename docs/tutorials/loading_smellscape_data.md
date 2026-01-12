@@ -1,26 +1,21 @@
 ## **Loading example data**
-An **example dataset** is included with SmellscaPy to help you explore its features right away. Use the `load_example_data()` function to load the example dataset:
+
+
+Two **example datasets** are included with SmellscaPy to allow users to explore the package’s functionalities immediately. 
+**DataExample_Eurac.csv** contains data collected by Eurac Research from 17 participants through a repeated questionnaire campaign conducted in an office building in Bolzano (Italy) between May and September 2025, and can be loaded using the `load_example_data_Eurac()` function. 
+**DataExample_Measure2_Unitn.csv** refers to a controlled laboratory olfactory experiment involving 35 participants, carried out within the MEASURE 2.0 project at the University of Trento (Italy), and can be loaded using the `load_example_data_Measure2_Unitn()` function. 
+
 
 ```python
 # Load example dataset
-df = load_example_data()
+df = load_example_data_Eurac()
+#or
+df = load_example_Measure2_Unitn()
 ```
-The example dataset includes the following columns:
+Both datasets contain both mandatory and optional variables. The mandatory columns are:
 
-- **StudyID**: Unique identifier of the study
-- **ParticipantID**: Unique participant ID
-- **LocationID**: Name of the city where the study was conducted
 - **pleasant**, **present**, **light**, **engaging**, **unpleasant**, **absent**, **overpowering**, **detached**: perceptual quality attributes
 
-In addition, the dataset containes several optional variables:
-
-- **How long have you been in your office without leaving?** – Duration of continuous stay in the office
-- **How many people are currently present in your office room?** – Number of people sharing the same office
-- **How would you rate your current mood?** – Self-reported mood
-- **In this moment, how productive do you feel?** – Self-reported productivity
-- **Smell source** – Dominant category of perceived smell source
-
-These data were collected in **Bolzano, Italy**, during an office-based experimental campaign in 2025 involving **17 participants**.
 
 ```python
 # Display basic information about the example dataset
@@ -39,9 +34,6 @@ my_data = pd.read_csv('path/to/your/data.csv')
 
 To use smellscapy, your input dataset must contain the following mandatory columns:
 
-- **ResearcherID**
-- **RecordID**
-- **LocationID**
 - **pleasant**, **present**, **light**, **engaging**, **unpleasant**, **absent**, **overpowering**, **detached**
 
 Make sure that the column names match exactly as listed above. If your dataset uses different names, you will need to **rename the columns** before using SmellscaPy.

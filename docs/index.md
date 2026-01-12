@@ -9,7 +9,7 @@
 
 
 **SmellscaPy** is a Python library for analysing and representing **indoor smellscape perceptual data**.  
-It provides tools for **data validation, calculation of perceptual indices, visualization, descriptive statistics and modelling** to support reproducible research in smellscape studies.
+It provides tools for **data validation, calculation of perceptual indices, visualization, descriptive statistics** to support reproducible research in smellscape studies.
 
 ## **Key Features**
 
@@ -18,7 +18,7 @@ It provides tools for **data validation, calculation of perceptual indices, visu
 - **Visualizations**: scatter plots, density plots, simplified density plots, dynamic plots 
 - **Integration with the Python scientific stack** (Pandas, NumPy, Matplotlib)  
 - **Ready-to-use example datasets** for tutorials and testing
-- **Analysis**: descriptive statistics and modelling
+- **Analysis**: descriptive statistics
 
 <iframe src="plot_dynamic_example.html"
         width="100%"

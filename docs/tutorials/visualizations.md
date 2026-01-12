@@ -85,6 +85,7 @@ You can customise almost everything in the plot by passing keyword arguments whe
 #Basic visualisation
 plot_density(df)
 ```
+
 ![density](density.png)
 
 ```python
@@ -97,4 +98,31 @@ plot_simple_density(
 ![plot10](plot10.png)
 
 ## **Plot dynamics**
-This function creates a visualisation with:
+This function creates a visualisation with an **animated 50% Highest Density Region (HDR) plot** in the Pleasantness-Presence space, based on **time-varying** survey data.
+
+This function computes a kernel density estimation (KDE) for each time step defined in `time_col`, builds the corresponding 50% HDR contour, and assembles all frames into an **interactive Plotly animation**. If a grouping column is provided, separate HDR contours are  generated per category with a stable colour map across frames.
+
+Plot appearance, animation behaviour, KDE resolution, colours, axis limits, annotations, and output options can be customised through `**kwargs`.
+
+```python
+#Basic visualisation
+plot_dynamic(df)
+```
+<iframe src="../plot_dynamic_example_2.html"
+        width="100%"
+        height="600"
+        style="border:none;">
+</iframe>
+
+```python
+#Grouping
+plot_dynamic(
+    df,
+    group_col="Smell source"
+)
+```
+<iframe src="../plot_dynamic_example.html"
+        width="100%"
+        height="600"
+        style="border:none;">
+</iframe>

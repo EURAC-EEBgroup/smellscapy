@@ -9,31 +9,28 @@ pip install smellscapy
 ```
 Requires **Python 3.12.9+**.
 
-## **Required packages**
+## **Used packages**
 SmellscaPy builds upon several widely used Python libraries for data science and visualisation:
 
 - **pandas** – data pre-processing and analysis  
 - **numpy** – numerical operations  
 - **matplotlib** – core data visualisation  
 - **seaborn** – advanced statistical visualisation  
-- **smellscapy** – core smellscape analysis functions
 
 ```python
-# Import the necessary packages
-import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sns
+# Import the necessary package
 import smellscapy as smpy
 ```
 
 ##  **Loading Example Data**
-SmellscaPy includes an example dataset to help you explore its features right away.
-Use the `load_example_data()` function to load the **sample smellscape dataset**:
+SmellscaPy includes two example datasets to help you explore its features right away.
+Use the `load_example_data_Eurac()` or `load_example_data_Measure2_Unitn()` functions to load the **sample smellscape datasets**:
 
 ```python
 # Load example dataset
-df = load_example_data()
+df = load_example_data_Eurac()
+#or
+df = load_example_data_Measure2_Unitn()
 ```
 
 ## **Data validation**
