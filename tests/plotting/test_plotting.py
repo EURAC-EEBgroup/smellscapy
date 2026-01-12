@@ -7,7 +7,7 @@ from unittest.mock import patch
 # from pytest_image_snapshot import image_snapshot
 
 
-from smellscapy.databases.DataExample import load_example_data
+from smellscapy.databases.DataExample import load_example_data_Eurac
 from smellscapy.surveys import validate
 from smellscapy.calculations import calculate_pleasantness, calculate_presence
 
@@ -20,7 +20,7 @@ from smellscapy.plotting.simple_density import plot_simple_density
 def processed_df():
     """Load example data dataframe and perform calculations."""
 
-    df = load_example_data()
+    df = load_example_data_Eurac()
     df, _ = validate(df)
 
     df = calculate_pleasantness(df)

@@ -36,11 +36,11 @@ def plot_scatter(df, **kwargs):
     Examples
     --------
         >>> import pandas as pd
-        >>> from smellscapy.databases.DataExample import load_example_data
+        >>> from smellscapy.databases.DataExample import load_example_data_Eurac
         >>> from smellscapy.surveys import validate
         >>> from smellscapy.calculations import calculate_presence, calculate_pleasantness
         >>> from smellscapy.plotting import plot_scatter
-        >>> df = load_example_data()
+        >>> df = load_example_data_Eurac()
         >>> df, excl_df = validate(df)
         >>> df = calculate_presence(df)
         >>> df = calculate_pleasantness(df)

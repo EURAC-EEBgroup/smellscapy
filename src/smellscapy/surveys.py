@@ -66,9 +66,9 @@ def validate(
     --------
 
     >>> import pandas as pd
-    >>> from smellscapy.databases.DataExample import load_example_data
+    >>> from smellscapy.databases.DataExample import load_example_data_Eurac
     >>> from smellscapy.surveys import validate
-    >>> df = load_example_data()
+    >>> df = load_example_data_Eurac()
     >>> df, excl_df = validate(df) # passes without error
 
     """

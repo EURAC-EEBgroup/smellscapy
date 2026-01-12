@@ -30,9 +30,9 @@ def descriptive_statistics (df, group_by_col=None):
     Examples
     --------
 
-    >>> from smellscapy.databases.DataExample import load_example_data
+    >>> from smellscapy.databases.DataExample import load_example_data_Eurac
     >>> from smellscapy.surveys import validate
-    >>> df = load_example_data()
+    >>> df = load_example_data_Eurac()
     >>> df,_ = validate(df)
     >>> s = descriptive_statistics(df)
             pleasantness_score  presence_score

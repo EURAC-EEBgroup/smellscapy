@@ -1,6 +1,6 @@
 import pytest
 
-from smellscapy.databases.DataExample import load_example_data
+from smellscapy.databases.DataExample import load_example_data_Eurac
 from smellscapy.surveys import (
     ATTRIBUTES_COLUMN_NAMES
 )
@@ -10,7 +10,7 @@ from smellscapy.surveys import (
 class TestDataExample:
 
     def test_load_example_data(self):
-        df = load_example_data()
+        df = load_example_data_Eurac()
 
         assert df.shape == (482, 16) 
         assert all([col in df.columns for col in ATTRIBUTES_COLUMN_NAMES])
