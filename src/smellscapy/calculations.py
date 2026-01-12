@@ -78,3 +78,6 @@ def calculate_presence(df: pd.DataFrame):
         ) * WEIGHT
     )
 
+
+
+

@@ -1,0 +1,483 @@
+﻿StudyID;ParticipantID;LocationID;pleasant;present;light;engaging;unpleasant;absent;overpowering;detached;How long have you been in your office without leaving?;How many people are currently present in your office room?;How would you rate your current mood?;In this moment, how productive do you feel?;Smell source
+S1;P_12;Bolzano;3;3;3;2;3;4;3;4;Less than 3 minutes;3;Bad;Unproductive;No smell
+S1;P_15;Bolzano;3;3;3;3;3;3;3;3;31-60 minutes;2;Neutral;Productive;No smell
+S1;P_11;Bolzano;5;3;3;4;1;3;1;1;3-30 minutes;2;Neutral;Slighlty productive;No smell
+S1;P_16;Bolzano;3;2;5;2;2;4;2;3;31-60 minutes;2;Neutral;Productive;Green elements
+S1;P_11;Bolzano;5;3;3;4;1;3;1;1;3-30 minutes;1;Neutral;Slighlty productive;No smell
+S1;P_01;Bolzano;3;2;2;2;2;4;1;4;61-120 minutes;1;Neutral;Unproductive;No smell
+S1;P_01;Bolzano;4;4;4;2;2;4;1;5;61-120 minutes;1;Neutral;Slightly unproductive;No smell
+S1;P_01;Bolzano;4;4;4;5;2;2;2;2;3-30 minutes;1;Good;Slighlty productive;Edible food
+S1;P_01;Bolzano;3;2;3;2;2;4;1;5;61-120 minutes;1;Good;Slightly unproductive;No smell
+S1;P_11;Bolzano;5;3;3;4;1;3;1;1;61-120 minutes;2;Neutral;Slighlty productive;No smell
+S1;P_11;Bolzano;5;3;3;4;1;3;1;1;61-120 minutes;2;Neutral;Slighlty productive;No smell
+S1;P_11;Bolzano;5;3;3;3;1;3;3;1;61-120 minutes;2;Neutral;Slighlty productive;No smell
+S1;P_12;Bolzano;3;3;3;2;2;4;2;4;61-120 minutes;1;Bad;Unproductive;No smell
+S1;P_16;Bolzano;4;2;4;3;1;4;2;3;31-60 minutes;3;Neutral;Slighlty productive;Green elements
+S1;P_11;Bolzano;4;3;3;3;1;3;1;1;61-120 minutes;2;Neutral;Slighlty productive;No smell
+S1;P_11;Bolzano;5;3;3;4;1;3;1;1;31-60 minutes;2;Neutral;Slighlty productive;No smell
+S1;P_16;Bolzano;5;2;4;2;1;4;2;2;31-60 minutes;2;Neutral;Productive;Green elements
+S1;P_16;Bolzano;5;2;4;2;2;4;2;2;31-60 minutes;2;Neutral;Productive;Green elements
+S1;P_16;Bolzano;4;2;4;2;2;4;2;3;31-60 minutes;1;Neutral;Productive;Green elements
+S1;P_11;Bolzano;5;3;3;4;1;3;1;1;31-60 minutes;3;Neutral;Slighlty productive;No smell
+S1;P_12;Bolzano;2;2;3;2;2;4;2;4;More than 2 hours;1;Bad;Slighlty productive;No smell
+S1;P_11;Bolzano;4;3;3;3;1;3;1;1;61-120 minutes;4;Neutral;Slighlty productive;No smell
+S1;P_16;Bolzano;5;2;5;2;1;4;2;2;31-60 minutes;2;Neutral;Productive;Green elements
+S1;P_11;Bolzano;4;3;3;3;1;3;1;1;31-60 minutes;4;Neutral;Slighlty productive;No smell
+S1;P_11;Bolzano;4;3;3;3;1;3;1;1;61-120 minutes;3;Neutral;Slighlty productive;No smell
+S1;P_12;Bolzano;2;2;2;2;2;4;2;4;3-30 minutes;3;Neutral;Slightly unproductive;No smell
+S1;P_16;Bolzano;4;2;4;2;2;4;2;2;61-120 minutes;1;Neutral;Productive;Green elements
+S1;P_11;Bolzano;5;3;3;4;1;3;1;1;31-60 minutes;2;Neutral;Slighlty productive;No smell
+S1;P_16;Bolzano;3;2;4;2;2;4;2;3;61-120 minutes;1;Neutral;Productive;No smell
+S1;P_16;Bolzano;4;2;4;3;2;4;2;3;31-60 minutes;1;Neutral;Productive;No smell
+S1;P_16;Bolzano;4;2;4;2;2;4;2;3;61-120 minutes;1;Neutral;Productive;Green elements
+S1;P_11;Bolzano;5;3;3;4;1;3;1;1;61-120 minutes;1;Neutral;Slighlty productive;No smell
+S1;P_11;Bolzano;4;3;3;4;1;3;1;1;31-60 minutes;2;Neutral;Slighlty productive;No smell
+S1;P_11;Bolzano;5;3;3;3;1;3;1;1;31-60 minutes;3;Neutral;Slighlty productive;No smell
+S1;P_12;Bolzano;2;2;3;2;2;3;2;4;More than 2 hours;2;Good;Productive;No smell
+S1;P_12;Bolzano;3;2;4;2;2;2;2;4;61-120 minutes;3;Neutral;Slightly unproductive;Green elements
+S1;P_11;Bolzano;5;3;3;4;1;3;1;1;31-60 minutes;3;Neutral;Slighlty productive;No smell
+S1;P_16;Bolzano;4;2;4;3;2;4;2;3;More than 2 hours;2;Neutral;Productive;Green elements
+S1;P_11;Bolzano;5;3;3;3;1;3;1;1;31-60 minutes;3;Neutral;Neither unproductive nor productive;No smell
+S1;P_16;Bolzano;4;2;4;2;2;4;2;3;31-60 minutes;2;Neutral;Productive;Green elements
+S1;P_11;Bolzano;5;1;3;3;1;3;1;1;3-30 minutes;3;Neutral;Neither unproductive nor productive;No smell
+S1;P_11;Bolzano;5;1;3;3;1;3;1;1;61-120 minutes;3;Neutral;Slighlty productive;No smell
+S1;P_16;Bolzano;3;2;5;3;2;4;2;3;31-60 minutes;2;Neutral;Productive;Green elements
+S1;P_11;Bolzano;3;1;3;2;4;3;2;3;31-60 minutes;3;Neutral;Slighlty productive;Body odours
+S1;P_16;Bolzano;4;2;4;3;2;4;2;4;31-60 minutes;1;Neutral;Productive;Green elements
+S1;P_11;Bolzano;5;1;1;4;1;3;1;1;More than 2 hours;1;Neutral;Slighlty productive;No smell
+S1;P_11;Bolzano;5;1;5;4;1;1;1;1;61-120 minutes;1;Neutral;Slighlty productive;No smell
+S1;P_11;Bolzano;5;1;5;4;1;5;1;1;61-120 minutes;1;Good;Productive;No smell
+S1;P_11;Bolzano;5;1;5;3;1;5;1;3;Less than 3 minutes;1;Good;Slighlty productive;No smell
+S1;P_12;Bolzano;3;3;3;1;2;3;1;4;3-30 minutes;2;Neutral;Neither unproductive nor productive;No smell
+S1;P_12;Bolzano;3;4;4;3;3;3;2;4;31-60 minutes;1;Good;Productive;No smell
+S1;P_16;Bolzano;4;3;4;3;2;4;2;3;31-60 minutes;1;Neutral;Productive;Green elements
+S1;P_16;Bolzano;5;2;4;3;1;4;3;3;More than 2 hours;2;Neutral;Productive;Green elements
+S1;P_16;Bolzano;5;3;5;3;1;4;2;3;31-60 minutes;2;Neutral;Productive;Green elements
+S1;P_12;Bolzano;5;3;4;2;2;2;2;4;Less than 3 minutes;3;Good;Slighlty productive;Cleaning products
+S1;P_16;Bolzano;3;3;4;2;3;4;2;3;31-60 minutes;1;Good;Productive;Green elements
+S1;P_15;Bolzano;3;3;3;2;2;3;2;2;61-120 minutes;3;Good;Productive;No smell
+S1;P_16;Bolzano;4;2;4;3;2;4;2;3;31-60 minutes;2;Good;Productive;No smell
+S1;P_15;Bolzano;3;3;3;2;2;4;1;2;31-60 minutes;2;Good;Productive;No smell
+S1;P_16;Bolzano;5;3;3;3;1;4;3;4;31-60 minutes;2;Neutral;Productive;Green elements
+S1;P_15;Bolzano;3;4;4;2;2;2;2;2;61-120 minutes;1;Neutral;Neither unproductive nor productive;No smell
+S1;P_15;Bolzano;4;4;4;2;1;4;1;4;3-30 minutes;1;Good;Productive;No smell
+S1;P_11;Bolzano;5;3;3;3;1;3;1;1;3-30 minutes;1;Neutral;Slightly unproductive;No smell
+S1;P_11;Bolzano;3;3;3;2;4;3;1;4;61-120 minutes;3;Neutral;Slighlty productive;Body odours
+S1;P_11;Bolzano;5;1;5;3;1;3;1;1;3-30 minutes;1;Neutral;Slighlty productive;No smell
+S1;P_11;Bolzano;4;3;4;3;2;3;2;1;61-120 minutes;3;Neutral;Slighlty productive;Body odours
+S1;P_11;Bolzano;5;1;3;3;1;5;1;1;61-120 minutes;1;Neutral;Neither unproductive nor productive;No smell
+S1;P_11;Bolzano;5;1;4;3;1;5;1;1;3-30 minutes;1;Good;Slighlty productive;No smell
+S1;P_11;Bolzano;4;1;3;3;1;5;1;1;61-120 minutes;2;Good;Slighlty productive;No smell
+S1;P_11;Bolzano;3;3;4;2;1;4;1;3;31-60 minutes;2;Good;Slighlty productive;No smell
+S1;P_04;Bolzano;2;3;4;2;2;2;1;5;31-60 minutes;3;Good;Productive;Stationery
+S1;P_15;Bolzano;4;4;4;2;2;3;1;2;3-30 minutes;3;Good;Productive;No smell
+S1;P_01;Bolzano;4;2;4;4;2;4;2;3;31-60 minutes;3;Neutral;Slightly unproductive;No smell
+S1;P_01;Bolzano;4;1;3;4;1;4;1;3;3-30 minutes;3;Good;Slighlty productive;No smell
+S1;P_13;Bolzano;2;2;3;1;2;4;1;4;31-60 minutes;2;Neutral;Unproductive;No smell
+S1;P_13;Bolzano;2;2;3;1;1;3;1;3;3-30 minutes;2;Neutral;Slighlty productive;No smell
+S1;P_13;Bolzano;3;2;4;1;1;4;1;3;31-60 minutes;2;Neutral;Neither unproductive nor productive;No smell
+S1;P_13;Bolzano;2;2;4;1;1;4;1;3;3-30 minutes;2;Good;Very productive;No smell
+S1;P_13;Bolzano;3;2;4;1;1;4;1;3;Less than 3 minutes;3;Good;Slighlty productive;No smell
+S1;P_14;Bolzano;3;3;3;3;3;3;3;3;61-120 minutes;1;Good;Slighlty productive;No smell
+S1;P_14;Bolzano;3;3;3;3;3;3;3;3;3-30 minutes;1;Good;Productive;No smell
+S1;P_13;Bolzano;3;2;4;1;1;4;1;3;31-60 minutes;2;Neutral;Slightly unproductive;No smell
+S1;P_14;Bolzano;3;3;3;3;3;3;3;3;More than 2 hours;2;Neutral;Slighlty productive;No smell
+S1;P_13;Bolzano;3;2;3;1;1;3;1;2;3-30 minutes;2;Good;Slighlty productive;No smell
+S1;P_14;Bolzano;3;3;3;3;3;3;3;3;3-30 minutes;1;Neutral;Productive;No smell
+S1;P_13;Bolzano;2;2;4;1;1;4;1;4;Less than 3 minutes;2;Good;Slighlty productive;No smell
+S1;P_13;Bolzano;3;3;2;1;1;3;1;3;31-60 minutes;2;Good;Productive;No smell
+S1;P_13;Bolzano;2;4;2;4;4;2;3;1;Less than 3 minutes;2;Good;Slighlty productive;Body odours
+S1;P_14;Bolzano;3;3;3;3;3;3;3;3;61-120 minutes;1;Neutral;Slighlty productive;No smell
+S1;P_14;Bolzano;3;3;3;3;3;3;3;3;More than 2 hours;1;Good;Productive;No smell
+S1;P_13;Bolzano;2;2;4;1;1;4;1;3;3-30 minutes;2;Good;Very productive;No smell
+S1;P_14;Bolzano;3;3;3;3;3;3;3;3;3-30 minutes;1;Neutral;Neither unproductive nor productive;No smell
+S1;P_14;Bolzano;3;3;3;3;3;3;3;3;3-30 minutes;3;Bad;Neither unproductive nor productive;No smell
+S1;P_13;Bolzano;1;2;2;1;3;3;1;3;Less than 3 minutes;2;Good;Very productive;Body odours
+S1;P_13;Bolzano;2;2;3;1;1;3;1;4;3-30 minutes;1;Good;Very productive;No smell
+S1;P_13;Bolzano;2;2;3;1;1;4;1;4;31-60 minutes;1;Good;Very productive;No smell
+S1;P_14;Bolzano;3;3;3;3;3;3;3;3;More than 2 hours;1;Good;Productive;No smell
+S1;P_13;Bolzano;3;2;3;1;1;3;1;4;61-120 minutes;3;Good;Very productive;No smell
+S1;P_14;Bolzano;3;3;3;3;3;3;3;3;61-120 minutes;3;Neutral;Slighlty productive;No smell
+S1;P_13;Bolzano;2;2;3;1;2;4;1;3;31-60 minutes;3;Good;Very productive;No smell
+S1;P_13;Bolzano;2;2;3;1;4;3;1;2;3-30 minutes;3;Good;Very productive;Body odours
+S1;P_14;Bolzano;3;3;2;3;3;2;3;3;31-60 minutes;2;Neutral;Slighlty productive;No smell
+S1;P_14;Bolzano;3;3;3;3;3;3;3;3;3-30 minutes;2;Good;Neither unproductive nor productive;No smell
+S1;P_14;Bolzano;3;3;3;3;3;3;3;3;More than 2 hours;1;Neutral;Slighlty productive;No smell
+S1;P_14;Bolzano;3;3;3;3;3;3;3;3;Less than 3 minutes;1;Good;Productive;No smell
+S1;P_14;Bolzano;3;3;3;3;3;3;3;3;61-120 minutes;2;Good;Productive;No smell
+S1;P_14;Bolzano;4;3;5;3;2;3;3;3;Less than 3 minutes;1;Good;Slighlty productive;No smell
+S1;P_14;Bolzano;3;3;3;3;3;3;3;3;More than 2 hours;1;Good;Productive;No smell
+S1;P_14;Bolzano;3;3;3;3;3;3;3;3;More than 2 hours;1;Good;Very productive;No smell
+S1;P_14;Bolzano;3;3;3;3;3;3;3;3;61-120 minutes;1;Good;Very productive;No smell
+S1;P_14;Bolzano;4;2;4;3;3;3;3;3;Less than 3 minutes;1;Good;Productive;No smell
+S1;P_14;Bolzano;3;3;3;3;3;3;3;3;More than 2 hours;1;Good;Very productive;No smell
+S1;P_14;Bolzano;3;3;3;3;3;3;3;3;More than 2 hours;1;Good;Very productive;No smell
+S1;P_14;Bolzano;4;4;4;4;2;2;2;2;61-120 minutes;1;Good;Very productive;No smell
+S1;P_14;Bolzano;5;5;5;5;1;1;1;1;Less than 3 minutes;1;Good;Slighlty productive;No smell
+S1;P_14;Bolzano;4;3;3;3;3;3;3;3;More than 2 hours;1;Good;Very productive;No smell
+S1;P_14;Bolzano;3;3;3;3;3;3;3;3;61-120 minutes;1;Good;Very productive;No smell
+S1;P_14;Bolzano;3;3;3;3;3;3;3;3;61-120 minutes;2;Good;Productive;No smell
+S1;P_13;Bolzano;3;2;4;1;1;4;1;2;Less than 3 minutes;3;Good;Productive;No smell
+S1;P_14;Bolzano;3;3;3;3;3;3;3;3;3-30 minutes;1;Good;Productive;No smell
+S1;P_13;Bolzano;3;2;4;1;1;4;1;2;31-60 minutes;1;Good;Productive;No smell
+S1;P_13;Bolzano;3;2;4;1;1;4;1;3;3-30 minutes;2;Good;Slighlty productive;No smell
+S1;P_13;Bolzano;2;2;4;1;4;3;2;3;3-30 minutes;3;Good;Slightly unproductive;Body odours
+S1;P_03;Bolzano;3;1;3;1;1;3;1;1;3-30 minutes;2;Good;Productive;No smell
+S1;P_13;Bolzano;4;3;4;2;1;3;1;2;3-30 minutes;1;Good;Neither unproductive nor productive;No smell
+S1;P_13;Bolzano;2;2;4;1;1;3;2;2;Less than 3 minutes;1;Neutral;Productive;Body odours
+S1;P_13;Bolzano;2;2;3;1;3;3;2;3;31-60 minutes;2;Neutral;Productive;Body odours
+S1;P_13;Bolzano;2;2;4;1;2;3;1;2;3-30 minutes;2;Good;Unproductive;Body odours
+S1;P_13;Bolzano;3;2;4;1;1;3;1;2;3-30 minutes;1;Good;Slightly unproductive;No smell
+S1;P_03;Bolzano;3;1;3;1;1;3;1;1;Less than 3 minutes;1;Good;Productive;No smell
+S1;P_05;Bolzano;4;3;3;3;2;3;3;3;More than 2 hours;1;Neutral;Neither unproductive nor productive;No smell
+S1;P_03;Bolzano;3;1;3;1;1;3;1;1;61-120 minutes;1;Good;Productive;No smell
+S1;P_03;Bolzano;3;1;3;1;1;3;1;1;61-120 minutes;1;Good;Productive;No smell
+S1;P_05;Bolzano;4;3;3;3;2;3;3;3;3-30 minutes;2;Neutral;Slighlty productive;No smell
+S1;P_13;Bolzano;2;3;3;1;2;3;1;2;3-30 minutes;2;Good;Slighlty productive;Body odours
+S1;P_13;Bolzano;3;4;2;1;2;2;1;2;31-60 minutes;2;Good;Very productive;Body odours
+S1;P_13;Bolzano;2;4;2;1;4;2;2;2;31-60 minutes;2;Good;Productive;Body odours
+S1;P_03;Bolzano;3;1;3;1;1;3;1;1;Less than 3 minutes;1;Good;Productive;No smell
+S1;P_14;Bolzano;3;3;3;3;3;3;3;3;61-120 minutes;1;Neutral;Productive;No smell
+S1;P_14;Bolzano;3;3;3;3;3;3;3;3;3-30 minutes;1;Neutral;Productive;No smell
+S1;P_14;Bolzano;4;3;3;3;3;3;3;3;61-120 minutes;2;Neutral;Slighlty productive;No smell
+S1;P_13;Bolzano;3;2;5;1;2;3;1;2;61-120 minutes;3;Bad;Productive;No smell
+S1;P_14;Bolzano;4;3;3;4;2;2;2;2;3-30 minutes;3;Neutral;Neither unproductive nor productive;No smell
+S1;P_13;Bolzano;3;1;4;1;1;4;1;4;31-60 minutes;1;Neutral;Very unproductive;No smell
+S1;P_13;Bolzano;3;2;4;1;2;4;1;4;31-60 minutes;2;Neutral;Slightly unproductive;Body odours
+S1;P_09;Bolzano;2;1;2;1;2;5;2;1;More than 2 hours;2;Neutral;Productive;No smell
+S1;P_09;Bolzano;1;2;2;1;3;5;2;2;More than 2 hours;2;Neutral;Productive;No smell
+S1;P_03;Bolzano;3;1;3;1;1;4;1;1;3-30 minutes;2;Good;Productive;No smell
+S1;P_03;Bolzano;3;1;3;1;1;3;1;1;3-30 minutes;1;Neutral;Productive;No smell
+S1;P_03;Bolzano;3;1;3;1;1;1;1;1;31-60 minutes;1;Good;Slightly unproductive;No smell
+S1;P_03;Bolzano;4;2;3;1;1;3;1;1;3-30 minutes;1;Good;Productive;No smell
+S1;P_03;Bolzano;3;2;3;1;1;3;1;1;More than 2 hours;2;Good;Productive;No smell
+S1;P_03;Bolzano;3;1;3;1;1;3;1;1;61-120 minutes;1;Good;Productive;No smell
+S1;P_05;Bolzano;3;3;3;3;3;3;3;3;31-60 minutes;3;Good;Neither unproductive nor productive;No smell
+S1;P_09;Bolzano;2;2;2;1;2;5;2;2;More than 2 hours;1;Neutral;Productive;No smell
+S1;P_09;Bolzano;1;1;1;1;2;5;2;2;61-120 minutes;2;Neutral;Productive;No smell
+S1;P_05;Bolzano;4;3;3;3;2;3;3;3;Less than 3 minutes;2;Neutral;Slighlty productive;No smell
+S1;P_07;Bolzano;3;3;3;3;3;3;3;3;61-120 minutes;3;Good;Productive;No smell
+S1;P_07;Bolzano;3;3;3;3;3;3;3;3;31-60 minutes;3;Good;Productive;No smell
+S1;P_05;Bolzano;4;3;3;3;2;3;3;3;Less than 3 minutes;2;Neutral;Slighlty productive;No smell
+S1;P_05;Bolzano;4;3;3;3;2;3;3;3;61-120 minutes;2;Neutral;Slighlty productive;No smell
+S1;P_05;Bolzano;4;3;3;3;2;3;3;3;More than 2 hours;1;Neutral;Neither unproductive nor productive;No smell
+S1;P_05;Bolzano;4;3;3;3;2;3;3;3;61-120 minutes;1;Good;Slighlty productive;No smell
+S1;P_05;Bolzano;3;3;3;3;3;3;3;3;More than 2 hours;2;Good;Slighlty productive;Body odours
+S1;P_01;Bolzano;3;2;3;2;1;5;1;3;More than 2 hours;2;Neutral;Neither unproductive nor productive;No smell
+S1;P_01;Bolzano;2;2;3;2;4;4;1;4;31-60 minutes;2;Bad;Neither unproductive nor productive;Body odours
+S1;P_05;Bolzano;4;3;3;3;2;3;3;3;31-60 minutes;1;Neutral;Slightly unproductive;No smell
+S1;P_01;Bolzano;2;1;3;1;4;4;2;3;31-60 minutes;1;Neutral;Slighlty productive;Body odours
+S1;P_07;Bolzano;3;3;3;3;3;3;3;3;31-60 minutes;3;Good;Productive;No smell
+S1;P_07;Bolzano;3;3;3;3;3;3;3;3;3-30 minutes;2;Good;Productive;No smell
+S1;P_01;Bolzano;1;2;3;2;4;4;1;4;Less than 3 minutes;1;Neutral;Slighlty productive;Body odours
+S1;P_10;Bolzano;3;3;3;3;3;4;3;3;61-120 minutes;2;Neutral;Slighlty productive;No smell
+S1;P_10;Bolzano;3;3;3;3;3;4;3;3;More than 2 hours;2;Neutral;Slighlty productive;No smell
+S1;P_10;Bolzano;3;3;3;3;3;3;3;3;61-120 minutes;2;Neutral;Productive;No smell
+S1;P_05;Bolzano;4;3;3;3;2;3;3;3;Less than 3 minutes;2;Neutral;Slighlty productive;No smell
+S1;P_10;Bolzano;3;3;3;3;3;4;3;3;More than 2 hours;2;Neutral;Productive;No smell
+S1;P_10;Bolzano;3;3;3;3;3;4;3;3;More than 2 hours;2;Neutral;Slighlty productive;No smell
+S1;P_07;Bolzano;3;3;3;3;3;3;3;3;61-120 minutes;3;Good;Productive;No smell
+S1;P_10;Bolzano;3;3;3;3;3;4;3;3;61-120 minutes;2;Neutral;Neither unproductive nor productive;No smell
+S1;P_07;Bolzano;3;3;3;3;3;3;3;3;61-120 minutes;3;Bad;Unproductive;No smell
+S1;P_05;Bolzano;4;3;3;3;2;3;3;3;More than 2 hours;1;Good;Slighlty productive;No smell
+S1;P_05;Bolzano;4;3;3;3;2;3;3;3;More than 2 hours;1;Neutral;Neither unproductive nor productive;No smell
+S1;P_07;Bolzano;3;3;3;3;3;3;3;3;31-60 minutes;2;Neutral;Slighlty productive;No smell
+S1;P_10;Bolzano;3;3;3;3;3;4;3;3;More than 2 hours;3;Neutral;Productive;No smell
+S1;P_09;Bolzano;1;1;1;1;3;5;2;2;31-60 minutes;2;Good;Productive;No smell
+S1;P_05;Bolzano;3;3;3;3;3;3;3;3;More than 2 hours;1;Good;Slightly unproductive;Stationery
+S1;P_10;Bolzano;3;3;3;3;3;4;3;3;61-120 minutes;3;Neutral;Productive;No smell
+S1;P_09;Bolzano;2;1;2;1;1;5;2;2;61-120 minutes;2;Neutral;Neither unproductive nor productive;No smell
+S1;P_10;Bolzano;3;3;3;3;3;3;3;3;More than 2 hours;4;Neutral;Productive;No smell
+S1;P_10;Bolzano;3;3;3;3;3;3;3;3;3-30 minutes;3;Neutral;Slighlty productive;No smell
+S1;P_05;Bolzano;4;3;3;3;2;3;3;3;Less than 3 minutes;1;Good;Slighlty productive;No smell
+S1;P_07;Bolzano;3;3;3;3;3;3;3;3;61-120 minutes;2;Good;Slighlty productive;No smell
+S1;P_07;Bolzano;3;3;3;3;3;3;3;3;3-30 minutes;3;Neutral;Slighlty productive;No smell
+S1;P_09;Bolzano;2;2;2;1;3;4;2;2;More than 2 hours;2;Neutral;Slighlty productive;No smell
+S1;P_10;Bolzano;3;3;3;3;3;4;3;3;More than 2 hours;4;Neutral;Productive;No smell
+S1;P_09;Bolzano;1;2;1;1;4;5;2;2;More than 2 hours;2;Neutral;Slighlty productive;No smell
+S1;P_05;Bolzano;3;3;3;2;3;3;3;3;More than 2 hours;1;Neutral;Neither unproductive nor productive;Body odours
+S1;P_09;Bolzano;2;3;2;1;3;5;2;2;61-120 minutes;2;Neutral;Productive;No smell
+S1;P_10;Bolzano;3;3;3;3;3;4;3;3;31-60 minutes;3;Neutral;Productive;No smell
+S1;P_09;Bolzano;3;2;2;1;2;5;2;2;More than 2 hours;2;Neutral;Very productive;No smell
+S1;P_10;Bolzano;3;3;3;3;3;3;3;3;31-60 minutes;3;Bad;Slighlty productive;No smell
+S1;P_05;Bolzano;4;3;3;3;2;3;3;3;More than 2 hours;1;Good;Slighlty productive;No smell
+S1;P_05;Bolzano;4;3;3;3;3;3;3;3;61-120 minutes;1;Good;Neither unproductive nor productive;No smell
+S1;P_10;Bolzano;3;3;3;2;3;4;3;3;31-60 minutes;3;Neutral;Neither unproductive nor productive;Body odours
+S1;P_09;Bolzano;2;1;2;1;2;5;2;2;3-30 minutes;3;Neutral;Neither unproductive nor productive;No smell
+S1;P_10;Bolzano;3;3;3;3;3;4;3;3;31-60 minutes;4;Neutral;Productive;No smell
+S1;P_10;Bolzano;3;3;3;3;3;3;3;3;3-30 minutes;4;Neutral;Slighlty productive;No smell
+S1;P_09;Bolzano;1;1;1;1;2;5;2;2;61-120 minutes;3;Neutral;Neither unproductive nor productive;No smell
+S1;P_05;Bolzano;4;3;3;3;2;3;3;3;3-30 minutes;2;Neutral;Slightly unproductive;No smell
+S1;P_09;Bolzano;2;2;2;1;2;2;2;2;61-120 minutes;3;Neutral;Very productive;No smell
+S1;P_10;Bolzano;3;3;3;3;3;4;3;3;31-60 minutes;3;Neutral;Productive;No smell
+S1;P_09;Bolzano;3;4;4;3;2;2;1;2;61-120 minutes;1;Good;Productive;Edible food
+S1;P_10;Bolzano;3;3;3;3;3;4;3;3;More than 2 hours;1;Neutral;Productive;No smell
+S1;P_09;Bolzano;1;1;1;1;2;5;2;2;61-120 minutes;2;Neutral;Slighlty productive;No smell
+S1;P_07;Bolzano;3;3;3;3;3;3;3;3;Less than 3 minutes;2;Neutral;Neither unproductive nor productive;No smell
+S1;P_09;Bolzano;1;2;2;1;3;5;2;2;31-60 minutes;3;Neutral;Slighlty productive;No smell
+S1;P_07;Bolzano;4;3;3;3;3;3;3;3;More than 2 hours;2;Neutral;Slightly unproductive;No smell
+S1;P_09;Bolzano;1;1;2;1;3;4;2;2;3-30 minutes;4;Good;Productive;Body odours
+S1;P_10;Bolzano;3;3;3;3;3;3;3;3;31-60 minutes;1;Neutral;Neither unproductive nor productive;No smell
+S1;P_10;Bolzano;3;3;3;3;3;3;3;3;61-120 minutes;2;Neutral;Neither unproductive nor productive;No smell
+S1;P_07;Bolzano;3;3;3;3;3;3;3;3;3-30 minutes;3;Good;Productive;No smell
+S1;P_10;Bolzano;3;3;3;3;3;4;3;3;3-30 minutes;1;Neutral;Slighlty productive;No smell
+S1;P_09;Bolzano;1;1;1;1;1;5;2;2;3-30 minutes;2;Neutral;Slighlty productive;No smell
+S1;P_10;Bolzano;3;3;3;3;3;3;3;3;3-30 minutes;1;Neutral;Slighlty productive;No smell
+S1;P_09;Bolzano;1;1;1;1;1;5;1;2;3-30 minutes;3;Good;Productive;No smell
+S1;P_05;Bolzano;4;3;3;3;3;3;3;3;Less than 3 minutes;1;Neutral;Neither unproductive nor productive;No smell
+S1;P_09;Bolzano;2;1;2;1;1;5;2;2;61-120 minutes;2;Good;Very productive;No smell
+S1;P_05;Bolzano;3;3;3;3;3;3;3;3;Less than 3 minutes;2;Neutral;Slighlty productive;No smell
+S1;P_10;Bolzano;3;3;3;3;3;3;3;3;31-60 minutes;2;Neutral;Productive;No smell
+S1;P_05;Bolzano;4;3;3;3;2;3;3;3;3-30 minutes;2;Neutral;Neither unproductive nor productive;No smell
+S1;P_10;Bolzano;3;3;3;3;3;4;3;3;31-60 minutes;1;Neutral;Slighlty productive;No smell
+S1;P_10;Bolzano;3;3;3;3;3;4;3;3;More than 2 hours;1;Neutral;Slighlty productive;No smell
+S1;P_10;Bolzano;3;3;3;3;3;4;3;3;61-120 minutes;2;Neutral;Slighlty productive;No smell
+S1;P_10;Bolzano;3;3;3;3;3;4;3;3;61-120 minutes;2;Neutral;Slighlty productive;No smell
+S1;P_10;Bolzano;3;3;3;3;3;4;3;3;31-60 minutes;1;Neutral;Neither unproductive nor productive;No smell
+S1;P_10;Bolzano;3;3;3;3;3;4;3;3;61-120 minutes;1;Neutral;Neither unproductive nor productive;No smell
+S1;P_09;Bolzano;1;1;1;1;1;5;2;2;More than 2 hours;1;Neutral;Productive;No smell
+S1;P_10;Bolzano;3;3;3;3;3;5;3;3;31-60 minutes;1;Neutral;Slighlty productive;No smell
+S1;P_09;Bolzano;1;1;1;1;1;5;1;2;61-120 minutes;2;Neutral;Productive;No smell
+S1;P_03;Bolzano;2;3;3;1;1;2;1;2;3-30 minutes;2;Neutral;Slighlty productive;No smell
+S1;P_09;Bolzano;1;1;1;1;1;5;1;2;31-60 minutes;1;Neutral;Productive;No smell
+S1;P_03;Bolzano;2;3;3;1;2;2;1;1;61-120 minutes;4;Good;Productive;No smell
+S1;P_09;Bolzano;1;1;2;1;1;5;1;2;31-60 minutes;1;Neutral;Very productive;No smell
+S1;P_10;Bolzano;3;3;3;3;2;5;3;3;31-60 minutes;2;Neutral;Slighlty productive;No smell
+S1;P_03;Bolzano;2;2;3;1;1;1;1;1;61-120 minutes;4;Good;Productive;No smell
+S1;P_10;Bolzano;3;3;3;3;3;5;3;3;3-30 minutes;3;Neutral;Neither unproductive nor productive;No smell
+S1;P_03;Bolzano;3;2;3;1;1;3;1;1;3-30 minutes;2;Good;Productive;No smell
+S1;P_05;Bolzano;2;3;3;2;4;3;3;4;More than 2 hours;3;Neutral;Unproductive;Body odours
+S1;P_05;Bolzano;2;3;3;3;4;3;3;3;More than 2 hours;3;Neutral;Slighlty productive;Body odours
+S1;P_03;Bolzano;3;2;3;1;1;2;1;1;31-60 minutes;2;Neutral;Slighlty productive;No smell
+S1;P_03;Bolzano;2;2;2;1;1;1;1;1;3-30 minutes;1;Neutral;Slighlty productive;No smell
+S1;P_03;Bolzano;3;3;3;3;3;3;3;3;61-120 minutes;2;Neutral;Slighlty productive;No smell
+S1;P_03;Bolzano;2;4;3;1;4;2;1;1;Less than 3 minutes;1;Good;Slighlty productive;Stationery
+S1;P_05;Bolzano;3;3;3;3;4;3;3;3;More than 2 hours;1;Good;Slighlty productive;Body odours
+S1;P_01;Bolzano;3;1;3;3;1;5;1;5;Less than 3 minutes;2;Neutral;Slighlty productive;No smell
+S1;P_01;Bolzano;3;1;2;1;1;5;1;4;Less than 3 minutes;3;Good;Slighlty productive;No smell
+S1;P_01;Bolzano;3;2;4;1;1;5;1;4;31-60 minutes;3;Good;Neither unproductive nor productive;No smell
+S1;P_09;Bolzano;2;1;1;1;1;5;1;2;61-120 minutes;1;Good;Very productive;No smell
+S1;P_05;Bolzano;4;3;3;3;2;3;3;3;31-60 minutes;2;Neutral;Neither unproductive nor productive;No smell
+S1;P_05;Bolzano;3;3;3;3;3;3;3;3;3-30 minutes;3;Neutral;Neither unproductive nor productive;No smell
+S1;P_05;Bolzano;3;3;3;3;3;3;3;3;More than 2 hours;2;Neutral;Slightly unproductive;Stationery
+S1;P_05;Bolzano;3;3;3;3;3;3;3;3;3-30 minutes;2;Neutral;Slighlty productive;No smell
+S1;P_06;Bolzano;3;3;3;3;2;4;3;3;61-120 minutes;4;Neutral;Slighlty productive;No smell
+S1;P_03;Bolzano;3;2;3;1;1;3;1;1;3-30 minutes;3;Neutral;Slighlty productive;No smell
+S1;P_06;Bolzano;3;3;3;3;2;3;3;3;31-60 minutes;5;Neutral;Slighlty productive;Body odours
+S1;P_03;Bolzano;3;1;2;1;1;3;1;1;3-30 minutes;2;Neutral;Slighlty productive;No smell
+S1;P_06;Bolzano;3;2;3;3;2;4;3;3;31-60 minutes;2;Neutral;Slighlty productive;No smell
+S1;P_03;Bolzano;3;1;2;1;1;3;1;1;3-30 minutes;1;Neutral;Slighlty productive;No smell
+S1;P_05;Bolzano;2;3;3;3;3;3;3;3;More than 2 hours;3;Neutral;Slightly unproductive;No smell
+S1;P_06;Bolzano;3;2;3;3;2;4;3;3;3-30 minutes;4;Neutral;Productive;No smell
+S1;P_06;Bolzano;3;2;3;3;2;4;3;3;31-60 minutes;4;Bad;Productive;No smell
+S1;P_06;Bolzano;3;3;3;3;2;4;3;3;31-60 minutes;5;Neutral;Slighlty productive;No smell
+S1;P_09;Bolzano;1;2;2;1;1;5;1;2;61-120 minutes;1;Good;Very productive;No smell
+S1;P_09;Bolzano;1;3;2;1;2;5;2;2;31-60 minutes;3;Good;Productive;No smell
+S1;P_09;Bolzano;1;1;2;1;2;5;2;2;3-30 minutes;4;Neutral;Productive;Body odours
+S1;P_06;Bolzano;3;2;4;3;2;4;3;3;61-120 minutes;2;Neutral;Slighlty productive;No smell
+S1;P_03;Bolzano;3;1;3;1;1;3;1;1;3-30 minutes;2;Good;Productive;No smell
+S1;P_06;Bolzano;3;3;3;3;2;4;3;3;31-60 minutes;2;Neutral;Slighlty productive;No smell
+S1;P_03;Bolzano;3;1;3;1;1;2;1;1;61-120 minutes;2;Good;Productive;No smell
+S1;P_06;Bolzano;4;3;3;3;2;4;3;3;31-60 minutes;2;Good;Productive;No smell
+S1;P_09;Bolzano;2;2;2;1;1;5;1;2;3-30 minutes;3;Good;Productive;No smell
+S1;P_03;Bolzano;3;1;3;1;1;3;1;1;3-30 minutes;2;Good;Productive;No smell
+S1;P_03;Bolzano;4;3;3;1;1;3;1;1;3-30 minutes;1;Good;Productive;No smell
+S1;P_09;Bolzano;2;1;2;1;2;5;1;2;61-120 minutes;2;Neutral;Very productive;No smell
+S1;P_09;Bolzano;2;1;2;1;2;5;1;2;More than 2 hours;3;Neutral;Productive;No smell
+S1;P_09;Bolzano;3;2;2;1;2;5;1;2;61-120 minutes;2;Neutral;Productive;No smell
+S1;P_09;Bolzano;2;3;2;1;2;5;1;2;61-120 minutes;2;Bad;Slighlty productive;No smell
+S1;P_06;Bolzano;3;2;4;3;2;4;3;3;61-120 minutes;1;Neutral;Slighlty productive;No smell
+S1;P_01;Bolzano;4;2;2;2;1;4;1;4;More than 2 hours;3;Neutral;Slighlty productive;No smell
+S1;P_01;Bolzano;3;2;3;1;1;5;1;4;More than 2 hours;3;Good;Slightly unproductive;No smell
+S1;P_06;Bolzano;3;3;3;3;3;3;3;3;31-60 minutes;2;Neutral;Slightly unproductive;Body odours
+S1;P_03;Bolzano;3;2;2;1;1;3;1;1;61-120 minutes;4;Good;Productive;No smell
+S1;P_01;Bolzano;3;1;1;2;2;5;1;3;61-120 minutes;3;Neutral;Slighlty productive;No smell
+S1;P_01;Bolzano;3;1;1;1;1;5;1;1;61-120 minutes;3;Good;Slighlty productive;No smell
+S1;P_03;Bolzano;3;1;2;1;1;3;1;1;3-30 minutes;3;Good;Productive;No smell
+S1;P_06;Bolzano;3;2;4;3;2;4;3;3;61-120 minutes;3;Neutral;Productive;No smell
+S1;P_03;Bolzano;3;2;3;1;1;3;1;1;More than 2 hours;2;Good;Productive;No smell
+S1;P_06;Bolzano;3;3;4;3;2;4;3;3;3-30 minutes;3;Neutral;Slighlty productive;No smell
+S1;P_06;Bolzano;3;2;4;3;2;4;3;3;61-120 minutes;2;Good;Very productive;No smell
+S1;P_06;Bolzano;3;2;3;3;2;4;3;3;31-60 minutes;3;Good;Productive;No smell
+S1;P_04;Bolzano;4;3;4;3;2;3;2;3;3-30 minutes;2;Good;Productive;No smell
+S1;P_04;Bolzano;4;3;4;3;2;3;2;3;3-30 minutes;2;Good;Slighlty productive;No smell
+S1;P_06;Bolzano;4;3;3;3;2;4;3;3;3-30 minutes;3;Good;Slighlty productive;No smell
+S1;P_03;Bolzano;3;2;3;1;1;3;1;1;Less than 3 minutes;3;Good;Productive;No smell
+S1;P_04;Bolzano;4;3;4;3;2;3;2;3;31-60 minutes;2;Good;Productive;No smell
+S1;P_06;Bolzano;4;3;4;3;2;4;3;3;31-60 minutes;3;Neutral;Neither unproductive nor productive;No smell
+S1;P_04;Bolzano;3;3;4;1;1;3;1;1;More than 2 hours;3;Good;Productive;No smell
+S1;P_04;Bolzano;4;3;4;3;2;3;2;3;3-30 minutes;2;Good;Productive;No smell
+S1;P_03;Bolzano;3;3;3;2;1;3;1;1;61-120 minutes;1;Good;Productive;No smell
+S1;P_03;Bolzano;4;3;4;2;3;2;1;1;31-60 minutes;1;Good;Productive;No smell
+S1;P_06;Bolzano;4;2;3;3;2;4;3;3;31-60 minutes;2;Neutral;Productive;No smell
+S1;P_06;Bolzano;4;3;3;3;2;4;3;3;61-120 minutes;2;Good;Slighlty productive;No smell
+S1;P_07;Bolzano;3;3;3;3;3;3;3;3;More than 2 hours;3;Good;;No smell
+S1;P_04;Bolzano;4;3;4;3;2;3;2;3;31-60 minutes;2;Good;;No smell
+S1;P_04;Bolzano;4;3;4;3;2;3;2;3;31-60 minutes;4;Good;;No smell
+S1;P_06;Bolzano;3;4;3;3;2;4;3;3;31-60 minutes;3;Good;;No smell
+S1;P_07;Bolzano;3;3;3;3;3;3;3;3;More than 2 hours;3;Good;;No smell
+S1;P_04;Bolzano;4;3;4;3;2;3;2;2;31-60 minutes;4;Good;;No smell
+S1;P_06;Bolzano;4;3;4;3;3;4;3;3;31-60 minutes;3;Neutral;;No smell
+S1;P_04;Bolzano;4;3;4;3;2;3;2;2;3-30 minutes;3;Neutral;;No smell
+S1;P_07;Bolzano;3;3;3;3;3;3;3;3;3-30 minutes;2;Good;;No smell
+S1;P_07;Bolzano;3;3;3;3;3;3;3;3;3-30 minutes;1;Good;;No smell
+S1;P_07;Bolzano;3;3;3;3;3;3;3;3;31-60 minutes;2;Neutral;;No smell
+S1;P_04;Bolzano;4;3;4;3;2;3;2;3;31-60 minutes;1;Good;;No smell
+S1;P_07;Bolzano;3;3;3;3;3;3;3;3;Less than 3 minutes;2;Neutral;;No smell
+S1;P_04;Bolzano;4;3;4;2;2;3;2;2;31-60 minutes;1;Good;;No smell
+S1;P_07;Bolzano;3;3;3;3;3;3;3;3;3-30 minutes;2;Neutral;;No smell
+S1;P_07;Bolzano;3;3;3;3;3;3;3;3;More than 2 hours;2;Good;;No smell
+S1;P_04;Bolzano;4;3;4;2;3;3;2;3;61-120 minutes;1;Neutral;;No smell
+S1;P_04;Bolzano;4;3;4;3;2;3;2;2;Less than 3 minutes;1;Good;;No smell
+S1;P_02;Bolzano;2;3;2;2;4;4;3;3;More than 2 hours;1;Neutral;;No smell
+S1;P_04;Bolzano;4;3;4;3;2;2;2;3;61-120 minutes;1;Good;;No smell
+S1;P_07;Bolzano;3;3;3;3;3;3;3;3;31-60 minutes;2;Neutral;;No smell
+S1;P_04;Bolzano;4;3;4;3;2;3;2;3;31-60 minutes;1;Good;;No smell
+S1;P_04;Bolzano;3;3;3;3;3;3;3;3;3-30 minutes;2;Neutral;;No smell
+S1;P_07;Bolzano;3;3;3;3;3;3;3;3;More than 2 hours;2;Neutral;;No smell
+S1;P_02;Bolzano;4;2;5;3;1;4;1;3;More than 2 hours;2;Good;;No smell
+S1;P_02;Bolzano;4;2;3;4;3;4;2;3;61-120 minutes;2;Good;;No smell
+S1;P_04;Bolzano;5;2;4;3;2;3;2;3;3-30 minutes;1;Good;;No smell
+S1;P_02;Bolzano;4;2;4;3;2;4;2;2;31-60 minutes;2;Neutral;;No smell
+S1;P_07;Bolzano;4;3;3;3;3;3;3;3;31-60 minutes;2;Neutral;;No smell
+S1;P_04;Bolzano;4;3;5;3;1;3;2;2;3-30 minutes;1;Neutral;;No smell
+S1;P_06;Bolzano;3;3;3;3;2;3;2;2;31-60 minutes;3;Good;;Body odours
+S1;P_04;Bolzano;4;3;4;3;3;3;3;3;61-120 minutes;1;Good;;No smell
+S1;P_07;Bolzano;4;3;3;3;3;3;3;3;More than 2 hours;4;Good;;No smell
+S1;P_06;Bolzano;4;3;3;2;2;2;3;4;31-60 minutes;4;Good;;Body odours
+S1;P_08;Bolzano;3;3;3;3;3;3;2;3;More than 2 hours;1;Good;;No smell
+S1;P_04;Bolzano;4;3;4;3;3;3;3;3;3-30 minutes;1;Good;;No smell
+S1;P_08;Bolzano;3;3;3;2;2;2;2;2;More than 2 hours;1;Neutral;;No smell
+S1;P_07;Bolzano;4;3;3;3;3;3;3;3;3-30 minutes;3;Neutral;;No smell
+S1;P_08;Bolzano;3;3;4;3;2;3;2;3;61-120 minutes;1;Neutral;;No smell
+S1;P_07;Bolzano;3;3;3;3;3;3;3;3;61-120 minutes;4;Neutral;;No smell
+S1;P_08;Bolzano;4;3;3;3;3;3;3;3;31-60 minutes;1;Good;;No smell
+S1;P_04;Bolzano;4;3;4;3;3;3;3;3;61-120 minutes;1;Neutral;;No smell
+S1;P_06;Bolzano;3;3;3;3;2;3;2;2;31-60 minutes;4;Neutral;;No smell
+S1;P_04;Bolzano;4;3;4;3;2;3;2;2;3-30 minutes;1;Good;;No smell
+S1;P_06;Bolzano;4;3;4;3;3;3;4;3;3-30 minutes;4;Bad;;Body odours
+S1;P_07;Bolzano;3;3;3;2;3;3;3;3;3-30 minutes;3;Neutral;;No smell
+S1;P_06;Bolzano;3;3;3;3;3;2;3;3;31-60 minutes;1;Good;;Stationery
+S1;P_06;Bolzano;3;3;3;3;2;3;3;3;61-120 minutes;2;Neutral;;Stationery
+S1;P_07;Bolzano;3;3;3;3;3;3;3;3;More than 2 hours;3;Neutral;;No smell
+S1;P_08;Bolzano;3;3;2;2;2;3;3;3;3-30 minutes;1;Neutral;;No smell
+S1;P_07;Bolzano;3;3;3;3;3;3;3;3;3-30 minutes;3;Good;;No smell
+S1;P_08;Bolzano;3;3;3;2;3;2;2;2;More than 2 hours;1;Good;;No smell
+S1;P_07;Bolzano;3;3;3;3;3;3;3;3;More than 2 hours;2;Neutral;;No smell
+S1;P_07;Bolzano;3;3;3;3;3;3;3;3;More than 2 hours;3;Neutral;;No smell
+S1;P_08;Bolzano;3;3;3;3;3;3;2;3;61-120 minutes;1;Good;;No smell
+S1;P_08;Bolzano;3;3;3;3;2;3;2;3;31-60 minutes;1;Good;;No smell
+S1;P_06;Bolzano;4;2;3;3;2;4;3;3;61-120 minutes;3;Neutral;;No smell
+S1;P_06;Bolzano;4;3;3;3;2;4;3;3;31-60 minutes;3;Neutral;;No smell
+S1;P_06;Bolzano;3;3;3;3;2;3;3;3;31-60 minutes;1;Neutral;;Stationery
+S1;P_08;Bolzano;3;3;3;3;3;3;3;3;61-120 minutes;3;Neutral;;No smell
+S1;P_06;Bolzano;4;3;3;3;2;4;3;3;31-60 minutes;1;Neutral;;No smell
+S1;P_08;Bolzano;3;3;3;3;3;3;3;3;61-120 minutes;3;Neutral;;No smell
+S1;P_08;Bolzano;4;3;3;3;2;3;3;2;61-120 minutes;3;Good;;No smell
+S1;P_08;Bolzano;4;4;4;4;3;3;3;3;31-60 minutes;3;Good;;No smell
+S1;P_06;Bolzano;3;3;3;3;3;4;3;3;61-120 minutes;2;Neutral;;No smell
+S1;P_07;Bolzano;3;3;3;2;3;3;3;3;More than 2 hours;3;Neutral;;No smell
+S1;P_06;Bolzano;3;3;3;3;3;4;3;3;3-30 minutes;3;Neutral;;No smell
+S1;P_02;Bolzano;5;4;4;2;3;2;2;3;61-120 minutes;3;Neutral;;Cleaning products
+S1;P_02;Bolzano;2;4;2;2;4;2;4;2;61-120 minutes;3;Neutral;;No smell
+S1;P_02;Bolzano;5;4;2;3;3;2;2;3;31-60 minutes;3;Good;;Cleaning products
+S1;P_02;Bolzano;4;3;4;3;1;4;1;4;61-120 minutes;1;Good;;No smell
+S1;P_02;Bolzano;3;2;4;3;3;4;2;2;More than 2 hours;2;Good;;No smell
+S1;P_02;Bolzano;4;2;4;3;1;4;1;2;61-120 minutes;2;Good;;No smell
+S1;P_02;Bolzano;4;2;4;3;2;4;2;3;61-120 minutes;3;Good;;No smell
+S1;P_02;Bolzano;3;3;4;2;2;4;2;2;61-120 minutes;2;Good;;No smell
+S1;P_02;Bolzano;2;3;4;2;2;3;2;2;61-120 minutes;2;Good;;No smell
+S1;P_02;Bolzano;3;2;4;2;2;4;2;2;61-120 minutes;2;Good;;Stationery
+S1;P_02;Bolzano;4;3;4;3;2;4;2;2;61-120 minutes;2;Good;;No smell
+S1;P_02;Bolzano;4;3;4;4;1;4;2;2;61-120 minutes;2;Good;;No smell
+S1;P_02;Bolzano;4;3;4;2;1;4;2;3;More than 2 hours;1;Neutral;;No smell
+S1;P_02;Bolzano;4;3;4;2;2;4;2;2;More than 2 hours;1;Neutral;;No smell
+S1;P_02;Bolzano;4;3;4;4;2;4;2;2;More than 2 hours;2;Good;;No smell
+S1;P_02;Bolzano;4;3;4;4;2;4;2;2;61-120 minutes;3;Neutral;;No smell
+S1;P_02;Bolzano;4;3;4;4;2;4;2;3;More than 2 hours;2;Neutral;;No smell
+S1;P_02;Bolzano;4;3;4;4;2;4;2;2;61-120 minutes;1;Good;;No smell
+S1;P_04;Bolzano;5;3;4;3;2;3;2;3;31-60 minutes;3;Good;;No smell
+S1;P_02;Bolzano;4;3;4;3;2;4;2;2;61-120 minutes;3;Neutral;;No smell
+S1;P_04;Bolzano;4;3;4;3;2;3;2;2;3-30 minutes;2;Good;;No smell
+S1;P_02;Bolzano;4;3;3;4;1;4;2;2;31-60 minutes;4;Good;;No smell
+S1;P_04;Bolzano;4;3;4;2;2;3;2;2;31-60 minutes;2;Neutral;;No smell
+S1;P_04;Bolzano;4;3;4;3;2;3;2;2;3-30 minutes;4;Good;;No smell
+S1;P_02;Bolzano;4;2;4;4;1;4;2;3;61-120 minutes;2;Good;;No smell
+S1;P_04;Bolzano;4;2;4;3;2;3;2;2;61-120 minutes;2;Good;;No smell
+S1;P_02;Bolzano;4;3;4;3;2;4;2;2;61-120 minutes;3;Good;;No smell
+S1;P_04;Bolzano;4;2;4;3;2;2;2;2;3-30 minutes;2;Good;;No smell
+S1;P_02;Bolzano;4;3;4;4;2;4;2;3;61-120 minutes;3;Good;;No smell
+S1;P_04;Bolzano;4;2;4;3;2;3;2;3;31-60 minutes;1;Neutral;;No smell
+S1;P_02;Bolzano;5;3;4;4;2;4;2;2;61-120 minutes;3;Neutral;;No smell
+S1;P_04;Bolzano;4;3;4;3;2;3;2;2;3-30 minutes;1;Good;;No smell
+S1;P_02;Bolzano;4;3;4;3;2;4;2;3;61-120 minutes;1;Good;;No smell
+S1;P_02;Bolzano;4;3;4;3;2;4;3;3;61-120 minutes;1;Good;;No smell
+S1;P_02;Bolzano;3;3;3;3;3;3;3;3;31-60 minutes;2;Neutral;;No smell
+S1;P_04;Bolzano;4;3;4;3;2;3;2;2;61-120 minutes;1;Good;;No smell
+S1;P_04;Bolzano;4;3;4;3;3;4;3;3;31-60 minutes;1;Neutral;;No smell
+S1;P_04;Bolzano;4;3;4;3;2;3;2;2;More than 2 hours;1;Good;;No smell
+S1;P_04;Bolzano;2;4;3;3;4;3;3;3;3-30 minutes;1;Good;;Body odours
+S1;P_01;Bolzano;3;2;3;1;2;5;1;5;61-120 minutes;3;Neutral;;No smell
+S1;P_01;Bolzano;3;2;3;2;2;4;1;5;61-120 minutes;3;Neutral;;No smell
+S1;P_01;Bolzano;4;2;2;2;2;4;2;5;61-120 minutes;4;Neutral;;No smell
+S1;P_01;Bolzano;3;2;2;2;2;4;1;5;31-60 minutes;3;Good;;No smell
+S1;P_17;Bolzano;3;4;2;3;4;2;2;3;61-120 minutes;2;Neutral;Productive;Stationery
+S1;P_07;Bolzano;3;3;3;3;2;2;3;2;31-60 minutes;3;Neutral;Slighlty productive;Stationery
+S1;P_10;Bolzano;5;4;4;4;1;2;3;3;61-120 minutes;3;Good;Productive;Green elements
+S1;P_10;Bolzano;4;3;2;3;3;2;3;3;61-120 minutes;4;Good;Slighlty productive;Edible food
+S1;P_05;Bolzano;3;3;3;2;3;2;2;2;More than 2 hours;1;Neutral;Neither unproductive nor productive;Cleaning products
+S1;P_10;Bolzano;2;3;3;3;4;3;3;3;31-60 minutes;3;Good;Productive;Body odours
+S1;P_10;Bolzano;3;3;3;3;2;3;3;3;31-60 minutes;3;Good;Productive;Body odours
+S1;P_02;Bolzano;4;3;4;4;2;2;1;2;31-60 minutes;3;Good;Productive;Cleaning products
+S1;P_10;Bolzano;4;3;3;3;4;3;3;3;31-60 minutes;2;Good;Productive;Body odours
+S1;P_01;Bolzano;4;4;4;3;2;2;3;3;61-120 minutes;3;Bad;Slighlty productive;Body odours
+S1;P_17;Bolzano;3;4;4;2;2;2;2;3;More than 2 hours;2;Neutral;Slighlty productive;Stationery
+S1;P_01;Bolzano;3;4;3;2;2;2;2;3;61-120 minutes;4;Neutral;Productive;Stationery
+S1;P_17;Bolzano;2;4;3;3;2;3;2;3;More than 2 hours;1;Neutral;Slighlty productive;Edible food
+S1;P_17;Bolzano;3;3;3;3;3;3;3;3;More than 2 hours;1;Neutral;Productive;Stationery
+S1;P_12;Bolzano;3;2;3;2;3;3;3;2;3-30 minutes;2;Neutral;Neither unproductive nor productive;Stationery
+S1;P_12;Bolzano;2;3;3;3;3;3;2;3;3-30 minutes;2;Neutral;Neither unproductive nor productive;Stationery
+S1;P_10;Bolzano;3;2;3;2;3;3;3;2;3-30 minutes;3;Neutral;Slighlty productive;Edible food
+S1;P_12;Bolzano;2;4;3;3;3;2;2;2;3-30 minutes;3;Neutral;Productive;Edible food
+S1;P_01;Bolzano;3;4;3;2;3;2;3;3;61-120 minutes;2;Neutral;Slightly unproductive;Stationery
+S1;P_01;Bolzano;3;3;4;3;2;4;3;3;3-30 minutes;2;Neutral;Slightly unproductive;Stationery
+S1;P_01;Bolzano;2;4;3;3;3;2;3;3;31-60 minutes;3;Neutral;Neither unproductive nor productive;Edible food
+S1;P_09;Bolzano;1;1;2;1;3;4;2;2;3-30 minutes;4;Good;Productive;Body odours
+S1;P_07;Bolzano;4;3;3;4;2;3;4;2;31-60 minutes;2;Neutral;Productive;Stationery
+S1;P_07;Bolzano;4;3;3;4;2;3;4;2;3-30 minutes;1;Neutral;Productive;Stationery
+S1;P_07;Bolzano;4;4;3;3;2;2;3;2;31-60 minutes;2;Neutral;Productive;Stationery
+S1;P_07;Bolzano;4;3;2;3;2;2;3;2;31-60 minutes;3;Neutral;Productive;Stationery
+S1;P_04;Bolzano;3;4;4;3;1;1;1;1;31-60 minutes;3;Neutral;Slighlty productive;Stationery
+S1;P_13;Bolzano;3;3;4;2;3;3;2;3;61-120 minutes;2;Neutral;Productive;Stationery
+S1;P_03;Bolzano;5;3;3;3;2;3;3;3;31-60 minutes;2;Neutral;Slightly unproductive;Green elements
+S1;P_01;Bolzano;4;4;4;2;2;2;4;2;More than 2 hours;3;Good;Productive;Body odours
+S1;P_03;Bolzano;4;4;3;3;2;2;3;3;3-30 minutes;3;Good;Slighlty productive;Stationery
+S1;P_13;Bolzano;4;3;4;3;2;3;2;3;61-120 minutes;2;Neutral;Productive;Edible food
+S1;P_01;Bolzano;4;4;4;3;2;2;3;3;More than 2 hours;3;Bad;Slighlty productive;Stationery
+S1;P_13;Bolzano;3;2;4;3;2;4;2;3;31-60 minutes;3;Neutral;Slighlty productive;Stationery
+S1;P_13;Bolzano;3;2;4;2;2;3;2;3;61-120 minutes;3;Neutral;Productive;Stationery
+S1;P_03;Bolzano;4;3;4;3;2;3;2;3;31-60 minutes;3;Neutral;Slighlty productive;Cleaning products
+S1;P_03;Bolzano;2;4;3;1;4;2;1;1;Less than 3 minutes;1;Good;Slighlty productive;Stationery
+S1;P_03;Bolzano;3;3;4;3;3;2;2;3;31-60 minutes;3;Neutral;Neither unproductive nor productive;Cleaning products
+S1;P_03;Bolzano;4;3;4;3;2;2;2;2;31-60 minutes;5;Neutral;Slighlty productive;Cleaning products
+S1;P_05;Bolzano;3;3;3;3;3;3;3;3;More than 2 hours;2;Neutral;Slightly unproductive;Stationery
+S1;P_10;Bolzano;3;3;3;3;2;3;2;3;31-60 minutes;5;Good;Slighlty productive;Body odours
+S1;P_05;Bolzano;3;3;3;4;3;3;3;3;More than 2 hours;2;Neutral;Slighlty productive;Cleaning products
+S1;P_10;Bolzano;3;3;3;2;2;2;2;3;31-60 minutes;3;Good;Slighlty productive;Body odours
+S1;P_10;Bolzano;1;3;3;2;3;2;2;3;3-30 minutes;3;Good;Slighlty productive;Body odours
+S1;P_05;Bolzano;2;3;3;3;4;3;3;3;More than 2 hours;2;Neutral;Unproductive;Stationery
+S1;P_04;Bolzano;3;4;4;4;4;2;1;3;31-60 minutes;2;Neutral;;Cleaning products
+S1;P_04;Bolzano;3;4;3;4;3;2;1;2;61-120 minutes;2;Neutral;;Cleaning products
+S1;P_04;Bolzano;3;4;4;4;4;2;3;2;31-60 minutes;2;Neutral;;Cleaning products
+S1;P_04;Bolzano;4;4;4;4;2;2;3;2;31-60 minutes;2;Neutral;;Cleaning products
+S1;P_08;Bolzano;3;4;4;3;2;3;3;3;31-60 minutes;2;Good;;Stationery
+S1;P_08;Bolzano;3;3;3;3;2;3;3;3;61-120 minutes;2;Good;;Stationery
+S1;P_08;Bolzano;3;4;4;4;2;3;3;2;31-60 minutes;3;Good;;Cleaning products
+S1;P_01;Bolzano;2;2;1;2;4;3;2;3;31-60 minutes;2;Good;;Stationery
+S1;P_13;Bolzano;3;3;3;2;2;2;2;3;31-60 minutes;1;Neutral;;Stationery
+S1;P_13;Bolzano;3;3;3;3;3;3;3;3;31-60 minutes;2;Neutral;;Stationery
+S1;P_13;Bolzano;3;3;3;2;2;3;2;2;31-60 minutes;2;Bad;;Stationery
+S1;P_13;Bolzano;3;3;3;3;3;4;2;3;61-120 minutes;3;Good;;Stationery
+S1;P_04;Bolzano;2;4;4;3;3;2;4;3;More than 2 hours;2;Neutral;;Stationery
+S1;P_01;Bolzano;4;3;3;4;2;2;3;3;More than 2 hours;3;Neutral;;Cleaning products
+S1;P_01;Bolzano;3;3;4;3;2;5;3;3;61-120 minutes;3;Bad;;Stationery

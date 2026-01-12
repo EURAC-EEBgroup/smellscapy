@@ -1,0 +1,324 @@
+Time;Participant_ID;Stimulus_ID;Smell_detected;pleasant;present;light;engaging;unpleasant;absent;overpowering;detached;Acceptability;Odour_intensity;Hedonic_tone;Smelliness;Satisfaction;Appropriatness
+2025/10/01 11:23:03 AM CET;P01;C03;mint;4;4;4;3;1;1;1;2;Clearly acceptable;Weak;3;Not smelly;Satisfied;Very
+2025/10/01 11:39:20 AM CET;P01;C03;nothing;4;3;4;2;2;4;1;2;Clearly acceptable;Very week;0;Not smelly;Satisfied;Slightly
+2025/10/01 11:51:20 AM CET;P01;C04;nothing;4;3;4;3;3;3;3;3;Just acceptable;Weak;0;Not smelly;Satisfied;Moderately
+2025/10/01 12:02:19 PM CET;P01;C06;mint;4;4;4;4;4;4;4;4;Just unacceptable;Distinct;0;Smelly;Satisfied;Moderately
+2025/10/01 12:11:19 PM CET;P01;C06;nl;4;4;4;4;4;4;4;4;Just unacceptable;Weak;0;Slightly smelly;Unsatisfied;Moderately
+2025/10/01 12:19:36 PM CET;P01;C08;juk;4;4;4;4;4;4;4;4;Just acceptable;Distinct;-2;Smelly;Unsatisfied;Moderately
+2025/10/01 2:09:25 PM CET;P01;C09;nothing;4;4;4;4;4;4;4;4;Just unacceptable;Distinct;-2;Slightly smelly;Satisfied;Moderately
+2025/10/01 3:00:47 PM CET;P01;C01;fhf;3;3;3;3;3;3;3;3;Just acceptable;Very strong;3;Slightly smelly;Satisfied;Not at all
+2025/10/01 3:07:18 PM CET;P01;C02;mnbjhj;3;3;3;3;3;3;3;3;Just acceptable;Very week;-1;Slightly smelly;Unsatisfied;Slightly
+2025/10/03 8:33:59 AM CET;P05;C02;asdasd;3;3;3;3;3;3;3;3;Just unacceptable;Strong;-2;Smelly;Unsatisfied;Moderately
+2025/10/09 2:52:03 PM CET;P16;C08;books;4;4;5;3;2;1;4;3;Just acceptable;Strong;1;Very smelly;Satisfied;Moderately
+2025/10/09 3:09:14 PM CET;P16;C01;mint, fresh;3;4;3;3;3;1;5;3;Just acceptable;Extremely strong;2;Very smelly;Satisfied;Slightly
+2025/10/09 3:17:35 PM CET;P16;C02;fresh;3;4;5;4;3;1;3;3;Clearly acceptable;Strong;3;Smelly;Satisfied;Moderately
+2025/10/09 3:26:47 PM CET;P16;C04;stale room;3;5;2;1;3;1;4;4;Clearly unacceptable;Strong;-2;Very smelly;Unsatisfied;Slightly
+2025/10/09 4:17:41 PM CET;P03;C09;fresh;5;4;2;4;1;1;2;2;Clearly acceptable;Strong;3;Smelly;Satisfied;Moderately
+2025/10/09 4:26:44 PM CET;P03;C03;citronella;5;5;1;4;1;1;3;1;Clearly acceptable;Very strong;3;Very smelly;Satisfied;Perfectly
+2025/10/09 4:35:31 PM CET;P03;C01;light breeze;4;2;5;2;1;2;2;2;Clearly acceptable;Weak;2;Slightly smelly;Satisfied;Perfectly
+2025/10/09 4:43:21 PM CET;P03;C07;light light citron;4;1;5;2;2;4;2;4;Clearly acceptable;Very week;1;Slightly smelly;Satisfied;Perfectly
+2025/10/10 1:35:26 PM CET;P04;C02;lavender;4;5;2;3;1;1;5;4;Just acceptable;Very strong;3;Very smelly;Satisfied;Slightly
+2025/10/10 1:44:23 PM CET;P04;C08;none;3;3;3;3;3;5;3;3;Clearly acceptable;No odour;0;Not smelly;Satisfied;Perfectly
+2025/10/10 1:53:54 PM CET;P04;C07;don't know;2;3;4;2;4;3;2;3;Just unacceptable;Very week;-1;Slightly smelly;Unsatisfied;Not at all
+2025/10/10 2:01:59 PM CET;P04;C03;lavender;4;4;2;4;1;1;5;3;Just acceptable;Extremely strong;3;Very smelly;Satisfied;Slightly
+2025/10/10 2:54:47 PM CET;P04;C09;lavender;5;4;4;3;1;2;2;3;Clearly acceptable;Distinct;3;Slightly smelly;Satisfied;Moderately
+2025/10/10 3:02:42 PM CET;P04;C01;lavender;3;5;1;4;2;1;5;3;Just unacceptable;Extremely strong;1;Very smelly;Unsatisfied;Not at all
+2025/10/10 3:10:10 PM CET;P04;C04;soap?;5;4;4;4;1;1;2;3;Clearly acceptable;Distinct;4 Very pleasant;Slightly smelly;Satisfied;Moderately
+2025/10/10 3:17:55 PM CET;P04;C05;lavender or soap?;4;4;4;3;1;1;2;3;Clearly acceptable;Weak;3;Slightly smelly;Satisfied;Moderately
+2025/10/10 3:27:11 PM CET;P04;C06;soap;4;4;4;4;1;1;2;3;Clearly acceptable;Distinct;4 Very pleasant;Slightly smelly;Satisfied;Slightly
+2025/10/13 10:01:37 AM CET;P06;C08;nothing;3;4;4;4;2;2;3;3;Just acceptable;Strong;2;Smelly;Satisfied;Very
+2025/10/13 10:24:18 AM CET;P06;C03;a strong smell like mint;3;4;4;4;3;1;4;3;Just acceptable;Very strong;2;Very smelly;Satisfied;Moderately
+2025/10/13 10:33:18 AM CET;P06;C06;no;2;4;2;3;4;1;4;3;Just unacceptable;Very strong;3;Very smelly;Unsatisfied;Slightly
+2025/10/13 10:43:14 AM CET;P06;C09;vsfd;1;4;3;3;5;1;4;3;Just unacceptable;Very strong;2;Very smelly;Unsatisfied;Moderately
+2025/10/13 3:03:44 PM CET;P22;C01;flowers;4;3;4;3;1;1;3;2;Clearly acceptable;Distinct;0;Smelly;Satisfied;Moderately
+2025/10/13 3:13:06 PM CET;P22;C03;vanilla;5;4;4;4;1;1;2;2;Clearly acceptable;Strong;4 Very pleasant;Smelly;Satisfied;Perfectly
+2025/10/13 3:23:06 PM CET;P22;C02;rosemary;4;4;3;3;1;2;2;2;Clearly acceptable;Distinct;3;Smelly;Satisfied;Very
+2025/10/13 3:31:53 PM CET;P22;C08;neutral;3;3;3;3;3;3;3;3;Clearly acceptable;No odour;0;Not smelly;Unsatisfied;Perfectly
+2025/10/15 9:35:53 AM CET;P07;C01;mint;2;4;1;1;3;1;5;1;Just unacceptable;Very strong;2;Very smelly;Unsatisfied;Moderately
+2025/10/15 9:44:49 AM CET;P07;C02;cheese;2;5;4;2;5;1;2;3;Clearly unacceptable;Distinct;-2;Smelly;Unsatisfied;Not at all
+2025/10/15 9:53:29 AM CET;P07;C03;mint;4;5;2;4;3;2;5;2;Just acceptable;Very strong;2;Slightly smelly;Satisfied;Moderately
+2025/10/15 10:01:46 AM CET;P07;C07;nothing;3;1;5;1;3;5;1;4;Clearly acceptable;No odour;0;Not smelly;Satisfied;Very
+2025/10/15 10:27:30 AM CET;P07;C04;cheese;1;5;2;2;5;2;4;3;Clearly unacceptable;Strong;-2;Very smelly;Unsatisfied;Not at all
+2025/10/15 10:36:57 AM CET;P07;C08;nothing;3;2;5;2;1;4;1;4;Clearly acceptable;Very week;0;Not smelly;Satisfied;Perfectly
+2025/10/15 10:45:36 AM CET;P07;C05;cheese;2;4;3;2;5;2;3;3;Just unacceptable;Strong;-2;Smelly;Unsatisfied;Not at all
+2025/10/15 10:53:41 AM CET;P07;C02;arbre magique;4;4;3;3;1;2;2;3;Clearly acceptable;Distinct;3;Slightly smelly;Satisfied;Perfectly
+2025/10/15 11:02:42 AM CET;P07;C09;nothing;3;1;4;3;3;5;1;4;Clearly acceptable;No odour;0;Not smelly;Satisfied;Perfectly
+2025/10/15 4:36:15 PM CET;P08;C09;peach;5;4;2;4;1;1;3;4;Clearly acceptable;Strong;3;Smelly;Satisfied;Moderately
+2025/10/15 4:46:46 PM CET;P08;C06;-;3;4;4;3;2;2;3;4;Just acceptable;Distinct;1;Smelly;Satisfied;Moderately
+2025/10/15 4:55:32 PM CET;P08;C02;orange;4;4;2;4;1;1;3;4;Clearly acceptable;Strong;3;Very smelly;Satisfied;Very
+2025/10/15 5:04:02 PM CET;P08;C08;-;4;4;5;3;1;2;3;4;Just acceptable;Weak;1;Slightly smelly;Satisfied;Moderately
+2025/10/15 5:33:07 PM CET;P08;C01;orange;4;4;2;4;1;2;3;4;Just acceptable;Strong;2;Smelly;Satisfied;Moderately
+2025/10/15 5:52:03 PM CET;P08;C03;thyme;4;4;4;4;2;2;3;4;Clearly acceptable;Distinct;3;Smelly;Satisfied;Very
+2025/10/15 6:00:29 PM CET;P08;C05;lavender;5;5;3;4;2;2;3;4;Clearly acceptable;Strong;4 Very pleasant;Smelly;Satisfied;Very
+2025/10/15 6:09:25 PM CET;P08;C04;lemon;4;4;5;4;1;2;3;4;Clearly acceptable;Very week;2;Slightly smelly;Satisfied;Very
+2025/10/15 6:17:07 PM CET;P08;C07;-;3;3;3;3;3;3;3;2;Just acceptable;No odour;0;Not smelly;Satisfied;Very
+2025/10/16 3:11:01 PM CET;P09;C03;mint;4;5;4;4;2;1;4;3;Clearly acceptable;Very strong;2;Very smelly;Satisfied;Very
+2025/10/16 3:21:14 PM CET;P09;C01;mint;3;3;3;2;3;2;3;3;Just acceptable;Strong;0;Smelly;Unsatisfied;Moderately
+2025/10/16 3:30:37 PM CET;P09;C05;flower;2;5;1;2;4;1;3;3;Clearly unacceptable;Extremely strong;-2;Very smelly;Unsatisfied;Not at all
+2025/10/16 3:39:36 PM CET;P09;C09;mint;4;3;5;4;2;3;2;3;Clearly acceptable;Weak;1;Slightly smelly;Satisfied;Moderately
+2025/10/16 4:21:21 PM CET;P22;C07;lavender;4;4;3;4;1;1;2;2;Clearly acceptable;Distinct;1;Smelly;Satisfied;Very
+2025/10/16 4:30:45 PM CET;P22;C04;lavender;4;4;4;4;1;2;3;3;Clearly acceptable;Strong;3;Smelly;Satisfied;Very
+2025/10/16 4:39:37 PM CET;P22;C06;don't know;4;4;5;4;1;1;2;3;Clearly acceptable;Strong;1;Smelly;Satisfied;Very
+2025/10/16 4:48:04 PM CET;P22;C05;fresh;4;1;4;3;3;4;1;2;Clearly acceptable;Very week;-2;Not smelly;Satisfied;Very
+2025/10/16 4:57:38 PM CET;P22;C09;don't know;4;3;4;3;2;1;1;2;Just acceptable;Weak;0;Slightly smelly;Satisfied;Very
+2025/10/17 12:50:13 PM CET;P10;C03;sweet, citrus fruits;4;4;2;4;1;1;3;2;Clearly acceptable;Strong;3;Slightly smelly;Satisfied;Slightly
+2025/10/17 12:58:53 PM CET;P10;C01;citrus fruits;5;4;2;4;1;2;4;3;Clearly acceptable;Strong;4 Very pleasant;Not smelly;Satisfied;Slightly
+2025/10/17 1:08:09 PM CET;P10;C07;coffee, sometimes a little bit sweet;4;3;4;2;2;4;2;4;Clearly acceptable;Very week;1;Not smelly;Satisfied;Moderately
+2025/10/20 8:39:33 AM CET;P09;C08;flowers;5;4;4;4;1;2;2;3;Clearly acceptable;Weak;3;Slightly smelly;Satisfied;Very
+2025/10/20 8:49:02 AM CET;P09;C07;mint;5;3;5;4;1;2;2;3;Clearly acceptable;Very week;2;Slightly smelly;Satisfied;Perfectly
+2025/10/20 8:58:49 AM CET;P09;C06;flowers;3;5;2;2;3;1;4;2;Just unacceptable;Very strong;0;Very smelly;Unsatisfied;Slightly
+2025/10/20 9:07:08 AM CET;P09;C02;flowers;4;4;2;4;2;2;4;2;Just acceptable;Strong;1;Very smelly;Satisfied;Slightly
+2025/10/20 9:16:14 AM CET;P09;C04;flowers;3;5;1;2;3;1;4;2;Just unacceptable;Very strong;0;Very smelly;Unsatisfied;Slightly
+2025/10/20 9:54:42 AM CET;P06;C04;fresh, mint-like;5;5;4;3;2;2;2;2;Clearly acceptable;Distinct;2;Slightly smelly;Satisfied;Perfectly
+2025/10/20 10:03:09 AM CET;P06;C02;fresh and strong;3;3;4;3;2;2;2;2;Just acceptable;Strong;1;Smelly;Satisfied;Moderately
+2025/10/20 10:11:42 AM CET;P06;C02;strong and unbearable;4;4;4;3;2;2;2;2;Just acceptable;Strong;2;Smelly;Satisfied;Moderately
+2025/10/20 10:20:01 AM CET;P06;C05;strong and sometimes pleasant;4;4;4;3;2;2;2;2;Just acceptable;Distinct;2;Smelly;Satisfied;Moderately
+2025/10/20 10:27:36 AM CET;P06;C07;nothing;3;3;3;3;3;3;3;3;Just acceptable;Distinct;0;Not smelly;Satisfied;Very
+2025/10/22 9:41:17 AM CET;P10;C06;citrus fruits, sweet;5;4;2;4;2;2;4;3;Clearly acceptable;Distinct;3;Not smelly;Satisfied;Moderately
+2025/10/22 9:49:40 AM CET;P10;C08;slightly sweet;3;2;4;3;2;4;2;4;Clearly acceptable;Very week;1;Not smelly;Satisfied;Very
+2025/10/22 9:58:21 AM CET;P10;C04;citrus fruits;4;4;2;4;1;2;4;3;Clearly acceptable;Strong;2;Not smelly;Satisfied;Slightly
+2025/10/22 10:06:07 AM CET;P10;C09;nothing;3;1;4;1;2;5;2;4;Clearly acceptable;No odour;0;Not smelly;Unsatisfied;Moderately
+2025/10/22 10:14:05 AM CET;P10;C02;citrus fruits;4;4;1;4;2;2;4;2;Just acceptable;Very strong;2;Slightly smelly;Satisfied;Not at all
+2025/10/22 10:27:02 AM CET;P10;C05;citrus fruits;4;4;3;4;2;2;3;2;Clearly acceptable;Distinct;3;Not smelly;Satisfied;Moderately
+2025/10/22 12:39:05 PM CET;P13;C02;eucalyptus, pine, sage;5;4;3;3;1;1;2;3;Clearly acceptable;Strong;3;Slightly smelly;Satisfied;Moderately
+2025/10/22 12:48:04 PM CET;P13;C05;roses, flowers, lemon detergent;4;4;2;2;2;1;4;3;Just acceptable;Very strong;1;Smelly;Satisfied;Slightly
+2025/10/22 12:56:56 PM CET;P13;C03;eucalyptus, pine, mint;5;4;4;4;1;2;2;3;Clearly acceptable;Distinct;3;Slightly smelly;Satisfied;Very
+2025/10/22 1:05:26 PM CET;P13;C04;rosa, detersivo al limone;5;3;4;3;1;2;2;3;Clearly acceptable;Distinct;3;Slightly smelly;Satisfied;Perfectly
+2025/10/23 10:00:41 AM CET;P24;C06;roses, flowers, lemon detergent;5;5;1;3;1;1;4;3;Just acceptable;Very strong;3;Very smelly;Satisfied;Moderately
+2025/10/23 10:10:14 AM CET;P24;C08;I smelled odours presented in the nose from the cannuls in my nostrils;4;4;3;2;1;1;4;1;Just acceptable;Strong;2;Smelly;Satisfied;Moderately
+2025/10/23 10:17:45 AM CET;P24;C02;From the cannules in my nostrils;4;4;3;1;1;1;3;1;Just acceptable;Strong;2;Smelly;Satisfied;Moderately
+2025/10/23 10:25:56 AM CET;P24;C07;From the cannules in my nostrils;4;4;4;1;1;1;2;1;Just acceptable;Distinct;2;Smelly;Satisfied;Moderately
+2025/10/23 10:39:42 AM CET;P24;C03;From the cannules in my nostrils;4;4;2;1;1;1;3;1;Just acceptable;Distinct;2;Smelly;Satisfied;Moderately
+2025/10/23 10:47:22 AM CET;P24;C01;From the cannules in my nostrils;4;4;3;1;1;1;2;1;Just acceptable;Distinct;1;Smelly;Satisfied;Moderately
+2025/10/23 10:55:01 AM CET;P24;C05;From the cannules in my nostrils;4;4;3;1;1;1;3;1;Just acceptable;Strong;1;Smelly;Satisfied;Moderately
+2025/10/23 11:02:36 AM CET;P24;C04;From the cannules in my nostrils;5;5;3;1;1;1;4;1;Just unacceptable;Strong;1;Smelly;Satisfied;Not at all
+2025/10/23 11:09:50 AM CET;P24;C09;From the cannules in my nostrils;5;5;1;1;1;1;2;1;Clearly acceptable;Very strong;2;Smelly;Satisfied;Slightly
+2025/10/23 11:18:08 AM CET;P24;C03;From the cannules in my nostrils;5;5;2;1;1;1;1;1;Just acceptable;Distinct;2;Smelly;Satisfied;Slightly
+2025/10/23 11:26:49 AM CET;P24;C01;From the cannules in my nostrils;5;5;1;1;1;1;4;1;Just acceptable;Very strong;1;Smelly;Satisfied;Slightly
+2025/10/23 2:16:56 PM CET;P03;C08;fragrant, sweet, pleasant;5;5;1;4;1;1;4;2;Clearly acceptable;Very strong;3;Very smelly;Satisfied;Moderately
+2025/10/23 2:36:22 PM CET;P03;C06;lavender, fragrant, relaxing;5;5;1;4;1;1;4;2;Clearly acceptable;Very strong;3;Very smelly;Satisfied;Very
+2025/10/23 2:44:32 PM CET;P03;C04;very light, perhaps absent, fresh;3;1;5;1;3;5;1;3;Clearly acceptable;No odour;0;Not smelly;Satisfied;Very
+2025/10/23 2:52:30 PM CET;P03;C02;woody, sandalwood;5;4;2;4;1;2;3;2;Clearly acceptable;Distinct;3;Smelly;Satisfied;Moderately
+2025/10/23 3:00:20 PM CET;P03;C05;pungent, lemongrass;4;5;1;4;2;1;3;2;Clearly acceptable;Very strong;3;Very smelly;Satisfied;Moderately
+2025/10/24 1:37:23 PM CET;P16;C03;clean;5;4;4;4;1;2;3;3;Clearly acceptable;Strong;2;Smelly;Satisfied;Very
+2025/10/24 2:05:34 PM CET;P16;C05;fresh and clean;5;5;5;5;1;1;4;3;Clearly acceptable;Very strong;4 Very pleasant;Smelly;Satisfied;Very
+2025/10/24 3:39:05 PM CET;P11;C03;weak and pleasant;5;5;5;3;2;1;2;4;Clearly acceptable;Distinct;4 Very pleasant;Smelly;Satisfied;Very
+2025/10/24 3:49:46 PM CET;P11;C09;indistinct but sharper than the previous one;4;4;4;2;2;1;1;4;Just acceptable;Distinct;1;Smelly;Unsatisfied;Moderately
+2025/10/24 3:59:01 PM CET;P11;C05;synthetic (chemical) flower fragrance;4;4;4;3;3;2;1;2;Just acceptable;Distinct;1;Smelly;Satisfied;Very
+2025/10/24 4:08:24 PM CET;P11;C02;The smell didn't fit the sound environment: an artificial, indoor smell that clashed, for example, with the initial birdsong.;3;4;4;3;3;2;2;4;Just acceptable;Distinct;0;Smelly;Unsatisfied;Slightly
+2025/10/24 4:39:04 PM CET;P11;C01;artificial indoor smell;3;4;4;3;3;2;2;4;Just acceptable;Distinct;-1;Smelly;Unsatisfied;Slightly
+2025/10/24 4:46:56 PM CET;P11;C04;artificial flowers;5;4;4;3;1;1;1;3;Clearly acceptable;Distinct;2;Smelly;Satisfied;Very
+2025/10/24 4:54:42 PM CET;P11;C07;nothing;5;2;4;1;1;4;1;3;Clearly acceptable;No odour;4 Very pleasant;Not smelly;Satisfied;Perfectly
+2025/10/24 5:02:45 PM CET;P11;C06;artificial flowers;5;4;4;3;1;1;1;3;Clearly acceptable;Distinct;3;Smelly;Satisfied;Perfectly
+2025/10/24 5:11:18 PM CET;P11;C08;nothing;4;2;3;3;3;4;3;3;Clearly acceptable;Very week;4 Very pleasant;Not smelly;Satisfied;Very
+2025/10/28 2:57:49 PM CET;P17;C06;don't know;2;5;2;4;4;1;1;1;Clearly acceptable;Distinct;-2;Smelly;Unsatisfied;Very
+2025/10/28 3:32:42 PM CET;P17;C02;don't know;2;5;1;3;5;1;3;1;Just acceptable;Extremely strong;-3;Very smelly;Unsatisfied;Slightly
+2025/10/28 4:06:32 PM CET;P17;C04;don't know;4;2;5;1;4;4;1;5;Clearly acceptable;Very week;1;Not smelly;Satisfied;Perfectly
+2025/10/28 4:15:48 PM CET;P17;C08;nothing;3;1;5;1;1;5;1;5;Clearly acceptable;No odour;0;Not smelly;Satisfied;Perfectly
+2025/10/28 4:30:10 PM CET;P17;C07;nothing;3;4;4;2;4;3;1;2;Clearly acceptable;Weak;-1;Slightly smelly;Unsatisfied;Moderately
+2025/10/28 4:39:57 PM CET;P17;C05;citrus fruits?;4;4;4;3;2;2;2;3;Clearly acceptable;Strong;0;Smelly;Satisfied;Very
+2025/10/28 4:50:12 PM CET;P17;C09;don't know;4;4;5;2;2;1;1;4;Clearly acceptable;Weak;1;Slightly smelly;Satisfied;Very
+2025/10/28 5:00:21 PM CET;P17;C01;intestine? citrus?;2;5;1;4;5;1;2;1;Just acceptable;Very strong;-3;Very smelly;Unsatisfied;Not at all
+2025/10/28 5:10:07 PM CET;P17;C03;don't know;4;3;5;1;1;4;1;5;Clearly acceptable;Very week;1;Not smelly;Satisfied;Very
+2025/10/29 11:30:24 AM CET;P18;C05;soap, like a strong sharp floral smell;2;5;2;2;4;1;4;4;Just acceptable;Strong;-1;Smelly;Unsatisfied;Not at all
+2025/10/29 11:40:12 AM CET;P18;C02;cedar, like cut wood;4;5;1;3;2;1;4;4;Just acceptable;Very strong;2;Very smelly;Satisfied;Not at all
+2025/10/29 11:52:34 AM CET;P18;C03;sharp cedar or wood, maybe mixed with floral ;4;5;1;3;2;1;4;4;Just acceptable;Very strong;1;Very smelly;Unsatisfied;Not at all
+2025/10/29 12:02:51 PM CET;P18;C04;soap;3;5;1;3;3;1;4;4;Just acceptable;Very strong;1;Very smelly;Unsatisfied;Slightly
+2025/10/29 3:22:45 PM CET;P19;C09;stale smell, almost dusty;3;4;4;2;3;2;2;3;Clearly acceptable;Weak;-1;Not smelly;Unsatisfied;Moderately
+2025/10/29 3:31:28 PM CET;P19;C05;Lavender air freshner;3;5;2;3;3;2;5;2;Clearly acceptable;Very strong;1;Smelly;Unsatisfied;Slightly
+2025/10/29 3:40:10 PM CET;P19;C02;mentholated;4;4;2;4;2;2;4;2;Clearly acceptable;Strong;2;Smelly;Satisfied;Moderately
+2025/10/29 3:48:09 PM CET;P19;C06;citrusy;4;4;2;3;2;2;5;2;Clearly acceptable;Extremely strong;2;Very smelly;Satisfied;Not at all
+2025/10/29 4:17:04 PM CET;P19;C04;scent of cleanliness, not so distinctive;4;2;4;2;2;3;2;3;Just acceptable;Distinct;2;Slightly smelly;Satisfied;Moderately
+2025/10/29 4:25:24 PM CET;P19;C01;mentholated;3;4;3;2;3;2;3;2;Clearly acceptable;Distinct;1;Smelly;Unsatisfied;Not at all
+2025/10/29 4:33:52 PM CET;P19;C08;don't know;3;1;5;2;3;5;2;4;Just acceptable;Very week;0;Not smelly;Unsatisfied;Moderately
+2025/10/29 4:41:55 PM CET;P19;C07;don't know;3;2;4;2;3;4;2;4;Just acceptable;No odour;0;Not smelly;Unsatisfied;Very
+2025/10/29 4:50:36 PM CET;P19;C03;fresh, not so recognisable;3;4;3;2;3;2;2;3;Just acceptable;Distinct;1;Slightly smelly;Unsatisfied;Moderately
+2025/10/30 11:50:15 AM CET;P15;C03;eucalyptus;4;4;2;4;2;2;3;3;Clearly acceptable;Strong;2;Smelly;Unsatisfied;Slightly
+2025/10/30 11:59:27 AM CET;P15;C05;talcum;5;5;2;4;1;1;1;3;Clearly acceptable;Very strong;3;Very smelly;Satisfied;Very
+2025/10/30 12:08:40 PM CET;P15;C08;citronella, cleaning placebo;1;5;1;4;5;1;2;2;Clearly unacceptable;Strong;-2;Smelly;Unsatisfied;Not at all
+2025/10/30 12:19:36 PM CET;P15;C06;talcum, rose;4;4;3;3;1;1;3;2;Just acceptable;Distinct;2;Smelly;Satisfied;Moderately
+2025/10/30 2:38:32 PM CET;P14;C04;floral;3;5;4;4;2;2;3;2;Clearly acceptable;Distinct;2;Smelly;Satisfied;Very
+2025/10/30 2:48:52 PM CET;P14;C02;floral;4;4;3;3;2;1;2;2;Clearly acceptable;Distinct;2;Smelly;Satisfied;Moderately
+2025/10/30 3:01:04 PM CET;P14;C05;sapone di marsiglia;4;4;3;4;2;2;2;2;Clearly acceptable;Strong;2;Smelly;Satisfied;Slightly
+2025/10/30 3:12:14 PM CET;P14;C06;sapone di marsiglia;4;4;3;4;3;2;3;2;Just acceptable;Distinct;1;Very smelly;Satisfied;Slightly
+2025/10/30 3:33:01 PM CET;P14;C08;sapone di marsiglia;4;4;3;4;2;2;2;2;Just acceptable;Distinct;2;Smelly;Satisfied;Moderately
+2025/10/30 3:42:04 PM CET;P14;C07;sapone di marsiglia;4;4;3;4;2;2;2;2;Just acceptable;Strong;1;Smelly;Satisfied;Moderately
+2025/10/30 3:51:24 PM CET;P14;C09;sapone di marsiglia;4;4;3;3;2;2;2;2;Just acceptable;Weak;2;Slightly smelly;Satisfied;Very
+2025/10/30 3:59:53 PM CET;P14;C01;essential oil;4;4;3;3;2;2;2;2;Clearly acceptable;Distinct;2;Smelly;Satisfied;Very
+2025/10/30 4:08:29 PM CET;P14;C03;essential oil;4;4;3;3;2;2;2;2;Clearly acceptable;Distinct;1;Smelly;Satisfied;Moderately
+2025/10/30 5:30:05 PM CET;P26;C03;air freshners;5;3;4;4;1;2;4;3;Clearly acceptable;Very strong;3;Smelly;Satisfied;Slightly
+2025/10/30 5:41:01 PM CET;P26;C09;"Air fresheners, detergents, ""Smell of a clean desk""";3;4;3;3;3;2;3;4;Clearly acceptable;Distinct;0;Smelly;Satisfied;Slightly
+2025/10/30 5:50:29 PM CET;P26;C05;Air fresheners, detergents;4;4;2;4;1;1;4;3;Clearly acceptable;Very strong;3;Smelly;Satisfied;Moderately
+2025/10/30 5:59:36 PM CET;P26;C02;Air freshners;4;4;3;4;1;4;3;3;Clearly acceptable;Strong;4 Very pleasant;Smelly;Satisfied;Very
+2025/10/31 12:05:59 PM CET;P33;C01;beams or wooden boards like those used in wine;5;4;2;4;1;1;3;3;Clearly acceptable;Very strong;4 Very pleasant;Smelly;Satisfied;Slightly
+2025/10/31 12:21:26 PM CET;P33;C08;like a room diffuser with forest scents;4;4;5;3;2;2;1;3;Clearly acceptable;Very week;1;Not smelly;Satisfied;Very
+2025/10/31 12:32:53 PM CET;P33;C06;some kind of soap or disinfectant;4;5;1;2;3;1;4;3;Just acceptable;Very strong;2;Very smelly;Satisfied;Slightly
+2025/10/31 12:43:20 PM CET;P33;C05;disinfectant floor soap;4;4;3;2;3;2;4;3;Clearly acceptable;Strong;2;Not smelly;Satisfied;Moderately
+2025/10/31 1:32:05 PM CET;P32;C08;flowers;5;4;4;4;2;2;3;2;Clearly acceptable;Distinct;3;Smelly;Satisfied;Very
+2025/10/31 1:40:52 PM CET;P32;C02;perfume;4;3;2;4;2;3;4;3;Just acceptable;Strong;1;Smelly;Satisfied;Slightly
+2025/10/31 1:49:49 PM CET;P32;C07;something artificial;2;3;3;2;4;3;3;3;Just unacceptable;Weak;-1;Slightly smelly;Unsatisfied;Slightly
+2025/10/31 1:58:30 PM CET;P32;C06;perfume;3;4;2;3;3;2;3;3;Just acceptable;Distinct;1;Slightly smelly;Satisfied;Moderately
+2025/10/31 2:10:08 PM CET;P32;C05;unspecified;2;3;2;3;4;3;3;3;Just acceptable;Distinct;-1;Smelly;Unsatisfied;Slightly
+2025/10/31 2:18:57 PM CET;P32;C03;jasmine;5;5;4;5;1;2;3;2;Clearly acceptable;Strong;2;Smelly;Satisfied;Very
+2025/10/31 2:27:30 PM CET;P32;C04;flower;4;4;3;4;2;2;3;2;Clearly acceptable;Distinct;2;Smelly;Satisfied;Very
+2025/10/31 2:35:10 PM CET;P32;C09;nothing;3;3;3;3;3;3;3;3;Just acceptable;No odour;0;Not smelly;Satisfied;Moderately
+2025/10/31 2:42:57 PM CET;P32;C01;perfume;4;3;5;2;2;4;2;3;Clearly acceptable;Very week;1;Not smelly;Satisfied;Moderately
+2025/11/03 3:58:37 PM CET;P20;C06;something flowery;4;5;2;3;2;1;4;3;Clearly acceptable;Very strong;3;Very smelly;Satisfied;Moderately
+2025/11/03 4:06:40 PM CET;P20;C02;something natural;4;4;4;3;2;2;1;3;Clearly acceptable;Distinct;2;Slightly smelly;Satisfied;Moderately
+2025/11/03 4:15:17 PM CET;P20;C01;nothing;3;1;4;1;3;5;1;3;Clearly acceptable;No odour;0;Not smelly;Satisfied;Perfectly
+2025/11/03 4:23:48 PM CET;P20;C04;camomilla maybe;4;4;4;4;2;2;1;2;Clearly acceptable;Distinct;3;Smelly;Satisfied;Very
+2025/11/03 4:37:18 PM CET;P20;C08;flowers/plant;5;4;4;4;1;1;2;2;Clearly acceptable;Strong;3;Smelly;Satisfied;Very
+2025/11/03 4:48:01 PM CET;P20;C03;don't know;4;4;4;3;2;2;1;3;Clearly acceptable;Weak;2;Slightly smelly;Satisfied;Moderately
+2025/11/03 4:57:30 PM CET;P20;C05;something natural, plants;4;5;2;4;2;1;4;2;Just acceptable;Extremely strong;1;Very smelly;Satisfied;Not at all
+2025/11/03 5:05:52 PM CET;P20;C09;lavander maybe;4;2;4;2;2;4;2;4;Clearly acceptable;Very week;1;Slightly smelly;Satisfied;Very
+2025/11/03 5:14:14 PM CET;P20;C07;nothing;3;1;3;3;3;5;1;3;Just acceptable;Very week;0;Not smelly;Satisfied;Very
+2025/11/05 9:54:56 AM CET;P13;C06;lavender, mint, lemon;5;4;4;3;1;2;1;3;Clearly acceptable;Distinct;4 Very pleasant;Slightly smelly;Satisfied;Perfectly
+2025/11/05 10:04:27 AM CET;P13;C08;lemongrass, mild eucalyptus, and floral;5;3;5;3;1;2;1;3;Clearly acceptable;Weak;4 Very pleasant;Slightly smelly;Satisfied;Perfectly
+2025/11/05 10:12:12 AM CET;P13;C07;mint, lemon detergent;5;3;5;4;1;3;1;3;Clearly acceptable;Weak;4 Very pleasant;Not smelly;Satisfied;Perfectly
+2025/11/05 10:20:51 AM CET;P13;C09;lemon, rose;5;3;5;2;1;3;1;3;Clearly acceptable;Weak;4 Very pleasant;Slightly smelly;Satisfied;Perfectly
+2025/11/05 10:29:41 AM CET;P13;C01;eucalyptus, mint, lemongrass;3;4;2;3;2;2;4;3;Just acceptable;Very strong;1;Smelly;Satisfied;Slightly
+2025/11/05 3:24:41 PM CET;P23;C09;nothing;4;3;4;4;2;3;4;2;Just acceptable;Distinct;2;Slightly smelly;Satisfied;Moderately
+2025/11/05 3:34:58 PM CET;P23;C06;soap;5;5;5;4;2;2;2;3;Just acceptable;Very strong;3;Smelly;Satisfied;Moderately
+2025/11/05 3:46:19 PM CET;P23;C01;bay leaf;1;4;2;2;4;4;4;4;Just unacceptable;Very strong;-3;Smelly;Satisfied;Not at all
+2025/11/05 3:54:48 PM CET;P23;C04;soap;4;4;4;3;2;2;2;3;Just acceptable;Strong;2;Smelly;Satisfied;Moderately
+2025/11/05 4:03:52 PM CET;P23;C07;ni;3;4;3;3;4;4;3;4;Just acceptable;Weak;1;Slightly smelly;Satisfied;Moderately
+2025/11/05 5:07:22 PM CET;P29;C09;shampoo;4;5;2;4;2;1;4;3;Just acceptable;Very strong;1;Very smelly;Satisfied;Not at all
+2025/11/05 5:16:00 PM CET;P29;C06;violet;5;5;4;5;1;1;4;1;Just acceptable;Very strong;2;Very smelly;Satisfied;Slightly
+2025/11/05 5:25:03 PM CET;P29;C04;burned;2;4;2;2;1;1;4;3;Clearly unacceptable;Very strong;-2;Smelly;Unsatisfied;Not at all
+2025/11/05 5:32:32 PM CET;P29;C04;thyme;4;5;2;4;1;1;1;3;Clearly acceptable;Strong;3;Smelly;Satisfied;Slightly
+2025/11/06 3:16:25 PM CET;P01;C08;Balsamic Creme;5;4;4;3;1;1;1;1;Clearly acceptable;Strong;3;Not smelly;Satisfied;Moderately
+2025/11/06 3:25:07 PM CET;P01;C02;Something like lavander or other odorous plants.;4;5;1;4;4;1;5;1;Just acceptable;Extremely strong;2;Very smelly;Unsatisfied;Slightly
+2025/11/06 3:33:19 PM CET;P01;C06;Flowers or a sprayed scent ;5;4;4;4;1;1;2;1;Clearly acceptable;Strong;4 Very pleasant;Smelly;Satisfied;Very
+2025/11/06 3:41:20 PM CET;P01;C01;A body cream;5;2;5;2;1;4;1;5;Clearly acceptable;Distinct;3;Slightly smelly;Satisfied;Moderately
+2025/11/06 4:47:32 PM CET;P23;C02;alcool;2;4;4;3;2;4;4;3;Just unacceptable;Strong;-2;Smelly;Unsatisfied;Slightly
+2025/11/06 4:55:34 PM CET;P23;C03;bay leaf;2;4;4;2;4;2;5;5;Just unacceptable;Very strong;-2;Smelly;Unsatisfied;Slightly
+2025/11/06 5:02:52 PM CET;P23;C08;nothing;4;4;4;4;2;2;2;2;Just acceptable;Distinct;3;Smelly;Satisfied;Very
+2025/11/06 5:10:08 PM CET;P23;C05;soap;4;4;4;3;2;2;3;3;Just acceptable;Strong;3;Smelly;Satisfied;Moderately
+2025/11/10 5:17:21 PM CET;P01;C09;Balsamic tonic;4;2;5;2;1;2;1;4;Clearly acceptable;Weak;3;Slightly smelly;Satisfied;Very
+2025/11/10 5:24:44 PM CET;P01;C03;Flowers;4;5;1;4;1;1;4;1;Just unacceptable;Very strong;2;Very smelly;Unsatisfied;Slightly
+2025/11/10 5:31:51 PM CET;P01;C05;Hand cream;5;2;5;1;1;4;1;5;Clearly acceptable;Very week;4 Very pleasant;Slightly smelly;Satisfied;Perfectly
+2025/11/10 5:38:53 PM CET;P01;C04;nothing;5;1;5;1;1;5;1;5;Clearly acceptable;No odour;4 Very pleasant;Not smelly;Satisfied;Perfectly
+2025/11/10 5:47:00 PM CET;P01;C07;flowers;4;1;4;1;1;4;1;5;Clearly acceptable;Very week;3;Not smelly;Satisfied;Perfectly
+2025/11/12 11:11:26 AM CET;P30;C02;pine, trees, and plants;4;4;4;4;1;4;5;3;Just acceptable;Very strong;3;Smelly;Satisfied;Not at all
+2025/11/12 11:21:19 AM CET;P30;C01;pine, trees, and plants;4;4;3;4;1;1;3;3;Just acceptable;Very strong;3;Smelly;Satisfied;Not at all
+2025/11/12 11:29:32 AM CET;P30;C05;flowers;5;4;3;4;1;1;3;3;Clearly acceptable;Extremely strong;4 Very pleasant;Very smelly;Satisfied;Moderately
+2025/11/12 11:37:00 AM CET;P30;C09;flowers;3;2;3;3;1;3;3;3;Just acceptable;Weak;2;Slightly smelly;Satisfied;Moderately
+2025/11/12 1:37:37 PM CET;P18;C01;Wood, pine;4;4;3;4;2;2;3;4;Just acceptable;Strong;2;Smelly;Satisfied;Not at all
+2025/11/12 1:45:52 PM CET;P18;C08;floral;4;4;4;4;2;2;2;3;Just acceptable;Weak;2;Slightly smelly;Satisfied;Moderately
+2025/11/12 2:00:12 PM CET;P18;C06;lemon, pine;3;5;1;3;3;1;5;4;Just unacceptable;Very strong;0;Very smelly;Unsatisfied;Not at all
+2025/11/12 2:19:17 PM CET;P18;C09;Floral;4;4;4;4;2;2;2;3;Clearly acceptable;Distinct;1;Slightly smelly;Satisfied;Moderately
+2025/11/12 2:30:16 PM CET;P18;C07;Pine, floral;4;4;4;4;2;2;2;3;Just acceptable;Distinct;2;Smelly;Satisfied;Moderately
+2025/11/12 6:46:38 PM CET;P21;C09;air freshners;5;4;4;4;1;1;1;2;Clearly acceptable;Strong;3;Smelly;Satisfied;Moderately
+2025/11/12 6:55:04 PM CET;P21;C01;scots pine;4;5;3;4;2;1;5;2;Just acceptable;Strong;2;Very smelly;Satisfied;Slightly
+2025/11/12 7:04:24 PM CET;P21;C05;generic soap;4;4;2;4;1;1;2;2;Clearly acceptable;Strong;3;Smelly;Satisfied;Slightly
+2025/11/12 7:13:04 PM CET;P21;C02;bergamot;4;4;3;4;2;1;2;2;Just acceptable;Very strong;2;Very smelly;Satisfied;Slightly
+2025/11/13 4:08:59 PM CET;P05;C01;lemon;2;5;1;4;4;1;1;4;Just unacceptable;Very strong;-1;Very smelly;Unsatisfied;Slightly
+2025/11/13 4:18:52 PM CET;P05;C08;lemon;3;4;4;2;2;1;2;4;Just acceptable;Strong;-1;Smelly;Unsatisfied;Slightly
+2025/11/13 4:26:59 PM CET;P05;C07;lemon and vanilla;2;5;2;1;5;1;2;2;Just unacceptable;Very strong;-2;Smelly;Unsatisfied;Slightly
+2025/11/13 4:35:11 PM CET;P05;C04;napkin;4;5;2;2;2;2;2;4;Just acceptable;Strong;3;Very smelly;Satisfied;Very
+2025/11/13 4:44:10 PM CET;P05;C03;lemon;2;5;2;2;5;1;1;2;Just unacceptable;Strong;-2;Very smelly;Unsatisfied;Slightly
+2025/11/13 5:14:37 PM CET;P05;C02;lemon;2;5;1;2;4;1;2;2;Just acceptable;Very strong;-2;Slightly smelly;Unsatisfied;Slightly
+2025/11/13 5:22:38 PM CET;P05;C06;white musk;5;5;1;4;1;1;2;4;Clearly acceptable;Strong;3;Smelly;Satisfied;Moderately
+2025/11/13 5:34:22 PM CET;P05;C09;sapone di marsiglia;3;5;4;1;2;1;2;2;Just acceptable;Distinct;-1;Slightly smelly;Unsatisfied;Moderately
+2025/11/14 2:18:01 PM CET;P33;C04;air freshner or floor detergent;4;4;2;4;1;1;4;3;Clearly acceptable;Strong;1;Smelly;Satisfied;Moderately
+2025/11/14 2:32:44 PM CET;P33;C07;air freshner or floor detergent;4;4;5;3;2;2;1;3;Clearly acceptable;Weak;2;Slightly smelly;Satisfied;Very
+2025/11/14 2:41:47 PM CET;P33;C09;air freshners;4;4;5;2;1;2;1;1;Clearly acceptable;Very week;2;Slightly smelly;Satisfied;Very
+2025/11/14 2:51:14 PM CET;P33;C03;wood and mountain herbs;5;5;2;4;1;1;4;2;Clearly acceptable;Strong;4 Very pleasant;Smelly;Satisfied;Very
+2025/11/14 3:03:56 PM CET;P33;C02;wood;5;4;5;4;1;2;1;2;Clearly acceptable;Weak;4 Very pleasant;Slightly smelly;Satisfied;Perfectly
+2025/11/14 4:08:38 PM CET;P21;C04;soap;5;4;4;4;1;1;4;4;Clearly acceptable;Strong;3;Smelly;Satisfied;Moderately
+2025/11/14 4:17:03 PM CET;P21;C06;soap;4;4;4;4;1;1;3;2;Clearly acceptable;Strong;2;Smelly;Satisfied;Moderately
+2025/11/14 4:25:33 PM CET;P21;C08;talcum;4;2;2;2;1;4;2;1;Clearly acceptable;Very week;2;Slightly smelly;Satisfied;Very
+2025/11/14 4:33:45 PM CET;P21;C03;forest;4;4;4;4;2;1;4;2;Just acceptable;Very strong;2;Smelly;Satisfied;Slightly
+2025/11/14 4:43:15 PM CET;P21;C07;soap;4;2;2;2;1;4;2;2;Clearly acceptable;Weak;2;Slightly smelly;Satisfied;Very
+2025/11/14 5:34:50 PM CET;P27;C03;air freshner;4;5;1;3;2;1;3;3;Clearly acceptable;Distinct;3;Smelly;Satisfied;Moderately
+2025/11/14 5:44:35 PM CET;P27;C02;air freshner;4;3;3;3;2;2;2;3;Just acceptable;Distinct;2;Smelly;Satisfied;Moderately
+2025/11/14 5:52:50 PM CET;P27;C06;woman perfume;2;4;2;2;4;2;4;3;Clearly unacceptable;Strong;-3;Very smelly;Unsatisfied;Slightly
+2025/11/14 6:01:31 PM CET;P27;C09;scented candle;4;2;4;2;2;3;1;3;Clearly acceptable;Very week;4 Very pleasant;Slightly smelly;Satisfied;Very
+2025/11/14 6:10:14 PM CET;P27;C04;cleaning products;4;4;4;4;2;2;2;3;Just acceptable;Weak;2;Smelly;Satisfied;Very
+2025/11/14 6:29:53 PM CET;P27;C07;oil or wood;4;2;5;4;1;3;1;2;Clearly acceptable;Very week;3;Slightly smelly;Satisfied;Perfectly
+2025/11/14 6:37:15 PM CET;P27;C05;chalk and soap;4;3;4;4;2;2;1;3;Clearly acceptable;Weak;3;Slightly smelly;Satisfied;Very
+2025/11/14 6:48:09 PM CET;P27;C08;fresh air;4;1;5;2;1;4;1;4;Clearly acceptable;No odour;4 Very pleasant;Not smelly;Satisfied;Perfectly
+2025/11/14 6:56:42 PM CET;P27;C01;parfume diffuser;4;4;3;4;2;2;2;3;Just unacceptable;Distinct;3;Smelly;Satisfied;Moderately
+2025/11/17 10:20:22 AM CET;P26;C07;air freshners, detergents;4;4;4;3;2;2;2;4;Clearly acceptable;Weak;2;Slightly smelly;Satisfied;Moderately
+2025/11/17 10:28:10 AM CET;P26;C04;air freshners;5;5;1;4;1;1;5;3;Clearly acceptable;Extremely strong;4 Very pleasant;Very smelly;Satisfied;Very
+2025/11/17 10:37:27 AM CET;P26;C01;citrus fruits air freshners;2;4;2;4;5;2;4;3;Just unacceptable;Very strong;-3;Very smelly;Unsatisfied;Not at all
+2025/11/17 10:46:23 AM CET;P26;C08;air freshners;3;2;5;2;3;4;1;3;Clearly acceptable;Very week;0;Not smelly;Satisfied;Very
+2025/11/17 10:54:37 AM CET;P26;C06;air freshners;4;4;3;3;2;2;1;3;Clearly acceptable;Strong;3;Smelly;Satisfied;Very
+2025/11/17 5:16:44 PM CET;P30;C03;pine, forest;5;5;2;4;1;1;3;3;Clearly acceptable;Extremely strong;3;Very smelly;Satisfied;Moderately
+2025/11/17 5:24:42 PM CET;P30;C04;flowers;5;3;4;4;1;2;3;3;Just acceptable;Distinct;3;Smelly;Satisfied;Moderately
+2025/11/17 5:33:30 PM CET;P30;C07;nothing;3;1;5;3;3;5;2;3;Clearly acceptable;No odour;0;Not smelly;Satisfied;Perfectly
+2025/11/17 5:41:15 PM CET;P30;C08;nothing;3;1;4;3;3;5;3;3;Clearly acceptable;Very week;0;Not smelly;Satisfied;Very
+2025/11/17 5:49:48 PM CET;P30;C06;flowers;4;4;3;4;1;1;3;3;Just acceptable;Strong;3;Smelly;Satisfied;Moderately
+2025/11/19 10:28:15 AM CET;P02;C05;lemongrass, lavender;5;5;2;4;1;1;2;2;Clearly acceptable;Very strong;4 Very pleasant;Very smelly;Satisfied;Moderately
+2025/11/19 10:38:06 AM CET;P02;C08;sanitizer;4;2;5;2;3;4;1;4;Just acceptable;Weak;1;Slightly smelly;Unsatisfied;Moderately
+2025/11/19 10:46:53 AM CET;P02;C09;woman perfume;4;4;3;4;2;2;3;2;Just acceptable;Strong;2;Smelly;Satisfied;Moderately
+2025/11/19 10:56:03 AM CET;P02;C07;stale air, mold;2;3;5;3;4;3;4;4;Just acceptable;Weak;-1;Slightly smelly;Unsatisfied;Slightly
+2025/11/19 11:05:51 AM CET;P02;C03;cola-flavored candies;4;4;2;4;2;2;4;2;Just acceptable;Strong;2;Smelly;Satisfied;Moderately
+2025/11/19 11:20:22 AM CET;P02;C01;nothing;3;2;5;2;1;5;1;5;Clearly acceptable;No odour;1;Not smelly;Satisfied;Perfectly
+2025/11/19 11:29:36 AM CET;P02;C02;detergents;4;4;3;3;2;2;2;4;Clearly acceptable;Distinct;2;Smelly;Satisfied;Very
+2025/11/19 11:38:31 AM CET;P02;C06;sanitizer;5;4;2;4;1;2;2;2;Clearly acceptable;Very strong;4 Very pleasant;Very smelly;Satisfied;Perfectly
+2025/11/19 11:46:41 AM CET;P02;C04;lemon and lavender;5;4;2;4;1;1;3;2;Clearly acceptable;Very strong;4 Very pleasant;Very smelly;Satisfied;Very
+2025/11/20 3:58:09 PM CET;P28;C02;not recognized;3;4;3;3;2;1;2;2;Clearly acceptable;Distinct;1;Smelly;Unsatisfied;Slightly
+2025/11/20 4:08:14 PM CET;P28;C09;sharp aftershave scent;2;5;2;3;4;1;3;2;Just acceptable;Strong;0;Smelly;Unsatisfied;Slightly
+2025/11/20 4:16:54 PM CET;P28;C03;mint and eucalyptus;2;4;2;3;2;2;4;2;Just acceptable;Distinct;0;Smelly;Unsatisfied;Moderately
+2025/11/20 4:26:06 PM CET;P28;C01;eucalyptus;2;5;1;3;3;1;4;1;Just acceptable;Strong;-1;Smelly;Unsatisfied;Slightly
+2025/11/20 4:35:54 PM CET;P28;C08;eucalyptus, with a strange note that reminds me of dust/dirt;3;4;2;2;4;2;4;3;Just acceptable;Strong;-1;Smelly;Unsatisfied;Slightly
+2025/11/20 4:54:17 PM CET;P28;C07;eucalyptus;2;4;2;2;4;2;4;2;Just acceptable;Strong;0;Smelly;Unsatisfied;Slightly
+2025/11/20 5:06:35 PM CET;P28;C06;clean laundry or scented candle;5;4;3;4;1;2;3;2;Clearly acceptable;Distinct;3;Smelly;Satisfied;Very
+2025/11/20 5:14:57 PM CET;P28;C04;laundry and rose;4;4;2;3;2;2;3;2;Clearly acceptable;Distinct;2;Smelly;Satisfied;Moderately
+2025/11/20 5:23:29 PM CET;P28;C05;laundry;4;4;2;3;2;2;3;2;Clearly acceptable;Distinct;3;Slightly smelly;Satisfied;Very
+2025/11/21 2:25:20 PM CET;P25;C06;woods;4;4;4;3;2;2;3;3;Clearly acceptable;Strong;2;Smelly;Satisfied;Very
+2025/11/21 2:33:54 PM CET;P25;C01;forest, spa salon;4;4;4;4;1;2;3;4;Clearly acceptable;Strong;2;Smelly;Satisfied;Very
+2025/11/21 2:42:27 PM CET;P25;C05;flowers, musk;4;4;3;4;2;2;3;3;Just acceptable;Strong;3;Smelly;Satisfied;Slightly
+2025/11/21 2:51:11 PM CET;P25;C06;flowers, soap or parfume;3;3;2;3;3;2;4;3;Just acceptable;Strong;1;Smelly;Unsatisfied;Not at all
+2025/11/21 2:59:22 PM CET;P25;C09;banana, green, flower;3;3;4;3;3;2;3;3;Just acceptable;Distinct;1;Smelly;Satisfied;Slightly
+2025/11/21 3:21:11 PM CET;P25;C04;citrus, greens, essentials ;4;4;3;3;2;2;3;3;Just acceptable;Strong;1;Very smelly;Satisfied;Not at all
+2025/11/21 3:28:54 PM CET;P25;C08;some fragrance, pine;3;3;5;3;2;4;2;3;Just acceptable;Weak;0;Slightly smelly;Satisfied;Slightly
+2025/11/21 3:35:34 PM CET;P25;C07;mint;4;3;4;3;2;4;3;3;Just acceptable;Very week;0;Slightly smelly;Satisfied;Very
+2025/11/21 3:42:22 PM CET;P25;C02;pepper mint, essential oil;4;4;3;4;2;3;4;3;Just acceptable;Strong;2;Smelly;Satisfied;Moderately
+2025/11/21 4:58:00 PM CET;P15;C09;eucalyptus;4;4;3;4;2;2;2;3;Clearly acceptable;Distinct;1;Slightly smelly;Satisfied;Moderately
+2025/11/21 5:07:07 PM CET;P15;C04;lavender, talcum;4;4;3;4;2;2;2;2;Clearly acceptable;Distinct;2;Smelly;Satisfied;Moderately
+2025/11/21 5:15:28 PM CET;P15;C01;eucalyptus, thyme;4;4;2;3;2;2;3;3;Just acceptable;Distinct;1;Smelly;Satisfied;Slightly
+2025/11/21 5:24:37 PM CET;P15;C02;eucalyptus;4;3;4;3;2;3;2;3;Clearly acceptable;Weak;2;Slightly smelly;Unsatisfied;Moderately
+2025/11/21 5:31:56 PM CET;P15;C07;placebo;3;3;3;3;3;3;3;3;Just acceptable;Very week;0;Slightly smelly;Unsatisfied;Moderately
+2025/11/26 4:50:01 PM CET;P35;C01;vix;4;5;2;4;2;1;3;2;Clearly acceptable;Very strong;3;Slightly smelly;Satisfied;Not at all
+2025/11/26 4:58:58 PM CET;P35;C05;vix but less than before;3;4;5;2;3;2;3;4;Just acceptable;Distinct;0;Smelly;Satisfied;Moderately
+2025/11/26 5:08:02 PM CET;P35;C04;vix but less than before;3;3;5;2;3;4;2;4;Just acceptable;Weak;0;Slightly smelly;Satisfied;Moderately
+2025/11/26 5:21:50 PM CET;P35;C03;mint;5;5;1;4;1;1;4;1;Clearly acceptable;Very strong;3;Very smelly;Satisfied;Not at all
+2025/11/27 3:35:14 PM CET;P34;C08;forest ;4;4;4;3;2;1;1;1;Clearly acceptable;Strong;3;Smelly;Satisfied;Very
+2025/11/27 3:43:16 PM CET;P34;C02;orange;4;4;1;5;1;1;5;1;Clearly acceptable;Very strong;4 Very pleasant;Very smelly;Satisfied;Not at all
+2025/11/27 3:52:30 PM CET;P34;C07;nothing;3;1;5;1;1;5;1;5;Clearly acceptable;No odour;0;Not smelly;Satisfied;Very
+2025/11/27 4:01:43 PM CET;P34;C01;none detected;3;4;5;2;1;2;1;5;Clearly acceptable;Weak;1;Slightly smelly;Satisfied;Very
+2025/11/27 4:08:54 PM CET;P34;C09;none detected;3;1;1;1;1;5;1;5;Clearly acceptable;No odour;0;Not smelly;Satisfied;Very
+2025/11/27 4:22:13 PM CET;P34;C06;lemon/orange;4;4;1;5;1;1;4;1;Just acceptable;Very strong;3;Very smelly;Satisfied;Slightly
+2025/11/27 4:28:52 PM CET;P34;C04;nothing;3;1;4;1;1;5;1;5;Just acceptable;No odour;0;Not smelly;Satisfied;Very
+2025/11/27 4:36:02 PM CET;P34;C05;nothing;4;4;5;2;1;3;1;4;Just acceptable;Very week;1;Slightly smelly;Satisfied;Very
+2025/11/27 4:43:24 PM CET;P34;C03;orange;3;4;4;3;2;2;2;4;Just acceptable;Distinct;2;Slightly smelly;Satisfied;Moderately
+2025/11/28 11:09:43 AM CET;P12;C06;unsure;4;5;3;4;2;1;2;3;Clearly acceptable;Strong;1;Smelly;Satisfied;Very
+2025/11/28 11:23:37 AM CET;P12;C03;artificial pine;3;3;2;3;2;2;2;2;Just acceptable;Very strong;1;Very smelly;Satisfied;Moderately
+2025/11/28 11:34:24 AM CET;P12;C08;pine;4;4;4;3;2;3;2;2;Clearly acceptable;Weak;0;Slightly smelly;Satisfied;Very
+2025/11/28 11:44:17 AM CET;P12;C04;don't know;3;3;2;2;2;2;2;3;Just acceptable;Very strong;1;Very smelly;Satisfied;Moderately
+2025/11/28 12:09:03 PM CET;P12;C01;pine;3;4;2;3;2;2;2;3;Just acceptable;Strong;1;Smelly;Satisfied;Very
+2025/11/28 12:17:42 PM CET;P12;C09;pine;3;4;4;3;2;2;2;3;Just acceptable;Distinct;1;Slightly smelly;Satisfied;Very
+2025/11/28 12:25:44 PM CET;P12;C05;don't know;3;4;3;3;2;2;1;3;Just acceptable;Strong;1;Smelly;Satisfied;Very
+2025/11/28 12:35:24 PM CET;P12;C07;don't know;3;4;4;3;2;2;1;3;Just acceptable;Distinct;1;Slightly smelly;Satisfied;Very
+2025/11/28 12:47:42 PM CET;P12;C02;pine;3;4;2;3;2;2;2;3;Just acceptable;Strong;0;Smelly;Satisfied;Very
+2025/12/02 2:08:05 PM CET;P35;C09;shoes, leather, mint;2;4;2;2;4;2;2;2;Just unacceptable;Strong;-1;Smelly;Unsatisfied;Very
+2025/12/02 2:16:03 PM CET;P35;C06;mint, tea tree;5;5;1;4;1;1;4;1;Clearly acceptable;Very strong;4 Very pleasant;Not smelly;Satisfied;Not at all
+2025/12/02 2:23:37 PM CET;P35;C08;salt;3;4;4;2;3;2;2;4;Just acceptable;Distinct;-1;Slightly smelly;Unsatisfied;Slightly
+2025/12/02 2:31:39 PM CET;P35;C07;salt, shoes;2;4;2;2;5;2;2;4;Just unacceptable;Distinct;-2;Smelly;Unsatisfied;Moderately
+2025/12/02 2:39:10 PM CET;P35;C02;mint, tea tree;5;4;2;4;1;1;4;2;Clearly acceptable;Very strong;3;Slightly smelly;Satisfied;Not at all
+2025/12/02 4:02:20 PM CET;P31;C03;pine, musk, wood;4;4;2;4;1;1;3;3;Clearly acceptable;Very strong;3;Very smelly;Satisfied;Slightly
+2025/12/02 4:11:14 PM CET;P31;C01;coca cola, musk;4;4;4;4;2;1;2;3;Just acceptable;Strong;2;Very smelly;Satisfied;Slightly
+2025/12/02 4:18:48 PM CET;P31;C09;nothing;;;;;;;;;;;;;;
+2025/12/02 4:26:37 PM CET;P31;C07;nothing;3;1;5;3;3;5;3;3;Clearly acceptable;No odour;0;Not smelly;Satisfied;Very
+2025/12/02 4:41:57 PM CET;P31;C02;sweet, musk;4;5;1;3;2;1;3;3;Just acceptable;Very strong;2;Very smelly;Satisfied;Slightly
+2025/12/02 4:49:29 PM CET;P31;C04;flower perfume;5;5;2;3;1;1;3;3;Clearly acceptable;Strong;3;Smelly;Satisfied;Slightly
+2025/12/02 4:57:08 PM CET;P31;C05;flower perfume;4;4;2;3;1;2;3;3;Clearly acceptable;Strong;2;Smelly;Satisfied;Moderately
+2025/12/02 5:04:19 PM CET;P31;C08;.;3;2;4;3;2;4;3;3;Just acceptable;Very week;1;Slightly smelly;Satisfied;Moderately
+2025/12/02 5:13:08 PM CET;P31;C06;soap;4;4;2;3;2;2;3;3;Just acceptable;Strong;1;Smelly;Satisfied;Slightly
+2025/12/02 6:35:43 PM CET;P29;C03;perfume;4;4;4;5;2;2;2;2;Just acceptable;Strong;2;Smelly;Satisfied;Moderately
+2025/12/02 6:44:10 PM CET;P29;C07;violet;4;4;5;2;1;2;2;3;Just acceptable;Weak;-1;Slightly smelly;Unsatisfied;Very
+2025/12/02 6:51:39 PM CET;P29;C01;tea tree oil;3;4;2;3;3;2;2;2;Just unacceptable;Distinct;-2;Smelly;Unsatisfied;Not at all
+2025/12/02 6:59:19 PM CET;P29;C08;smoke;3;2;2;2;3;4;2;2;Just acceptable;Very week;1;Slightly smelly;Unsatisfied;Moderately
+2025/12/02 7:06:26 PM CET;P29;C05;freshness;4;4;2;4;2;2;2;2;Just acceptable;Strong;1;Smelly;Satisfied;Slightly

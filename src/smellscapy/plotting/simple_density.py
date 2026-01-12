@@ -165,3 +165,10 @@ def plot_simple_density(df, **kwargs):
     fig.tight_layout()
     plt.show()
     return fig, ax
+
+
+
+
+
+
+

@@ -78,7 +78,7 @@ def descriptive_statistics (df, group_by_col=None):
         df_temp = df[['pleasantness_score', 'presence_score']]
         s = df_temp.describe()
         s.loc['median'] = df_temp.median()
-        s.loc['variance'] = df_temp.var() 
+        s.loc['variance'] = df_temp.var()
         s.loc['skewness'] = df_temp.skew()
         s.loc['kurtosis'] = df_temp.kurtosis()
     
