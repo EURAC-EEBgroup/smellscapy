@@ -2,7 +2,6 @@
 
 import os 
 
-from smellscapy._version import __version__  # noqa: F401
 
 from smellscapy import databases, plotting, data
 from smellscapy import calculations, constants
@@ -14,7 +13,8 @@ __all__ = [
     "WEIGHT",
     "calculate_pleasantness",
     "calculate_presence",
-    "load_example_data",
+    "load_example_data_Eurac",
+    "load_example_data_Measure2_Unitn",
     "plot_density",
     "plot_scatter",
     "plot_simple_density",
