@@ -1,6 +1,12 @@
 """Smellscapy is a Python library for analysing and representing indoor smellscape perceptual data."""
 
 import os 
+from importlib.metadata import version, PackageNotFoundError
+
+try:
+    __version__ = version("smellscapy")
+except PackageNotFoundError:
+    __version__ = None
 
 
 from smellscapy import databases, plotting, data
