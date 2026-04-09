@@ -11,8 +11,7 @@ except PackageNotFoundError:
 
 from smellscapy import databases, plotting, data
 from smellscapy import calculations, constants
-from smellscapy.databases import DataExample
-from smellscapy.plotting.density import (plot_density)
+from smellscapy.databases.DataExample import (load_example_data_Eurac, load_example_data_Measure2_Unitn)
 from smellscapy.plotting.simple_density import (plot_simple_density) 
 from smellscapy.plotting.scatter import (plot_scatter)
 from smellscapy.plotting.dynamic import (plot_dynamic)
