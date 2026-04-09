@@ -29,7 +29,7 @@ plot_scatter(df)
 plot_scatter(
     df,
     figsize=(10, 10),
-    group_col = "Smell source",
+    group_by_col = "Smell source",
     filename="Figure1.png"
 )
 ```
@@ -65,7 +65,7 @@ plot_simple_density(
 #Grouping
 plot_simple_density(
     df,
-    group_col="Smell source",
+    group_by_col="Smell source",
     palette="tab20"
 )
 ```
@@ -92,7 +92,7 @@ plot_density(df)
 #Grouping
 plot_simple_density(
     df,
-    group_col="Smell source"
+    group_by_col="Smell source"
 )
 ```
 ![plot10](plot10.png)
@@ -118,7 +118,7 @@ smpy.plot_dynamic(df)
 #Grouping
 smpy.plot_dynamic(
     df,
-    group_col="Smell source"
+    group_by_col="Smell source"
 )
 ```
 <iframe src="../plot_dynamic_example.html"

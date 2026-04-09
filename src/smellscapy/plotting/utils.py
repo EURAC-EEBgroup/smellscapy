@@ -170,7 +170,7 @@ def get_default_plot_params():
         "show_points": True,
         "point_size": 30,
         "point_alpha": 0.2,
-        "point_color": "blue",
+        "point_color": "tab:blue",
 
         # Raggruppamento/colori
         "group_by_col": None,
