@@ -1,6 +1,6 @@
 [project]
 name = "smellscapy"
-version = "0.2.4"
+version = "0.2.5"
 description = "A python library for analysing and representing indoor smellscape perceptual data."
 readme = "README.md"
 authors = [
