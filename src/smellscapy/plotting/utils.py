@@ -136,9 +136,9 @@ def get_default_plot_params():
         "filled": True,           # True -> contourf, False -> contour
         "extend": "max",          # 'neither' | 'min' | 'max' | 'both'
         "contour_linewidth": 0.05, 
-        "contour_color": "blue",
+        "contour_color": "tab:blue",
         "contour_width": 1.0,
-        "fill_color": "blue",
+        "fill_color": "tab:blue",
         "fill_alpha": 0.4,
 
         # Esclusione estremi inferiori

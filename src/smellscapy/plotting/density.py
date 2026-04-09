@@ -135,8 +135,8 @@ def plot_density(df, **kwargs):
         ut.draw_contours(
             params,
             ax, XX, YY, Z,
-            color="blue" if not params["filled"] else None,
-            cmap="Grays" if params["filled"] else None,
+            color="tab:blue" if not params["filled"] else None,
+            cmap="Blues" if params["filled"] else None,
             levels=params["levels"],
             filled=params["filled"],
             lw=params["contour_linewidth"],
