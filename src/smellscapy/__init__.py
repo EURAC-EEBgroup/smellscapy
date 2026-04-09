@@ -30,7 +30,8 @@ __all__ = [
     "plot_density",
     "plot_scatter",
     "plot_simple_density",
-    "plot_dynamic"
+    "plot_dynamic",
+    "descriptive_statistics"
 ]
 
 
