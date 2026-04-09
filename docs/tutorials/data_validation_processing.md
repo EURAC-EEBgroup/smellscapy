@@ -2,7 +2,7 @@ SmellscaPy provides a function for data validation and for checking for data qua
 
 ```python
 # Validate the dataset
-df, excl_df = validate(df)
+df, excl_df = smpy.validate(df)
 ```
 
 The `validate()` function performs several checks on the data:

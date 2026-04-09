@@ -2,7 +2,7 @@ SmellscaPy provides a function for **statistical data analysis** of the **pleasa
 
 ```python
 # Descriptive statistics
-df = descriptive_statistics(df)
+df = smpy.descriptive_statistics(df)
 ```
 ## **Descriptive statistics**
 
@@ -22,10 +22,10 @@ Otherwise, the function returns an aggregated summary for the entire dataset.
 
 ```python
 #Descriptive statistics
-s = descriptive_statistics(df)
+s = smpy.descriptive_statistics(df)
 
 #Descriptive statistics, grouped
-s = descriptive_statistics (df, group_by_col="Smell source")
+s = smpy.descriptive_statistics (df, group_by_col="Smell source")
 
 ```
 

@@ -28,9 +28,9 @@ Use the `load_example_data_Eurac()` or `load_example_data_Measure2_Unitn()` func
 
 ```python
 # Load example dataset
-df = load_example_data_Eurac()
+df = smpy.load_example_data_Eurac()
 #or
-df = load_example_data_Measure2_Unitn()
+df = smpy.load_example_data_Measure2_Unitn()
 ```
 
 ## **Data validation**
@@ -49,7 +49,7 @@ It then returns two outputs:
 
 ```python
 # Validate data
-df, excl_df = validate(df)
+df, excl_df = smpy.validate(df)
 ```
 
 ## **Calculations**
@@ -61,8 +61,8 @@ Once your data has been validated, you can compute the key **perceptual indices*
 
 ```python
 # Compute perceptual indices
-df = calculate_pleasantness(df)
-df = calculate_presence(df)
+df = smpy.calculate_pleasantness(df)
+df = smpy.calculate_presence(df)
 ```
 
 Each function adds a new column to the DataFrame containing the calculated metric, allowing you to integrate perceptual analysis seamlessly into your data workflow.
@@ -85,12 +85,12 @@ Each function adds a new column to the DataFrame containing the calculated metri
 
 ```python
 # Generate Basic Visualisation
-plot_scatter(df)
-plot_simple_density(df)
-plot_density(df)
+smpy.plot_scatter(df)
+smpy.plot_simple_density(df)
+smpy.plot_density(df)
 
 # Generate Dynamic Visualisation
-plot_dynamic(df)
+smpy.plot_dynamic(df)
 ```
 **Tip**: Since all SmellscaPy plotting functions are built on matplotlib and seaborn, you can easily customise them by passing additional arguments or modifying the returned plot objects — for example, adjusting figure size, colour palettes, or adding annotations for publication-quality visuals.
 
@@ -104,5 +104,5 @@ SmellscaPy includes a function for descriptive statistical analysis of computed 
 
 ```python
 # Descriptive statistics of pleasantness and presence votes
-descriptive_statistics(df)
+smpy.descriptive_statistics(df)
 ```

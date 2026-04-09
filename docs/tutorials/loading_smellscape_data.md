@@ -8,9 +8,9 @@ Two **example datasets** are included with SmellscaPy to allow users to explore 
 
 ```python
 # Load example dataset
-df = load_example_data_Eurac()
+df = smpy.load_example_data_Eurac()
 #or
-df = load_example_Measure2_Unitn()
+df = smpy.load_example_Measure2_Unitn()
 ```
 Both datasets contain both mandatory and optional variables. The mandatory columns are:
 
@@ -28,6 +28,8 @@ print(f"Columns ({len(df.columns)}): {list(df.columns)}")
 If you have your own smellscape survey data, you can load it using pandas and then process it with SmellscaPy.
 
 ```python
+import pandas as pd
+
 # Load data from a CSV file
 my_data = pd.read_csv('path/to/your/data.csv')
 ```

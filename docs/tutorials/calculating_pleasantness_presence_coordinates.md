@@ -2,10 +2,10 @@ SmellscaPy provides two functions for calculating **pleasantness** and **presenc
 
 ```python
 # Calculate pleasantness
-df = calculate_pleasantness(df)
+df = smpy.calculate_pleasantness(df)
 
 # Calculate presence
-df = calculate_presence(df)
+df = smpy.calculate_presence(df)
 ```
 ## **Calculate pleasantness**
 

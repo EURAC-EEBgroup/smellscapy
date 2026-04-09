@@ -106,7 +106,7 @@ Plot appearance, animation behaviour, KDE resolution, colours, axis limits, anno
 
 ```python
 #Basic visualisation
-plot_dynamic(df)
+smpy.plot_dynamic(df)
 ```
 <iframe src="../plot_dynamic_example_2.html"
         width="100%"
@@ -116,7 +116,7 @@ plot_dynamic(df)
 
 ```python
 #Grouping
-plot_dynamic(
+smpy.plot_dynamic(
     df,
     group_col="Smell source"
 )
