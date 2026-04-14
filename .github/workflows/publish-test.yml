@@ -27,4 +27,4 @@ jobs:
         run: uv build
 
       - name: Publish
-        run: uv publish -t ${{ secrets.PYPI_API_TOKEN }} --publish-url https://test.pypi.org/legacy/
+        run: uv publish -t ${{ secrets.TEST_PYPI_API_TOKEN }} --publish-url https://test.pypi.org/legacy/
