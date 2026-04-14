@@ -2,8 +2,8 @@
 
 # Smellscapy
 
-[![PyPI version]](.......)
-[![Documentation Status]](...)
+[![PyPI version](https://badge.fury.io/py/smellscapy.svg)](https://badge.fury.io/py/smellscapy)
+[![Documentation status](https://github.com/EURAC-EEBgroup/smellscapy/actions/workflows/docs.yml/badge.svg)](https://github.com/EURAC-EEBgroup/smellscapy/actions/workflows/docs.yml)
 [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
 
 **SmellscaPy** is a Python library for analysing and representing **indoor smellscape perceptual data**.  
