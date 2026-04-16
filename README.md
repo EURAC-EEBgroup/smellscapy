@@ -1,4 +1,5 @@
-![Smellscapy Logo](docs/Logo.png)
+![Smellscapy Logo](https://raw.githubusercontent.com/EURAC-EEBgroup/smellscapy/main/docs/Logo.png) <!-- markdownlint-disable-line MD041 -->
+
 
 # Smellscapy
 
